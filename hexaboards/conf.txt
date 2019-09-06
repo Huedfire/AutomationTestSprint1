@@ -1,0 +1,4 @@
+DataFile = C:\\Users\\Training\\IdeaProjects\\hexaboard\\DataFile.xlsx
+URI = http://192.168.0.116:3000
+JsonPath = C:\\Users\\Training\\IdeaProjects\\hexaboard\\file.json
+ChromeDriver = c://selenium//chromedriver.exe
