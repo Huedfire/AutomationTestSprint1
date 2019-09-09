@@ -1,8 +1,8 @@
-package Login;
+package com.hexaware.testscripts.Login;
 
-import Framework.HomePage;
-import Framework.Login;
-import Framework.GuiFramework;
+import com.hexaware.frameworks.gui.pageobjects.HomePage;
+import com.hexaware.frameworks.gui.pageobjects.Login;
+import com.hexaware.frameworks.gui.GuiFramework;
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
 import com.aventstack.extentreports.MediaEntityBuilder;
@@ -46,7 +46,7 @@ public class LoginTestNG {
     // This code will run before executing any testcase
     @BeforeMethod(groups = {"functest"})
     public void setup() throws IOException {
-        input = new FileInputStream("C:\\Users\\Training\\Desktop\\confs.txt");
+        input = new FileInputStream("confs.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");

@@ -1,6 +1,6 @@
 package com.hexaware.testscripts.EditProfile;
 
-import com.hexaware.frameworks.api.apiFramework;
+import com.hexaware.frameworks.api.ApiFramework;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
@@ -13,9 +13,9 @@ import java.util.ArrayList;
 
 
 public class TC_EP_011 {
-    String filepath = "C:\\Users\\Training\\IdeaProjects\\hexaboard\\DataFile.xlsx";
-    String jsonpath = "C:\\Users\\Training\\IdeaProjects\\hexaboard\\file.json";
-    apiFramework r = new apiFramework();
+    String filepath = "DataFile.xlsx";
+    String jsonpath = "file.json";
+    ApiFramework r = new ApiFramework();
     String Name;
     String Username;
     String ExpectedCode;
