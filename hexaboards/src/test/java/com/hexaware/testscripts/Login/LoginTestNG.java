@@ -46,7 +46,7 @@ public class LoginTestNG {
     // This code will run before executing any testcase
     @BeforeMethod(groups = {"functest"})
     public void setup() throws IOException {
-        input = new FileInputStream("confs.txt");
+        input = new FileInputStream("conf3.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
