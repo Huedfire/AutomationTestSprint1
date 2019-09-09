@@ -2,7 +2,6 @@ package com.hexaware.frameworks.api;
 
 import com.google.gson.Gson;
 import com.google.gson.GsonBuilder;
-import com.hexaware.frameworks.api.TestData;
 import org.apache.poi.ss.usermodel.*;
 
 import java.io.File;
@@ -11,7 +10,7 @@ import java.io.IOException;
 import java.util.ArrayList;
 import java.util.Iterator;
 
-public class apiFramework {
+public class ApiFramework {
 
     //method to turn a list into an array
     public String[] turnArray(ArrayList<String> list, int index) {
