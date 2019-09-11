@@ -10,10 +10,10 @@
   },
   {
     "action": "put",
-    "data": "Anahi Contreras,anahi",
+    "data": "Andrea Contreras,Andy",
     "parameters": "/api/nameupd",
     "status": "Pass",
-    "request": "{\"name\":\"Anahi Contreras\" ,\"username\":\"anahi\"}",
+    "request": "{\"name\":\"Andrea Contreras\" ,\"username\":\"Andy\"}",
     "response": "{\"error\":false,\"code\":202,\"message\":\"User updated\"}",
     "description": "The actual value 202 matches with the expected result 202"
   }

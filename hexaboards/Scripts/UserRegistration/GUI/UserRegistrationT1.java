@@ -1,4 +1,4 @@
-package UserRegistration.GUI;
+package com.hexaware.testscripts.UserRegistration.GUI;
 
 import Framework.ExcelReader;
 import Framework.HomePage;

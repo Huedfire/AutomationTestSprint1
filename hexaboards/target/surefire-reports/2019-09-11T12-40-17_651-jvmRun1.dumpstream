@@ -1,0 +1,52 @@
+# Created at 2019-09-11T12:46:42.338
+TestSet has not finished before stream error has appeared >> initializing exit by non-null configuration: DEFAULT
+java.io.EOFException
+	at java.io.DataInputStream.readInt(DataInputStream.java:392)
+	at org.apache.maven.surefire.booter.MasterProcessCommand.decode(MasterProcessCommand.java:115)
+	at org.apache.maven.surefire.booter.CommandReader$CommandRunnable.run(CommandReader.java:390)
+	at java.lang.Thread.run(Thread.java:748)
+
+
+# Created at 2019-09-11T12:46:47.510
+Unexpected IOException with stream: Sep 11, 2019 12:46:47 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-09-11T12:46:53.127
+Unexpected IOException: 5,1,com.hexaware.testscripts.UserRegistration.UserRegistratio,scenario6(com.hexaware.testscripts.UserRegistration.UserRegistratio),functest,null,null
+
+
+# Created at 2019-09-11T12:46:55.105
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive C:\Users\Training\HexaboardAutomationTest\hexaboards\DataFileScripts.xlsx
+
+
+# Created at 2019-09-11T12:46:56.462
+Unexpected IOException: 6,1,com.hexaware.testscripts.UserRegistration.UserRegistratio,scenario6(com.hexaware.testscripts.UserRegistration.UserRegistratio),null,null,null
+
+
+# Created at 2019-09-11T12:47:03.304
+Unexpected IOException with stream: Sep 11, 2019 12:47:03 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+
+# Created at 2019-09-11T12:47:07.667
+Unexpected IOException: 5,1,com.hexaware.testscripts.UserRegistration.UserRegistratio,scenario7(com.hexaware.testscripts.UserRegistration.UserRegistratio),functest,null,null
+
+
+# Created at 2019-09-11T12:47:09.814
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive C:\Users\Training\HexaboardAutomationTest\hexaboards\DataFileScripts.xlsx
+
+
+# Created at 2019-09-11T12:47:13.952
+Unexpected IOException: 6,1,com.hexaware.testscripts.UserRegistration.UserRegistratio,scenario7(com.hexaware.testscripts.UserRegistration.UserRegistratio),null,null,null
+
+
+# Created at 2019-09-11T12:47:17.500
+Unexpected IOException with stream: Cleaning up unclosed ZipFile for archive C:\Users\Training\HexaboardAutomationTest\hexaboards\DataFileScripts.xlsx
+
+
+# Created at 2019-09-11T12:47:21.239
+Unexpected IOException with stream: Sep 11, 2019 12:47:21 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+
+

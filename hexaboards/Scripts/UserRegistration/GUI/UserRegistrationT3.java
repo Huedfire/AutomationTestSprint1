@@ -1,4 +1,4 @@
-package UserRegistration.GUI;
+package com.hexaware.testscripts.UserRegistration.GUI;
 
 import Framework.ExcelReader;
 import Framework.HomePage;
@@ -20,7 +20,6 @@ import java.util.concurrent.TimeUnit;
 public class UserRegistrationT3 {
     //Main method that execute the script
     public static void main(String[] args) throws IOException {
-
         // Read Properties File
         Properties prop = new Properties();
         InputStream input = new FileInputStream("C:\\Users\\Training\\Documents\\conf.txt");
@@ -28,6 +27,7 @@ public class UserRegistrationT3 {
         prop.load(input);
         String filepath = prop.getProperty("DataFile");
         String chromeprop = prop.getProperty("ChromeDriver");
+
         String URI = prop.getProperty("URI");
 
         //Declare variables used in this script/////////////////////////////////////////////////////////////////////////

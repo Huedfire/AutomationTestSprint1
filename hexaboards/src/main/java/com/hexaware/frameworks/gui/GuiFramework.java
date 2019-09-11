@@ -1,9 +1,11 @@
 package com.hexaware.frameworks.gui;
 
+import org.apache.commons.exec.CommandLine;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
+import org.openqa.selenium.chrome.ChromeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
@@ -80,7 +82,7 @@ public class GuiFramework {
     public WebDriver initDriver(Properties props) throws IOException {
         WebDriver drivers = null;
         props = new Properties();
-        InputStream inputs = new FileInputStream("C:\\Users\\Training\\Desktop\\confs.txt");
+        InputStream inputs = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf3.txt");
         props.load(inputs);
         String browser = props.getProperty("browser");
         String driver = props.getProperty("driver");
@@ -121,9 +123,8 @@ public class GuiFramework {
 
         return path;
     }
-
     // Method that check if one alert exist in this page
-    public boolean isAlertPresent(WebDriver driver) {
+    public  boolean isAlertPresent(WebDriver driver) {
 
         boolean presentFlag = false;
 
@@ -159,9 +160,6 @@ public class GuiFramework {
         } catch (Exception e) {
         }
     }
-
-
-
 
 
 }

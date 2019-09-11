@@ -4,7 +4,79 @@
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFile.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192353.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192747.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192950.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193329.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193645.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204319.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204882.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205977.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062452211.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062452822.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062453638.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062454233.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062454804.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062455227.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062455534.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062469487.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062470056.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062470841.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062471429.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062471959.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062472555.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568062473086.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UserRegistration/GUI/UserRegistrationT1.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UserRegistration/GUI/UserRegistrationT1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UserRegistration/GUI/UserRegistrationT2.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UserRegistration/GUI/UserRegistrationT2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UserRegistration/GUI/UserRegistrationT3.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UserRegistration/GUI/UserRegistrationT3.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Scripts/UserRegistration/TC_UR_01.java" beforeDir="false" afterPath="$PROJECT_DIR$/Scripts/UserRegistration/TC_UR_01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf3.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf3.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/file.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/GuiFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/GuiFramework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/bullet_point.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/collapseall.gif" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/failed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/jquery-1.7.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.EditProfile.TC_EP_011.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/navigator-bullet.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/Test.properties" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/main.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-not-run.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/reporter-output.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/testng.xml.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/passed.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/skipped.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-reports.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -12,12 +84,31 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="testRunner" value="GRADLE" />
+    <option name="delegatedBuild" value="true" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1QT6s95U4Bz5adTklhcusdoJhzK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Project" />
@@ -52,18 +143,90 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration name="TC_EP_011.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.UserRegistratio.path3scenario1">
+    <configuration name="UserRegistratio.path3scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.testscripts.EditProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.EditProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.EditProfile.TC_EP_011" />
-      <option name="METHOD_NAME" value="scenario1" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="METHOD_NAME" value="path3scenario1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistratio.scenario28" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="METHOD_NAME" value="scenario28" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistratio.scenario29" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="METHOD_NAME" value="scenario29" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistratio.scenario30" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="METHOD_NAME" value="scenario30" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserRegistratio.scenario31" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="METHOD_NAME" value="scenario31" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -73,7 +236,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_EP_011.scenario1" />
+        <item itemvalue="TestNG.UserRegistratio.path3scenario1" />
+        <item itemvalue="TestNG.UserRegistratio.scenario31" />
+        <item itemvalue="TestNG.UserRegistratio.scenario30" />
+        <item itemvalue="TestNG.UserRegistratio.scenario28" />
+        <item itemvalue="TestNG.UserRegistratio.scenario29" />
       </list>
     </recent_temporary>
   </component>
@@ -102,5 +269,16 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/TC_EP_011.java</url>
+          <line>14</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

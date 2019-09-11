@@ -1,4 +1,4 @@
-package UserRegistration;
+package com.hexaware.testscripts.UserRegistration;
 import Framework.ExcelReader;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
