@@ -2,15 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/EditProfile.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/HomePage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/HomePage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -123,6 +115,14 @@
       <option name="presentableId" value="Default" />
       <updated>1567782442915</updated>
     </task>
+    <task id="LOCAL-00001" summary="Page objects">
+      <created>1568230422270</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568230422270</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -140,5 +140,9 @@
         </entry>
       </map>
     </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="Page objects" />
+    <option name="LAST_COMMIT_MESSAGE" value="Page objects" />
   </component>
 </project>
