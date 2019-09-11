@@ -16,59 +16,59 @@ public class HomePage {
         return driver.findElement(logos);
     }
     //Button home
-    By home = By.xpath("//a[contains(text(),'Home')]");
+    By homeOption = By.xpath("//a[contains(text(),'Home')]");
     public WebElement getHomeValue() {
-        return driver.findElement(home);
+        return driver.findElement(homeOption);
     }
     //Button about
-    By About = By.xpath("//a[contains(text(),'About')]");
+    By aboutOption = By.xpath("//a[contains(text(),'About')]");
     public WebElement getAboutValue() {
-        return driver.findElement(About);
+        return driver.findElement(aboutOption);
     }
     //Button getting started
-    By getStart = By.xpath("//span[contains(text(),'Getting Started')]");
+    By gettingStartedOption = By.xpath("//span[contains(text(),'Getting Started')]");
     public WebElement getStartedValue() {
-        return driver.findElement(getStart);
+        return driver.findElement(gettingStartedOption);
     }
     //Login into getting started
-    By getLogin = By.xpath("//*[@id=\"cdk-overlay-0\"]/div/div/button[1]");
+    By gettingLogin = By.xpath("//*[@id=\"cdk-overlay-0\"]/div/div/button[1]");
     public WebElement getLogin() {
-        return driver.findElement(getLogin);
+        return driver.findElement(gettingLogin);
     }
     //Register into getting started
-    By getRegister = By.xpath("//*[@id=\"cdk-overlay-0\"]/div/div/button[2]");
+    By gettingRegister = By.xpath("//*[@id=\"cdk-overlay-0\"]/div/div/button[2]");
     public WebElement getRegister() {
-        return driver.findElement(getRegister);
+        return driver.findElement(gettingRegister);
     }
     //Docs into getting started
-    By getDocs = By.xpath("//*[@id=\"cdk-overlay-0\"]/div/div/button[3]");
+    By gettingDocs = By.xpath("//*[@id=\"cdk-overlay-0\"]/div/div/button[3]");
     public WebElement getDocs() {
-        return driver.findElement(getDocs);
+        return driver.findElement(gettingDocs);
     }
     //Big Logo
     By bigLogo = By.id("home-logo");
     public WebElement getBigLogo() {
         return driver.findElement(bigLogo);
     }
-    //Grapth logo
-    By Graph = By.id("graph");
+    //Graph logo
+    By graph = By.id("graph");
     public WebElement getGraphlogo() {
-        return driver.findElement(Graph);
+        return driver.findElement(graph);
     }
     //This is a web page
-    By PageDesc = By.xpath("//h1[contains(text(),'This is a web page,' )]");
+    By pageDesc = By.xpath("//h1[contains(text(),'This is a web page,' )]");
     public WebElement getDescriptionPage() {
-        return driver.findElement(PageDesc);
+        return driver.findElement(pageDesc);
     }
     //Get started button to the bottom
-    By GetStartedButton = By.xpath("//span[contains(text(),'Get Started')]");
+    By getStartedButton = By.xpath("//span[contains(text(),'Get Started')]");
     public WebElement getStartedButton() {
-        return driver.findElement(GetStartedButton);
+        return driver.findElement(getStartedButton);
     }
 
     //Button login into get started
-    By login = By.xpath("//a[contains(text(),\"Log In\")]");
+    By loginOption = By.xpath("//a[contains(text(),\"Log In\")]");
     public WebElement getLogins() {
-        return driver.findElement(login);
+        return driver.findElement(loginOption);
     }
 }
