@@ -2,13 +2,13 @@ package com.hexaware.frameworks.gui;
 
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.*;
-import org.openqa.selenium.OutputType;
-import org.openqa.selenium.TakesScreenshot;
-import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.*;
 import org.openqa.selenium.chrome.ChromeDriver;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
+import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
 import java.io.FileInputStream;
@@ -121,6 +121,47 @@ public class GuiFramework {
 
         return path;
     }
+
+    // Method that check if one alert exist in this page
+    public boolean isAlertPresent(WebDriver driver) {
+
+        boolean presentFlag = false;
+
+        try {
+
+            // Check the presence of alert
+            Alert alert = driver.switchTo().alert();
+            // Alert present; set the flag
+            presentFlag = true;
+            // if present consume the alert
+            alert.accept();
+
+        } catch (NoAlertPresentException ex) {
+            // Alert not present
+            ex.printStackTrace();
+        }
+
+        return presentFlag;
+
+    }
+
+    public void checkAlert(WebDriver driver) {
+        WebDriverWait wait;
+        try {
+            //Wait 2 seconds for an alert
+            wait = new WebDriverWait(driver, 2);
+            wait.until(ExpectedConditions.alertIsPresent());
+            //Accepts de alert
+            Alert alert = driver.switchTo().alert();
+            alert.accept();
+            //Wait 2 seconds
+            wait = new WebDriverWait(driver, 2);
+        } catch (Exception e) {
+        }
+    }
+
+
+
 
 
 }
