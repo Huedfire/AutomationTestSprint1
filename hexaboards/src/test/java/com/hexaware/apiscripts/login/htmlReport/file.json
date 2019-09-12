@@ -1,0 +1,74 @@
+[
+  {
+    "action": "post",
+    "data": "Ivonne,Ivonne1-",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"Ivonne\",\"password\":\"Ivonne1-\"}",
+    "response": "{\"error\":false,\"code\":200,\"message\":\"eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9.eyJleHAiOjE1NjgzMjYwNTMsInBheWxvYWQiOnsic3ViamVjdCI6Ikl2b25uZSJ9LCJpYXQiOjE1NjgzMjI0NTN9.nnYigrFslDwmhe5ssydF8-gsbe-cffLBpeMzFDRuXL0\"}",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "post",
+    "data": "Ivonne,test",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"Ivonne\",\"password\":\"test\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Incorrect password\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "test,Ivonne1-",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"test\",\"password\":\"Ivonne1-\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "Ivonne1,test9",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"Ivonne1\",\"password\":\"test9\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": ",",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"\",\"password\":\"\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "Ivonne,",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"Ivonne\",\"password\":\"\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": ",Ivonne1-",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"\",\"password\":\"Ivonne1-\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing data\"}",
+    "description": "The actual value 400 matches with the expected result 400"
+  },
+  {
+    "action": "post",
+    "data": "ivonne@gmail.com,Ivonne1-",
+    "parameters": "/api/login",
+    "status": "Pass",
+    "request": "{\"username\":\"ivonne@gmail.com\",\"password\":\"Ivonne1-\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  }
+]
