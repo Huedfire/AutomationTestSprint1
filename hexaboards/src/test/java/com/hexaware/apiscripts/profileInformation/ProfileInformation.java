@@ -48,7 +48,7 @@ public class ProfileInformation {
     public void scenario1(){
         parts = r.turnArray(dataList,1);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -63,12 +63,12 @@ public class ProfileInformation {
         }
     }
 
-    //scenario1 description: The request is sent with the correct user data
+    //scenario2 description: The request is sent without information
     @Test(groups = {"functest"})
     public void scenario2(){
         parts = r.turnArray(dataList,2);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -83,12 +83,12 @@ public class ProfileInformation {
         }
     }
 
-    //scenario1 description: The request is sent with the correct user data
+    //scenario3 description: The request is sent with an incorrect user name
     @Test(groups = {"functest"})
     public void scenario3(){
         parts = r.turnArray(dataList,3);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -103,12 +103,12 @@ public class ProfileInformation {
         }
     }
 
-    //scenario1 description: The request is sent with the correct user data
+    //scenario4 description: The request is sent request with valid character to view user information
     @Test(groups = {"functest"})
     public void scenario4(){
         parts = r.turnArray(dataList,4);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -123,12 +123,12 @@ public class ProfileInformation {
         }
     }
 
-    //scenario1 description: The request is sent with the correct user data
+    //scenario5 description: The request is sent with valid character to view user information
     @Test(groups = {"functest"})
     public void scenario5(){
         parts = r.turnArray(dataList,5);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -143,12 +143,12 @@ public class ProfileInformation {
         }
     }
 
-    //scenario1 description: The request is sent with the correct user data
+    //scenario6 description: The request is sent with invalid character to view user information
     @Test(groups = {"functest"})
     public void scenario6(){
         parts = r.turnArray(dataList,6);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -163,12 +163,12 @@ public class ProfileInformation {
         }
     }
 
-    //scenario1 description: The request is sent with the correct user data
+    //scenario7 description: The request is sent with invalid character to view user information
     @Test(groups = {"functest"})
     public void scenario7(){
         parts = r.turnArray(dataList,7);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -182,12 +182,12 @@ public class ProfileInformation {
             System.out.println(ex.getMessage());
         }
     }
-    //scenario1 description: The request is sent with the correct user data
+    //scenario8 description: The request is sent with invalid character to view user information
     @Test(groups = {"functest"})
     public void scenario8(){
         parts = r.turnArray(dataList,8);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -201,12 +201,12 @@ public class ProfileInformation {
             System.out.println(ex.getMessage());
         }
     }
-    //scenario1 description: The request is sent with the correct user data
+    //scenario9 description: The request is sent with invalid character to view user information
     @Test(groups = {"functest"})
     public void scenario9(){
         parts = r.turnArray(dataList,9);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
@@ -220,12 +220,12 @@ public class ProfileInformation {
             System.out.println(ex.getMessage());
         }
     }
-    //scenario1 description: The request is sent with the correct user data
+    //scenario10 description: The request is sent with invalid character to view user information
     @Test(groups = {"functest"})
     public void scenario10(){
         parts = r.turnArray(dataList,10);
         Username = parts[0];
-        Action = parts[3];
+        Action = parts[1];
 
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
