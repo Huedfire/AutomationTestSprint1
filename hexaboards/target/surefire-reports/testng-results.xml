@@ -1,33 +1,48 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="5" passed="5">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="1954" started-at="2019-09-06T11:02:30 CDT" finished-at="2019-09-06T11:02:32 CDT">
+  <suite name="TestSuite" duration-ms="68512" started-at="2019-09-12T17:27:04 CDT" finished-at="2019-09-12T17:28:13 CDT">
     <groups>
-      <group name="names">
-        <method signature="TC_EP_011.scenario1()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario1" class="com.hexaware.testscripts.EditProfile.TC_EP_011"/>
-        <method signature="TC_EP_011.scenario2()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario2" class="com.hexaware.testscripts.EditProfile.TC_EP_011"/>
-      </group> <!-- names -->
+      <group name="functest">
+        <method signature="UserRegistration.scenario1()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario1" class="com.hexaware.apiscripts.userRegistration.UserRegistration"/>
+        <method signature="UserRegistration.scenario2()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario2" class="com.hexaware.apiscripts.userRegistration.UserRegistration"/>
+        <method signature="UserRegistration.scenario3()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario3" class="com.hexaware.apiscripts.userRegistration.UserRegistration"/>
+        <method signature="UserRegistration.scenario4()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario4" class="com.hexaware.apiscripts.userRegistration.UserRegistration"/>
+        <method signature="UserRegistration.scenario5()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario5" class="com.hexaware.apiscripts.userRegistration.UserRegistration"/>
+      </group> <!-- functest -->
     </groups>
-    <test name="Test" duration-ms="1954" started-at="2019-09-06T11:02:30 CDT" finished-at="2019-09-06T11:02:32 CDT">
-      <class name="com.hexaware.testscripts.EditProfile.TC_EP_011">
-        <test-method status="PASS" signature="getDataListName()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="getDataListName" is-config="true" duration-ms="1076" started-at="2019-09-06T11:02:30 CDT" finished-at="2019-09-06T11:02:31 CDT">
+    <test name="Test" duration-ms="68512" started-at="2019-09-12T17:27:04 CDT" finished-at="2019-09-12T17:28:13 CDT">
+      <class name="com.hexaware.apiscripts.userRegistration.UserRegistration">
+        <test-method status="PASS" signature="getDataListName()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="getDataListName" is-config="true" duration-ms="1050" started-at="2019-09-12T17:27:04 CDT" finished-at="2019-09-12T17:27:05 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- getDataListName -->
-        <test-method status="PASS" signature="scenario1()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario1" duration-ms="767" started-at="2019-09-06T11:02:31 CDT" finished-at="2019-09-06T11:02:32 CDT">
+        <test-method status="PASS" signature="scenario1()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario1" duration-ms="4189" started-at="2019-09-12T17:27:05 CDT" finished-at="2019-09-12T17:27:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario1 -->
-        <test-method status="PASS" signature="scenario2()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario2" duration-ms="28" started-at="2019-09-06T11:02:32 CDT" finished-at="2019-09-06T11:02:32 CDT">
+        <test-method status="PASS" signature="scenario2()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario2" duration-ms="70" started-at="2019-09-12T17:27:09 CDT" finished-at="2019-09-12T17:27:09 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- scenario2 -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="finish" is-config="true" duration-ms="54" started-at="2019-09-06T11:02:32 CDT" finished-at="2019-09-06T11:02:32 CDT">
+        <test-method status="PASS" signature="scenario3()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario3" duration-ms="21028" started-at="2019-09-12T17:27:09 CDT" finished-at="2019-09-12T17:27:30 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario3 -->
+        <test-method status="PASS" signature="scenario4()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario4" duration-ms="21036" started-at="2019-09-12T17:27:30 CDT" finished-at="2019-09-12T17:27:51 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario4 -->
+        <test-method status="PASS" signature="scenario5()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="scenario5" duration-ms="21027" started-at="2019-09-12T17:27:51 CDT" finished-at="2019-09-12T17:28:12 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario5 -->
+        <test-method status="PASS" signature="finish()[pri:0, instance:com.hexaware.apiscripts.userRegistration.UserRegistration@31610302]" name="finish" is-config="true" duration-ms="73" started-at="2019-09-12T17:28:13 CDT" finished-at="2019-09-12T17:28:13 CDT">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- finish -->
-      </class> <!-- com.hexaware.testscripts.EditProfile.TC_EP_011 -->
+      </class> <!-- com.hexaware.apiscripts.userRegistration.UserRegistration -->
     </test> <!-- Test -->
   </suite> <!-- TestSuite -->
 </testng-results>

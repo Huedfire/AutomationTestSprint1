@@ -1,1 +1,5 @@
+com\hexaware\apiscripts\userRegistration\UserRegistration.class
+com\hexaware\testscripts\UserRegistration\UserRegistratio.class
+com\hexaware\testscripts\Login\LoginTestNG.class
+com\hexaware\apiscripts\profileInformation\ProfileInformation.class
 com\hexaware\testscripts\EditProfile\TC_EP_011.class
