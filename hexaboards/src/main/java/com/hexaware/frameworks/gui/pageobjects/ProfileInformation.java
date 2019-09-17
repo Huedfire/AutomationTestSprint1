@@ -59,7 +59,7 @@ public class ProfileInformation {
     }
 
 
-    By closeButton = By.xpath("//button/span[contains(text(),\"X\"]\n");
+    By closeButton = By.xpath("//button/span[contains(text(),\"X\")]");
 
     public WebElement getCloseButton() {
         return driver.findElement(closeButton);

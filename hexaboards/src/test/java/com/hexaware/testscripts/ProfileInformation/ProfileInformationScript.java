@@ -30,7 +30,7 @@ import java.util.concurrent.TimeUnit;
 
 public class ProfileInformationScript {
     ExtentReports extent = new ExtentReports();
-    ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/LoginReporterAUT.html");
+    ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/PIReporterAUT.html");
     ExtentTest logger;
     WebDriver driver;
     WebElement element;
@@ -46,9 +46,6 @@ public class ProfileInformationScript {
     String password;
     String temp;
     GuiFramework fr = new GuiFramework ();
-    HomePage hp = new HomePage(driver);
-    Login lg = new Login(driver);
-
 
 
     @BeforeMethod(groups = {"functest"})
@@ -58,7 +55,6 @@ public class ProfileInformationScript {
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 0);
-        System.out.println(user);
         driver = fr.initDriver(prop);
         extent.attachReporter(reporter);
         driver.navigate().to(URI);

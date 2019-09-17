@@ -5,7 +5,7 @@
     "parameters": "/api/user",
     "status": "Pass",
     "request": "{\"username\":\"test\"}",
-    "response": "[{\"name\":\"userRegistration\",\"e_mail\":\"invalidUsername@test.com\",\"user_id\":20308}]",
+    "response": "[{\"name\":\"maria\",\"e_mail\":\"maria@gmail.com\",\"user_id\":20426}]",
     "description": "The actual value 200 matches with the expected result 200"
   },
   {
@@ -41,7 +41,7 @@
     "parameters": "/api/user",
     "status": "Pass",
     "request": "{\"username\":\"-ivonne\"}",
-    "response": "[{\"name\":\"hugo\",\"e_mail\":\"invalidUsername@gmail.com\",\"user_id\":20309}]",
+    "response": "[{\"name\":\"mariaze\",\"e_mail\":\"mariaG@gmail.com\",\"user_id\":20427}]",
     "description": "The actual value 200 matches with the expected result 200"
   },
   {
@@ -50,7 +50,7 @@
     "parameters": "/api/user",
     "status": "Pass",
     "request": "{\"username\":\"_maria\"}",
-    "response": "[{\"name\":\"maria\",\"e_mail\":\"maria@gmail.com\",\"user_id\":20310}]",
+    "response": "[{\"name\":\"mariaze\",\"e_mail\":\"mari@gmail.com\",\"user_id\":20428}]",
     "description": "The actual value 200 matches with the expected result 200"
   },
   {

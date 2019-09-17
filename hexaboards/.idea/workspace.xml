@@ -2,9 +2,11 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScript.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/LoginReporterAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/LoginReporterAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/htmlReport/file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScript.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -59,7 +61,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.ProfileInformation">
+  <component name="RunManager" selected="TestNG.ProfileInformationScript">
     <configuration name="ProfileInformation" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
@@ -71,6 +73,41 @@
       <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.profileInformation" />
       <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.profileInformation.ProfileInformation" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileInformationScript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.ProfileInformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.ProfileInformation" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.ProfileInformation.ProfileInformationScript" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="ProfileInformationScript.scenario2" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.ProfileInformation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.ProfileInformation" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.ProfileInformation.ProfileInformationScript" />
+      <option name="METHOD_NAME" value="scenario2" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -113,49 +150,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistration.scenario3" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.userRegistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.userRegistration" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.userRegistration.UserRegistration" />
-      <option name="METHOD_NAME" value="scenario3" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistration.scenario4" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.userRegistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.userRegistration" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.userRegistration.UserRegistration" />
-      <option name="METHOD_NAME" value="scenario4" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.ProfileInformationScript" />
         <item itemvalue="TestNG.ProfileInformation" />
+        <item itemvalue="TestNG.ProfileInformationScript.scenario2" />
         <item itemvalue="TestNG.ProfileInformation.scenario1" />
         <item itemvalue="TestNG.UserRegistration.scenario1" />
-        <item itemvalue="TestNG.UserRegistration.scenario4" />
-        <item itemvalue="TestNG.UserRegistration.scenario3" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +185,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568739604824</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="new updates">
+      <created>1568740670569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568740670569</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
