@@ -1,92 +1,56 @@
 [
   {
-    "action": "post",
-    "data": "test",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"test\"}",
-    "response": "[{\"name\":\"userRegistration\",\"e_mail\":\"invalidUsername@test.com\",\"user_id\":20308}]",
-    "description": "The actual value 200 matches with the expected result 200"
-  },
-  {
-    "action": "post",
-    "data": "\u0026",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"\u0026\"}",
-    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
-    "description": "The actual value 404 matches with the expected result 404"
-  },
-  {
-    "action": "post",
-    "data": "",
-    "parameters": "/api/user",
+    "action": "put",
+    "data": ",azariel",
+    "parameters": "/api/nameupd",
     "status": "Fail",
-    "request": "{\"username\":\"\"}",
+    "request": "{\"name\":\"\" ,\"username\":\"azariel\"}",
     "response": "{\"error\":true,\"code\":400,\"message\":\"Missing Data\"}",
-    "description": "The actual value 400 does not match with the expected result 404"
+    "description": "The actual value 400 does not match with the expected result 500"
   },
   {
-    "action": "post",
-    "data": "jacox",
-    "parameters": "/api/user",
+    "action": "put",
+    "data": "Anahi Contreras,anahi",
+    "parameters": "/api/nameupd",
     "status": "Pass",
-    "request": "{\"username\":\"jacox\"}",
-    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
-    "description": "The actual value 404 matches with the expected result 404"
+    "request": "{\"name\":\"Anahi Contreras\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":202,\"message\":\"User updated\"}",
+    "description": "The actual value 202 matches with the expected result 202"
   },
   {
-    "action": "post",
-    "data": "-ivonne",
-    "parameters": "/api/user",
+    "action": "put",
+    "data": "hugoalejandrolopezmateoignacioavestruzySiemprequebuscoestenombreesdemasdeSiemprequebuscoestenombreesdemasdeMuchoscaracteresporesocreoquEnodebefuncionaresteesminombRefalsosuperlargoyaunpiensoquetIeneposibilidaddeseraceptadOporlaaplicacionapesardesertanLargoycasillegaralostrescientoscaracteres,anahi",
+    "parameters": "/api/nameupd",
     "status": "Pass",
-    "request": "{\"username\":\"-ivonne\"}",
-    "response": "[{\"name\":\"hugo\",\"e_mail\":\"invalidUsername@gmail.com\",\"user_id\":20309}]",
-    "description": "The actual value 200 matches with the expected result 200"
+    "request": "{\"name\":\"hugoalejandrolopezmateoignacioavestruzySiemprequebuscoestenombreesdemasdeSiemprequebuscoestenombreesdemasdeMuchoscaracteresporesocreoquEnodebefuncionaresteesminombRefalsosuperlargoyaunpiensoquetIeneposibilidaddeseraceptadOporlaaplicacionapesardesertanLargoycasillegaralostrescientoscaracteres\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":true,\"code\":500,\"message\":{\"code\":\"ER_DATA_TOO_LONG\",\"errno\":1406,\"sqlMessage\":\"Data too long for column \u0027name\u0027 at row 17\",\"sqlState\":\"22001\",\"index\":0,\"sql\":\"UPDATE test_users SET name \u003d \u0027hugoalejandrolopezmateoignacioavestruzySiemprequebuscoestenombreesdemasdeSiemprequebuscoestenombreesdemasdeMuchoscaracteresporesocreoquEnodebefuncionaresteesminombRefalsosuperlargoyaunpiensoquetIeneposibilidaddeseraceptadOporlaaplicacionapesardesertanLargoycasillegaralostrescientoscaracteres\u0027 WHERE username \u003d \u0027anahi\u0027\"}}",
+    "description": "The actual value 500 matches with the expected result 500"
   },
   {
-    "action": "post",
-    "data": "_maria",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"_maria\"}",
-    "response": "[{\"name\":\"maria\",\"e_mail\":\"maria@gmail.com\",\"user_id\":20310}]",
-    "description": "The actual value 200 matches with the expected result 200"
+    "action": "put",
+    "data": "Anahi 123,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Anahi 123\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":202,\"message\":\"User updated\"}",
+    "description": "The actual value 202 does not match with the expected result 500"
   },
   {
-    "action": "post",
-    "data": "@",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"@\"}",
-    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
-    "description": "The actual value 404 matches with the expected result 404"
+    "action": "put",
+    "data": "Anahi @ Alejandra,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Anahi @ Alejandra\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":202,\"message\":\"User updated\"}",
+    "description": "The actual value 202 does not match with the expected result 500"
   },
   {
-    "action": "post",
-    "data": "#",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"#\"}",
-    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
-    "description": "The actual value 404 matches with the expected result 404"
-  },
-  {
-    "action": "post",
-    "data": "$",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"$\"}",
-    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
-    "description": "The actual value 404 matches with the expected result 404"
-  },
-  {
-    "action": "post",
-    "data": "*",
-    "parameters": "/api/user",
-    "status": "Pass",
-    "request": "{\"username\":\"*\"}",
-    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
-    "description": "The actual value 404 matches with the expected result 404"
+    "action": "put",
+    "data": "Anahi R#odriguez40,anahi",
+    "parameters": "/api/nameupd",
+    "status": "Fail",
+    "request": "{\"name\":\"Anahi R#odriguez40\" ,\"username\":\"anahi\"}",
+    "response": "{\"error\":false,\"code\":202,\"message\":\"User updated\"}",
+    "description": "The actual value 202 does not match with the expected result 500"
   }
 ]

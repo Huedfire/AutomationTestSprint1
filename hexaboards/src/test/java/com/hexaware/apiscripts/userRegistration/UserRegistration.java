@@ -55,7 +55,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -77,7 +77,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -100,7 +100,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
 
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -123,7 +123,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -146,7 +146,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -168,7 +168,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
             list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),parts,parameter));
@@ -189,7 +189,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -211,7 +211,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
 
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -233,7 +233,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
             list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),parts,parameter));
@@ -254,7 +254,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
             list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),parts,parameter));
@@ -275,7 +275,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -297,7 +297,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -319,7 +319,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -341,7 +341,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -363,7 +363,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -385,7 +385,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -407,7 +407,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -429,7 +429,7 @@ public class UserRegistration {
         parameter = parts[parts.length-2];
         ExpectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"e_mail\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);

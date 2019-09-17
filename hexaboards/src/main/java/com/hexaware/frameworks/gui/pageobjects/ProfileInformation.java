@@ -65,4 +65,13 @@ public class ProfileInformation {
         return driver.findElement(closeButton);
     }
 
+    By verifiedName = By.xpath("//*[@ng-reflect-placeholder=\"Ivonne Contreras\"]");
+    public WebElement getVerifiedName() {
+        return driver.findElement(verifiedName);
+    }
+    By verifiedEmail = By.xpath("//*[@placeholder=\"ivonne@gmail.com\"]");
+    public WebElement getVerifiedEmail() {
+        return driver.findElement(verifiedEmail);
+    }
+
 }

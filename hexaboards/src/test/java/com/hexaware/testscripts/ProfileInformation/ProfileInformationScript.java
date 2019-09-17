@@ -107,16 +107,16 @@ public class ProfileInformationScript {
         varWat.until(ExpectedConditions.visibilityOf(pi.getBurguerButton())).click();
         //  pi.getMenuOptions().click();
         temp = fr.getScreenshot(driver);
-        logger.pass("Click on burguer button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        logger.pass("Click on burguer button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 
         //click on myProfile button
         pi.getProfileButton().click();
         temp = fr.getScreenshot(driver);
-        logger.pass("Click on the my profile button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        logger.pass("Click on the my profile button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-
-        Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
+        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
+       //Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
     }
 
     ////////////////////////////////////////////////SCENARIO 2/////////////////////////////////////////////////////////////////////
@@ -179,6 +179,7 @@ public class ProfileInformationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the my profile button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
 
         pi.getCloseButton().click();
         logger.pass("Click on close button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
@@ -242,8 +243,8 @@ public class ProfileInformationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click Profile Button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-
-        Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
+        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
+        //Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
     }
 
     /////////////////////////////////////////////////////////SCENARIO 4//////////////////////////////////////////////////////////////////
@@ -300,6 +301,8 @@ public class ProfileInformationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the my profile button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
+        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
 
         pi.getCloseButton().click();
         logger.pass("Click on close button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
