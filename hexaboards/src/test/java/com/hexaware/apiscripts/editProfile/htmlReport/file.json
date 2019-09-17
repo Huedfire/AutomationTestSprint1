@@ -1,0 +1,92 @@
+[
+  {
+    "action": "post",
+    "data": "test",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"test\"}",
+    "response": "[{\"name\":\"userRegistration\",\"e_mail\":\"invalidUsername@test.com\",\"user_id\":20308}]",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "post",
+    "data": "\u0026",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"\u0026\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "",
+    "parameters": "/api/user",
+    "status": "Fail",
+    "request": "{\"username\":\"\"}",
+    "response": "{\"error\":true,\"code\":400,\"message\":\"Missing Data\"}",
+    "description": "The actual value 400 does not match with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "jacox",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"jacox\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "-ivonne",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"-ivonne\"}",
+    "response": "[{\"name\":\"hugo\",\"e_mail\":\"invalidUsername@gmail.com\",\"user_id\":20309}]",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "post",
+    "data": "_maria",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"_maria\"}",
+    "response": "[{\"name\":\"maria\",\"e_mail\":\"maria@gmail.com\",\"user_id\":20310}]",
+    "description": "The actual value 200 matches with the expected result 200"
+  },
+  {
+    "action": "post",
+    "data": "@",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"@\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "#",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"#\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "$",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"$\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  },
+  {
+    "action": "post",
+    "data": "*",
+    "parameters": "/api/user",
+    "status": "Pass",
+    "request": "{\"username\":\"*\"}",
+    "response": "{\"error\":true,\"code\":404,\"message\":\"User not found\"}",
+    "description": "The actual value 404 matches with the expected result 404"
+  }
+]

@@ -19,6 +19,12 @@ public class ProfileInformation {
     }
 
 
+    //ERROR EN BURGUER BUTTON
+    By burguerButton = By.xpath("//button[@mattooltip=\"Open the menu.\"]");
+    public WebElement getBurguerButton() {
+        return driver.findElement(burguerButton);
+    }
+
     By menuOptions = By.xpath("//div[@class=\"mat-drawer-inner-container\"]");
 
     public WebElement getMenuOptions() {
@@ -26,14 +32,14 @@ public class ProfileInformation {
     }
 
 
-    By profileButton = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]/div/div[1]");
+    By profileButton = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]");
 
     public WebElement getProfileButton() {
         return driver.findElement(profileButton);
     }
 
 
-    By profilePicture = By.xpath("//img[@class=\"user-photo\"]");
+    By profilePicture = By.xpath("//h1[@class=\"user-name\"]");
 
     public WebElement getProfilePicture() {
         return driver.findElement(profilePicture);
@@ -46,7 +52,7 @@ public class ProfileInformation {
     }
 
 
-    By windowsTitle = By.xpath("//h1[contains(text(),\"My profile\")]");
+    By windowsTitle = By.xpath("//*[@id=\"title-div\"]/h1");
 
     public WebElement getWindowsTitle() {
         return driver.findElement(windowsTitle);

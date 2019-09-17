@@ -2,10 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditProfile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/EditProfile-Report.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/ajax2.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/ProfileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/htmlReport/file.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -27,8 +29,8 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -41,11 +43,11 @@
       <recent name="com.hexaware.frameworks" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile\htmlReport" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile" />
       <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\profileInformation" />
       <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\userRegistration" />
       <recent name="C:\Users\Training\IdeaProjects\hexaboard" />
-      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\ProjectCreation" />
-      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\Project Creation" />
     </key>
   </component>
   <component name="RunDashboard">
