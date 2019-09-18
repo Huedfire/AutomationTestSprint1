@@ -106,16 +106,23 @@ public class Login {
 
     // Error Messages
     By UsernameError = By.xpath("//*[contains(text(),\"You need to enter a valid username\")]");
-
     public WebElement getUsernameError() {
         return driver.findElement(UsernameError);
     }
-
+    //Error Password
     By PasswordError = By.xpath("//*[contains(text(),\"You need to enter a valid password\")]");
-
     public WebElement getPasswordError() {
         return driver.findElement(PasswordError);
     }
-
+    //Forgot your username?
+    By ForgotUsername = By.xpath("//a[contains(text(),'Forgot your username?')]");
+    public WebElement getForgotUsername() {
+        return driver.findElement(ForgotUsername);
+    }
+    //Forgot your password?
+    By ForgotPassword = By.xpath("//a[contains(text(),'Forgot your password?')]");
+    public WebElement getForgotPassword() {
+        return driver.findElement(ForgotPassword);
+    }
 
 }

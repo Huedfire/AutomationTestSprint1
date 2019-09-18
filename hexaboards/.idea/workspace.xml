@@ -1,11 +1,22 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
+      <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192353.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192747.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192950.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193329.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193645.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194002.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194052.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204319.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204700.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204882.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205031.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205116.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205640.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205977.png" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
