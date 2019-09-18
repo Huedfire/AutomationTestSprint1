@@ -2,20 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditAll.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditEmail.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFile.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditName.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/ProfileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/UserRegistration.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/UserRegistration.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/userRegistration/htmlReport/file.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -70,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="TestNG.EditName">
     <configuration name="EditAll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
@@ -142,16 +132,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistration" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.userRegistration.*" />
+          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.userRegistration" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.userRegistration.UserRegistration" />
+      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditName" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -161,11 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.EditName" />
         <item itemvalue="TestNG.EditAll" />
         <item itemvalue="TestNG.EditEmail.scenario10" />
         <item itemvalue="TestNG.EditEmail.scenario9" />
         <item itemvalue="TestNG.EditEmail.scenario8" />
-        <item itemvalue="TestNG.UserRegistration" />
       </list>
     </recent_temporary>
   </component>
@@ -215,7 +205,14 @@
       <option name="project" value="LOCAL" />
       <updated>1568759544219</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="new updates">
+      <created>1568829419268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568829419268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
