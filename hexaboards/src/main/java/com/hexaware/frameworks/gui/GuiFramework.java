@@ -1,5 +1,7 @@
 package com.hexaware.frameworks.gui;
 
+import com.hexaware.frameworks.gui.pageobjects.HomePage;
+import com.hexaware.frameworks.gui.pageobjects.Login;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.*;
@@ -160,6 +162,24 @@ public class GuiFramework {
 
         return presentFlag;
 
+    }
+
+    public void login(String username, String password, WebDriver driver)throws IOException{
+        HomePage hp = new HomePage(driver);
+        Login lg = new Login(driver);
+        hp.getStartedValue().click();
+        //press the button login
+        lg.getLogin().sendKeys(Keys.ENTER);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //element name
+        lg.getUsername().sendKeys(username);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //get password
+        lg.getPassword().sendKeys(password);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //click to login
+        lg.getloginButton().click();;
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
     }
 
 
