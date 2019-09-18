@@ -13,20 +13,10 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 public class UserRegistration {
-    String filepath ;
-    String jsonpath ;
+    String filepath,jsonpath,Name,Username,Email,Password,Action,ExpectedCode,request,parameter, uri ;
     Properties prop=new Properties();
     InputStream input ;
-    String uri;
     ApiFramework r = new ApiFramework();
-    String Name;
-    String Username;
-    String Email;
-    String Password;
-    String Action;
-    String ExpectedCode;
-    String request;
-    String parameter;
     Response response = null;
     ArrayList<String> dataList;
     ArrayList<Object> list = new ArrayList<Object>();
