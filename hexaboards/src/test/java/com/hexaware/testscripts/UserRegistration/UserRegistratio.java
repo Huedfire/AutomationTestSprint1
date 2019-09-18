@@ -53,9 +53,9 @@ public class UserRegistratio {
     // This code will run before executing any testcase
     @BeforeMethod(groups = {"functest"})
     public void setup() throws IOException {
-        input = new FileInputStream("conf3.txt");
+        input = new FileInputStream("confs.txt");
         prop.load(input);
-        filepath = prop.getProperty("DataFile");
+        filepath = prop.getProperty("DataFileScripts");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 1);
         driver = fr.initDriver(prop);

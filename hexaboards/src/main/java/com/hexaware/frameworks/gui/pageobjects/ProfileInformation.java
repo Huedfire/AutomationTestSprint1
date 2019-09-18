@@ -4,9 +4,6 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
-import java.io.FileInputStream;
-import java.io.InputStream;
-
 public class ProfileInformation {
     WebDriver driver;
 
@@ -22,12 +19,6 @@ public class ProfileInformation {
     }
 
 
-    //ERROR EN BURGUER BUTTON
-    By burguerButton = By.xpath("//button[@mattooltip=\"Open the menu.\"]");
-    public WebElement getBurguerButton() {
-        return driver.findElement(burguerButton);
-    }
-
     By menuOptions = By.xpath("//div[@class=\"mat-drawer-inner-container\"]");
 
     public WebElement getMenuOptions() {
@@ -35,14 +26,14 @@ public class ProfileInformation {
     }
 
 
-    By profileButton = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]");
+    By profileButton = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]/div/div[1]");
 
     public WebElement getProfileButton() {
         return driver.findElement(profileButton);
     }
 
 
-    By profilePicture = By.xpath("//h1[@class=\"user-name\"]");
+    By profilePicture = By.xpath("//h1[@mattooltip=\"That should be you. Right?\"]");
 
     public WebElement getProfilePicture() {
         return driver.findElement(profilePicture);
@@ -55,26 +46,17 @@ public class ProfileInformation {
     }
 
 
-    By windowsTitle = By.xpath("//*[@id=\"title-div\"]/h1");
+    By windowsTitle = By.xpath("//h1[contains(text(),\"My profile\")]");
 
     public WebElement getWindowsTitle() {
         return driver.findElement(windowsTitle);
     }
 
 
-    By closeButton = By.xpath("//button/span[contains(text(),\"X\")]");
+    By closeButton = By.xpath("//button/span[contains(text(),\"X\"]\n");
 
     public WebElement getCloseButton() {
         return driver.findElement(closeButton);
-    }
-
-
-    public WebElement getVerifiedName(String nombre) {
-        return driver.findElement(By.xpath("//*[@ng-reflect-placeholder='"+ nombre +"']"));
-    }
-
-    public WebElement getVerifiedEmail(String email) {
-        return driver.findElement(By.xpath("//*[@placeholder='"+ email +"']"));
     }
 
 }

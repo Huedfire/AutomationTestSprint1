@@ -2,9 +2,49 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/login/Login.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/login/htmlReport/file.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFile.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/EditProfile.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/EditProfile.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/Login.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/Login.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/ProfileInformation.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/htmlReport/ProfileInformation-Report.html" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/login/htmlReport/Login-Report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/htmlReport/ajax2.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/login/htmlReport/ajaxLogin.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/htmlReport/file.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/TC_EP_011.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginTestNG.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginTestNG.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/apiFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/apiFramework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/compile/default-compile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/emailable-report.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.EditProfile.TC_EP_011.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/main.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/main.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-not-run.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-not-run.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/testng.xml.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/testng.xml.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/testng-results.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/EditProfile/TC_EP_011.class" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,9 +66,9 @@
   <component name="ProjectId" id="1QT6s95U4Bz5adTklhcusdoJhzK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -41,11 +81,11 @@
       <recent name="com.hexaware.frameworks" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
-      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile\htmlReport" />
-      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile" />
-      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\profileInformation" />
-      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\userRegistration" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts" />
       <recent name="C:\Users\Training\IdeaProjects\hexaboard" />
+      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\ProjectCreation" />
+      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\Project Creation" />
+      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\EditProfile" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -60,17 +100,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EditName">
-    <configuration name="EditAll" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.EditProfileGUI">
+    <configuration name="EditProfileGUI (1)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.editProfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditAll" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.editProfile.EditProfileGUI" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -78,71 +118,69 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditEmail.scenario10" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="EditProfileGUI (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.editProfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario10" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditEmail.scenario8" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario8" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditEmail.scenario9" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario9" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditName" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditName" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.editProfile.EditProfileGUI" />
       <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditProfileGUI (3)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.editProfile.EditProfileGUI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditProfileGUI" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.editProfile.EditProfileGUI" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditProfileGUI.login" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.editProfile.EditProfileGUI" />
+      <option name="METHOD_NAME" value="login" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -151,11 +189,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EditName" />
-        <item itemvalue="TestNG.EditAll" />
-        <item itemvalue="TestNG.EditEmail.scenario10" />
-        <item itemvalue="TestNG.EditEmail.scenario9" />
-        <item itemvalue="TestNG.EditEmail.scenario8" />
+        <item itemvalue="TestNG.EditProfileGUI" />
+        <item itemvalue="TestNG.EditProfileGUI.login" />
+        <item itemvalue="TestNG.EditProfileGUI (3)" />
+        <item itemvalue="TestNG.EditProfileGUI (2)" />
+        <item itemvalue="TestNG.EditProfileGUI (1)" />
       </list>
     </recent_temporary>
   </component>
@@ -170,49 +208,6 @@
       <option name="presentableId" value="Default" />
       <updated>1567782442915</updated>
     </task>
-    <task id="LOCAL-00001" summary="new updates">
-      <created>1568411276921</created>
-      <option name="number" value="00001" />
-      <option name="presentableId" value="LOCAL-00001" />
-      <option name="project" value="LOCAL" />
-      <updated>1568411276921</updated>
-    </task>
-    <task id="LOCAL-00002" summary="new updates">
-      <created>1568739604824</created>
-      <option name="number" value="00002" />
-      <option name="presentableId" value="LOCAL-00002" />
-      <option name="project" value="LOCAL" />
-      <updated>1568739604824</updated>
-    </task>
-    <task id="LOCAL-00003" summary="new updates">
-      <created>1568740670569</created>
-      <option name="number" value="00003" />
-      <option name="presentableId" value="LOCAL-00003" />
-      <option name="project" value="LOCAL" />
-      <updated>1568740670569</updated>
-    </task>
-    <task id="LOCAL-00004" summary="new updates">
-      <created>1568742859873</created>
-      <option name="number" value="00004" />
-      <option name="presentableId" value="LOCAL-00004" />
-      <option name="project" value="LOCAL" />
-      <updated>1568742859873</updated>
-    </task>
-    <task id="LOCAL-00005" summary="new updates">
-      <created>1568759544219</created>
-      <option name="number" value="00005" />
-      <option name="presentableId" value="LOCAL-00005" />
-      <option name="project" value="LOCAL" />
-      <updated>1568759544219</updated>
-    </task>
-    <task id="LOCAL-00006" summary="new updates">
-      <created>1568829419268</created>
-      <option name="number" value="00006" />
-      <option name="presentableId" value="LOCAL-00006" />
-      <option name="project" value="LOCAL" />
-      <updated>1568829419268</updated>
-    </task>
-    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -228,8 +223,18 @@
       </map>
     </option>
   </component>
-  <component name="VcsManagerConfiguration">
-    <MESSAGE value="new updates" />
-    <option name="LAST_COMMIT_MESSAGE" value="new updates" />
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/profileInformation/ProfileInformation.java</url>
+          <line>47</line>
+          <properties class="com.hexaware.apiscripts.profileInformation.ProfileInformation" method="scenario1">
+            <option name="EMULATED" value="true" />
+          </properties>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>

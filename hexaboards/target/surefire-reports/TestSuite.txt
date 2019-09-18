@@ -1,4 +1,32 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.712 s - in TestSuite
+Tests run: 13, Failures: 7, Errors: 0, Skipped: 0, Time elapsed: 192.292 s <<< FAILURE! - in TestSuite
+login4(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 2.642 s  <<< FAILURE!
+java.lang.AssertionError: Does not display a message // did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login4(LoginTestNG.java:248)
+
+login5(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 2.4 s  <<< FAILURE!
+java.lang.AssertionError: Does not display a message // did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login5(LoginTestNG.java:295)
+
+login7(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 2.17 s  <<< FAILURE!
+java.lang.AssertionError: Does not display a mesaage// did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login7(LoginTestNG.java:391)
+
+login10(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 1.574 s  <<< FAILURE!
+java.lang.AssertionError: Does not redirect to another page // did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login10(LoginTestNG.java:540)
+
+login11(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 1.663 s  <<< FAILURE!
+java.lang.AssertionError: Does not redirect to another page // did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login11(LoginTestNG.java:573)
+
+login12(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 3.179 s  <<< FAILURE!
+java.lang.AssertionError: Does not redirect to another page to log in with google // did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login12(LoginTestNG.java:609)
+
+login13(com.hexaware.testscripts.Login.LoginTestNG)  Time elapsed: 2.575 s  <<< FAILURE!
+java.lang.AssertionError: Does not display the message // did not expect to find [true] but found [false]
+	at com.hexaware.testscripts.Login.LoginTestNG.login13(LoginTestNG.java:656)
+

@@ -1,5 +1,7 @@
 package com.hexaware.frameworks.gui;
 
+import com.hexaware.frameworks.gui.pageobjects.HomePage;
+import com.hexaware.frameworks.gui.pageobjects.Login;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.*;
@@ -80,7 +82,7 @@ public class GuiFramework {
     public WebDriver initDriver(Properties props) throws IOException {
         WebDriver drivers = null;
         props = new Properties();
-        InputStream inputs = new FileInputStream("C:\\Users\\Training\\Desktop\\confs.txt");
+        InputStream inputs = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\confs.txt");
         props.load(inputs);
         String browser = props.getProperty("browser");
         String driver = props.getProperty("driver");
@@ -136,32 +138,50 @@ public class GuiFramework {
         } catch (Exception e) {
         }
 
-
-
     }
     // Method that check if one alert exist in this page
     public boolean isAlertPresent(WebDriver driver) {
-
         boolean presentFlag = false;
-
         try {
-
             // Check the presence of alert
             Alert alert = driver.switchTo().alert();
             // Alert present; set the flag
             presentFlag = true;
             // if present consume the alert
             alert.accept();
-
         } catch (NoAlertPresentException ex) {
             // Alert not present
             ex.printStackTrace();
         }
-
         return presentFlag;
+    }
+
+    public void login(String username, String password, WebDriver driver)throws IOException{
+
+        HomePage hp = new HomePage(driver);
+        Login lg = new Login(driver);
+
+        hp.getStartedValue().click();
+        //press the button login
+        lg.getLogin().sendKeys(Keys.ENTER);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //element name
+        lg.getUsername().sendKeys(username);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //get password
+        lg.getPassword().sendKeys(password);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //click to login
+        lg.getloginButton().click();;
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+
 
     }
 
 
 
+
 }
+
+
+
