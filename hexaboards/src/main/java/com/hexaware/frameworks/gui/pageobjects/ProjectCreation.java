@@ -237,4 +237,9 @@ public class ProjectCreation {
         return driver.findElement(dateError);
 
     }
+
+    By createProj = By.xpath("//h1/a[contains(text(),\"new project\")]");
+    public WebElement getInitialCreateProject() {
+        return driver.findElement(createProj);
+    }
 }

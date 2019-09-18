@@ -1,33 +1,58 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="2" passed="2">
+<testng-results skipped="0" failed="0" ignored="0" total="7" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="TestSuite" duration-ms="1954" started-at="2019-09-06T11:02:30 CDT" finished-at="2019-09-06T11:02:32 CDT">
+  <suite name="TestSuite" duration-ms="2165" started-at="2019-09-18T13:00:20 CDT" finished-at="2019-09-18T13:00:22 CDT">
     <groups>
-      <group name="names">
-        <method signature="TC_EP_011.scenario1()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario1" class="com.hexaware.testscripts.EditProfile.TC_EP_011"/>
-        <method signature="TC_EP_011.scenario2()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario2" class="com.hexaware.testscripts.EditProfile.TC_EP_011"/>
-      </group> <!-- names -->
+      <group name="editall">
+        <method signature="EditAll.scenario17()[pri:1, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario17" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+        <method signature="EditAll.scenario18()[pri:2, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario18" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+        <method signature="EditAll.scenario19()[pri:3, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario19" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+        <method signature="EditAll.scenario20()[pri:4, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario20" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+        <method signature="EditAll.scenario21()[pri:5, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario21" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+        <method signature="EditAll.scenario22()[pri:6, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario22" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+        <method signature="EditAll.scenario23()[pri:7, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario23" class="com.hexaware.apiscripts.editProfile.EditAll"/>
+      </group> <!-- editall -->
     </groups>
-    <test name="Test" duration-ms="1954" started-at="2019-09-06T11:02:30 CDT" finished-at="2019-09-06T11:02:32 CDT">
-      <class name="com.hexaware.testscripts.EditProfile.TC_EP_011">
-        <test-method status="PASS" signature="getDataListName()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="getDataListName" is-config="true" duration-ms="1076" started-at="2019-09-06T11:02:30 CDT" finished-at="2019-09-06T11:02:31 CDT">
+    <test name="Test" duration-ms="2165" started-at="2019-09-18T13:00:20 CDT" finished-at="2019-09-18T13:00:22 CDT">
+      <class name="com.hexaware.apiscripts.editProfile.EditAll">
+        <test-method status="PASS" signature="getSetupEmail()[pri:0, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="getSetupEmail" is-config="true" duration-ms="1103" started-at="2019-09-18T13:00:20 CDT" finished-at="2019-09-18T13:00:21 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- getDataListName -->
-        <test-method status="PASS" signature="scenario1()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario1" duration-ms="767" started-at="2019-09-06T11:02:31 CDT" finished-at="2019-09-06T11:02:32 CDT">
+        </test-method> <!-- getSetupEmail -->
+        <test-method status="PASS" signature="scenario17()[pri:1, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario17" duration-ms="812" started-at="2019-09-18T13:00:21 CDT" finished-at="2019-09-18T13:00:22 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scenario1 -->
-        <test-method status="PASS" signature="scenario2()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="scenario2" duration-ms="28" started-at="2019-09-06T11:02:32 CDT" finished-at="2019-09-06T11:02:32 CDT">
+        </test-method> <!-- scenario17 -->
+        <test-method status="PASS" signature="scenario18()[pri:2, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario18" duration-ms="23" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- scenario2 -->
-        <test-method status="PASS" signature="finish()[pri:0, instance:com.hexaware.testscripts.EditProfile.TC_EP_011@192b07fd]" name="finish" is-config="true" duration-ms="54" started-at="2019-09-06T11:02:32 CDT" finished-at="2019-09-06T11:02:32 CDT">
+        </test-method> <!-- scenario18 -->
+        <test-method status="PASS" signature="scenario19()[pri:3, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario19" duration-ms="21" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- finish -->
-      </class> <!-- com.hexaware.testscripts.EditProfile.TC_EP_011 -->
+        </test-method> <!-- scenario19 -->
+        <test-method status="PASS" signature="scenario20()[pri:4, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario20" duration-ms="27" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario20 -->
+        <test-method status="PASS" signature="scenario21()[pri:5, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario21" duration-ms="33" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario21 -->
+        <test-method status="PASS" signature="scenario22()[pri:6, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario22" duration-ms="31" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario22 -->
+        <test-method status="PASS" signature="scenario23()[pri:7, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="scenario23" duration-ms="28" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- scenario23 -->
+        <test-method status="PASS" signature="finishAll()[pri:0, instance:com.hexaware.apiscripts.editProfile.EditAll@31610302]" name="finishAll" is-config="true" duration-ms="47" started-at="2019-09-18T13:00:22 CDT" finished-at="2019-09-18T13:00:22 CDT">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- finishAll -->
+      </class> <!-- com.hexaware.apiscripts.editProfile.EditAll -->
     </test> <!-- Test -->
   </suite> <!-- TestSuite -->
 </testng-results>

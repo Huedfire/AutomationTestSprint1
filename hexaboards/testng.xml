@@ -4,11 +4,12 @@
     <test name="Test">
         <groups>
             <run>
-                <include name="names" />
+                <include name="editall" />
             </run>
         </groups>
         <classes>
-            <class name="com.hexaware.testscripts.EditProfile.TC_EP_011"></class>
+            <class name="com.hexaware.apiscripts.editProfile.EditAll"></class>
         </classes>
     </test>
 </suite>
+

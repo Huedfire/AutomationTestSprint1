@@ -1,17 +1,34 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="" />
+    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+    </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
+  </component>
   <component name="ProjectId" id="1QT6s95U4Bz5adTklhcusdoJhzK" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
-    <property name="project.structure.last.edited" value="Project" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport" />
+    <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
   </component>
@@ -24,11 +41,11 @@
       <recent name="com.hexaware.frameworks" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile\htmlReport" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\editProfile" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\profileInformation" />
+      <recent name="C:\Users\Training\HexaboardAutomationTest\hexaboards\src\test\java\com\hexaware\apiscripts\userRegistration" />
       <recent name="C:\Users\Training\IdeaProjects\hexaboard" />
-      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\ProjectCreation" />
-      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\Project Creation" />
-      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\EditProfile" />
-      <recent name="C:\Users\Training\IdeaProjects\hexaboard\src\test\java\com\hexaware\testscripts\UserRegistration" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -43,66 +60,89 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
-    <configuration default="true" type="JetRunConfigurationType" factoryName="Kotlin">
-      <module name="hexaboards" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration default="true" type="KotlinStandaloneScriptRunConfigurationType" factoryName="Kotlin script">
-      <module name="hexaboards" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <option name="filePath" />
-      <option name="vmParameters" />
-      <option name="alternativeJrePath" />
-      <option name="programParameters" />
-      <option name="passParentEnvs" value="true" />
-      <option name="workingDirectory" />
-      <option name="isAlternativeJrePathEnabled" value="false" />
-      <option name="VM_PARAMETERS" />
-      <option name="PROGRAM_PARAMETERS" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="MAIN_CLASS_NAME" />
-      <option name="WORKING_DIRECTORY" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="TC_EP_011.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.EditName">
+    <configuration name="EditAll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.testscripts.EditProfile.*" />
+          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.EditProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.EditProfile.TC_EP_011" />
-      <option name="METHOD_NAME" value="scenario1" />
+      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditAll" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditEmail.scenario10" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
+      <option name="METHOD_NAME" value="scenario10" />
       <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditEmail.scenario8" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
+      <option name="METHOD_NAME" value="scenario8" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditEmail.scenario9" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
+      <option name="METHOD_NAME" value="scenario9" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EditName" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditName" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
@@ -111,7 +151,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.TC_EP_011.scenario1" />
+        <item itemvalue="TestNG.EditName" />
+        <item itemvalue="TestNG.EditAll" />
+        <item itemvalue="TestNG.EditEmail.scenario10" />
+        <item itemvalue="TestNG.EditEmail.scenario9" />
+        <item itemvalue="TestNG.EditEmail.scenario8" />
       </list>
     </recent_temporary>
   </component>
@@ -126,6 +170,66 @@
       <option name="presentableId" value="Default" />
       <updated>1567782442915</updated>
     </task>
+    <task id="LOCAL-00001" summary="new updates">
+      <created>1568411276921</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1568411276921</updated>
+    </task>
+    <task id="LOCAL-00002" summary="new updates">
+      <created>1568739604824</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1568739604824</updated>
+    </task>
+    <task id="LOCAL-00003" summary="new updates">
+      <created>1568740670569</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1568740670569</updated>
+    </task>
+    <task id="LOCAL-00004" summary="new updates">
+      <created>1568742859873</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1568742859873</updated>
+    </task>
+    <task id="LOCAL-00005" summary="new updates">
+      <created>1568759544219</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1568759544219</updated>
+    </task>
+    <task id="LOCAL-00006" summary="new updates">
+      <created>1568829419268</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1568829419268</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
+  </component>
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="new updates" />
+    <option name="LAST_COMMIT_MESSAGE" value="new updates" />
   </component>
 </project>
