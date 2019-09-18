@@ -36,15 +36,9 @@ public class ProfileInformationScript {
     WebElement element;
     InputStream input;
     Properties prop = new Properties();
-
-    String filepath;
-    String URI;
-
     ArrayList<String> user;
     String[] dataArray;
-    String username;
-    String password;
-    String temp;
+    String name, email,username,password,temp,filepath,URI;
     GuiFramework fr = new GuiFramework ();
 
 
@@ -54,7 +48,7 @@ public class ProfileInformationScript {
         prop.load(input);
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
-        user = fr.readExcel(filepath, 0);
+        user = fr.readExcel(filepath, 7);
         driver = fr.initDriver(prop);
         extent.attachReporter(reporter);
         driver.navigate().to(URI);
@@ -66,6 +60,8 @@ public class ProfileInformationScript {
         dataArray = fr.turnArray(user, 1);
         username = dataArray[0];
         password = dataArray[1];
+        name = dataArray[2];
+        email = dataArray[3];
         HomePage hp = new HomePage(driver);
         Login lg = new Login(driver);
         ProfileInformation pi = new ProfileInformation(driver);
@@ -115,7 +111,7 @@ public class ProfileInformationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the my profile button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
+        Assert.assertTrue(pi.getVerifiedName(name).isDisplayed() && pi.getVerifiedEmail(email).isDisplayed());
        //Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
     }
 
@@ -127,6 +123,8 @@ public class ProfileInformationScript {
         dataArray = fr.turnArray(user, 1);
         username = dataArray[0];
         password = dataArray[1];
+        name = dataArray[2];
+        email = dataArray[3];
         HomePage hp = new HomePage(driver);
         Login lg = new Login(driver);
         ProfileInformation pi = new ProfileInformation(driver);
@@ -179,7 +177,7 @@ public class ProfileInformationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the my profile button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
+        Assert.assertTrue(pi.getVerifiedName(name).isDisplayed() && pi.getVerifiedEmail(email).isDisplayed());
 
         pi.getCloseButton().click();
         logger.pass("Click on close button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
@@ -196,6 +194,8 @@ public class ProfileInformationScript {
         dataArray = fr.turnArray(user, 1);
         username = dataArray[0];
         password = dataArray[1];
+        name = dataArray[2];
+        email = dataArray[3];
         HomePage hp = new HomePage(driver);
         Login lg = new Login(driver);
         ProfileInformation pi = new ProfileInformation(driver);
@@ -243,7 +243,7 @@ public class ProfileInformationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click Profile Button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
-        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
+        Assert.assertTrue(pi.getVerifiedName(name).isDisplayed() && pi.getVerifiedEmail(email).isDisplayed());
         //Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
     }
 
@@ -255,6 +255,8 @@ public class ProfileInformationScript {
         dataArray = fr.turnArray(user, 1);
         username = dataArray[0];
         password = dataArray[1];
+        name = dataArray[2];
+        email = dataArray[3];
         HomePage hp = new HomePage(driver);
         Login lg = new Login(driver);
         ProfileInformation pi = new ProfileInformation(driver);
@@ -302,7 +304,7 @@ public class ProfileInformationScript {
         logger.pass("Click on the my profile button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
 
-        Assert.assertTrue(pi.getVerifiedName().isDisplayed() && pi.getVerifiedEmail().isDisplayed());
+        Assert.assertTrue(pi.getVerifiedName(name).isDisplayed() && pi.getVerifiedEmail(email).isDisplayed());
 
         pi.getCloseButton().click();
         logger.pass("Click on close button: " + password, MediaEntityBuilder.createScreenCaptureFromPath(temp).build());

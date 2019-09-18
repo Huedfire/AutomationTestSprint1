@@ -1,3 +1,5 @@
 DataFile = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\DataFile.xlsx
 URI = http://192.168.0.116:3000
-JsonPath = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\editProfile\\htmlReport\\file.json
+JsonEP = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\editProfile\\htmlReport\\file.json
+JsonPI = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\profileInformation\\htmlReport\\file.json
+JsonUR = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\userRegistration\\htmlReport\\file.json

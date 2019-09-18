@@ -37,7 +37,7 @@ public class ProfileInformation {
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonPath");
+        jsonpath = prop.getProperty("JsonPI");
         uri = prop.getProperty("URI");
         RestAssured.baseURI = uri;
         dataList = r.readExcel(filepath, 2);

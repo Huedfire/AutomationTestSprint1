@@ -14,18 +14,11 @@ import java.io.InputStream;
 import java.util.ArrayList;
 import java.util.Properties;
 
-public class EditProfile {
-    String filepath ;
-    String jsonpath ;
-    Properties prop=new Properties();
-    InputStream input ;
-    String uri;
+public class EditName {
+    String filepath,jsonpath,uri,username,name,ExpectedCode,request,parameter;
+    Properties prop = new Properties();
+    InputStream input;
     ApiFramework r = new ApiFramework();
-    String username;
-    String name;
-    String ExpectedCode;
-    String request;
-    String  parameter = "/api/user";
     Response response = null;
     ArrayList<String> dataList;
     ArrayList<Object> list = new ArrayList<Object>();
@@ -37,147 +30,140 @@ public class EditProfile {
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonPath");
-        uri = prop.getProperty("URI");
-        RestAssured.baseURI = uri;
-        dataList = r.readExcel(filepath, 4);
-    }
-
-    @BeforeTest(groups = {"editname"})
-    public void getSetupEmail() throws IOException {
-        parameter = "/api/mailupd";
-        input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
-        prop.load(input);
-        filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonPath");
+        jsonpath = prop.getProperty("JsonEP");
         uri = prop.getProperty("URI");
         RestAssured.baseURI = uri;
         dataList = r.readExcel(filepath, 4);
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"editname"})
-    public void scenario1(){
-        profile = r.turnArray(dataList,1);
+    @Test(groups = {"editname"}, priority = 1)
+    public void scenario1() {
+        profile = r.turnArray(dataList, 1);
         name = profile[0];
         username = profile[1];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
-        request = "{\"name\":\""+name+"\" ,\"username\":\"" + username + "\"}";
+        request = "{\"name\":\"" + name + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).put(parameter);
 
-            list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),profile,parameter));
+            list.add(r.getDataReport(request, response.getBody().asString(), response.getStatusCode(), profile, parameter));
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"editname"})
-    public void scenario2(){
-        profile = r.turnArray(dataList,2);
+    @Test(groups = {"editname"},priority = 2)
+    public void scenario2() {
+        profile = r.turnArray(dataList, 2);
         name = profile[0];
         username = profile[1];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
-        request = "{\"name\":\""+name+"\" ,\"username\":\"" + username + "\"}";
+        request = "{\"name\":\"" + name + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).put(parameter);
 
-            list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),profile,parameter));
+            list.add(r.getDataReport(request, response.getBody().asString(), response.getStatusCode(), profile, parameter));
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"editname"})
-    public void scenario3(){
-        profile = r.turnArray(dataList,3);
+    @Test(groups = {"editname"},priority = 3)
+    public void scenario3() {
+        profile = r.turnArray(dataList, 3);
         name = profile[0];
         username = profile[1];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
-        request = "{\"name\":\""+name+"\" ,\"username\":\"" + username + "\"}";
+        request = "{\"name\":\"" + name + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).put(parameter);
 
-            list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),profile,parameter));
+            list.add(r.getDataReport(request, response.getBody().asString(), response.getStatusCode(), profile, parameter));
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"editname"})
-    public void scenario4(){
-        profile = r.turnArray(dataList,4);
+    @Test(groups = {"editname"},priority = 4)
+    public void scenario4() {
+        profile = r.turnArray(dataList, 4);
         name = profile[0];
         username = profile[1];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
-        request = "{\"name\":\""+name+"\" ,\"username\":\"" + username + "\"}";
+        request = "{\"name\":\"" + name + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).put(parameter);
 
-            list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),profile,parameter));
+            list.add(r.getDataReport(request, response.getBody().asString(), response.getStatusCode(), profile, parameter));
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
-    @Test(groups = {"editname"})
-    public void scenario5(){
-        profile = r.turnArray(dataList,5);
+    @Test(groups = {"editname"},priority = 5)
+    public void scenario5() {
+        profile = r.turnArray(dataList, 5);
         name = profile[0];
         username = profile[1];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
-        request = "{\"name\":\""+name+"\" ,\"username\":\"" + username + "\"}";
+        request = "{\"name\":\"" + name + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).put(parameter);
 
-            list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),profile,parameter));
+            list.add(r.getDataReport(request, response.getBody().asString(), response.getStatusCode(), profile, parameter));
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
 
-    @Test(groups = {"editname"})
-    public void scenario6(){
-        profile = r.turnArray(dataList,6);
+    @Test(groups = {"editname"},priority = 6)
+    public void scenario6() {
+        profile = r.turnArray(dataList, 6);
         name = profile[0];
         username = profile[1];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
-        request = "{\"name\":\""+name+"\" ,\"username\":\"" + username + "\"}";
+        request = "{\"name\":\"" + name + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).put(parameter);
 
-            list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),profile,parameter));
+            list.add(r.getDataReport(request, response.getBody().asString(), response.getStatusCode(), profile, parameter));
         } catch (Exception ex) {
             System.out.println(ex.getMessage());
         }
     }
-
 
 
     @AfterTest(groups = {"editname"})
-    public void finish(){
-        r.convertToJSON(list,jsonpath);
+    public void finishName() {
+        r.convertToJSON(list, jsonpath);
     }
 
+
+
 }
+
+
+
+

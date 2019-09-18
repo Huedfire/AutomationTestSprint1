@@ -4,6 +4,9 @@ import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 import org.openqa.selenium.WebElement;
 
+import java.io.FileInputStream;
+import java.io.InputStream;
+
 public class ProfileInformation {
     WebDriver driver;
 
@@ -65,13 +68,13 @@ public class ProfileInformation {
         return driver.findElement(closeButton);
     }
 
-    By verifiedName = By.xpath("//*[@ng-reflect-placeholder=\"Ivonne Contreras\"]");
-    public WebElement getVerifiedName() {
-        return driver.findElement(verifiedName);
+
+    public WebElement getVerifiedName(String nombre) {
+        return driver.findElement(By.xpath("//*[@ng-reflect-placeholder='"+ nombre +"']"));
     }
-    By verifiedEmail = By.xpath("//*[@placeholder=\"ivonne@gmail.com\"]");
-    public WebElement getVerifiedEmail() {
-        return driver.findElement(verifiedEmail);
+
+    public WebElement getVerifiedEmail(String email) {
+        return driver.findElement(By.xpath("//*[@placeholder='"+ email +"']"));
     }
 
 }
