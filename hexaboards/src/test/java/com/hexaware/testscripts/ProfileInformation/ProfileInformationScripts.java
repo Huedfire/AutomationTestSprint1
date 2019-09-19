@@ -70,7 +70,6 @@ public class ProfileInformationScripts {
 
         temp = fr.getScreenshot(driver);
         logger.info("Navigate to the URL", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
-        Thread.sleep(4000);
         element = hp.getStartedValue();
         varWat.until(ExpectedConditions.elementToBeClickable(element));
 
