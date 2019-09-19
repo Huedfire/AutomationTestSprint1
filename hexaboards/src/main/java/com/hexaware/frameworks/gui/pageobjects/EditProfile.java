@@ -10,6 +10,24 @@ public class EditProfile {
     public EditProfile(WebDriver driver) {
         this.driver = driver;
     }
+
+    By profileButton = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]");
+    public WebElement getProfileButton() {
+        return driver.findElement(profileButton);
+    }
+
+    By menuButton = By.xpath("//button[@mattooltip=\"Open the menu.\"]");
+
+    public WebElement getMenuButton() {
+        return driver.findElement(menuButton);
+    }
+
+    By profilePicture = By.xpath("//h1[@mattooltip=\"That should be you. Right?\"]");
+
+    public WebElement getProfilePicture() {
+        return driver.findElement(profilePicture);
+    }
+
     //Unlock and lock name field into  my profile
     By unlockName = By.xpath("//span[contains(text(),\"Unlock/lock name\")]");
     public WebElement getUnlockName() {
@@ -67,9 +85,16 @@ public class EditProfile {
     }
 
     //Error
-    By blankError = By.xpath("//div[@class=\"ng-tns-c14-39 ng-trigger ng-trigger-transitionMessages ng-star-inserted\"]/mat-error");
-    public WebElement getBlankError()
+    By blankErrorName = By.xpath("//div[@fxlayout=\"column\"]/mat-form-field[1]/div/div[3]/div/mat-error");
+    public WebElement getBlankErrorName()
     {
-        return driver.findElement(blankError);
+        return driver.findElement(blankErrorName);
     }
+
+    By blankErrorEmail = By.xpath("//div[@fxlayout=\"column\"]/mat-form-field[2]/div/div[3]/div/mat-error");
+    public WebElement getBlankErrorEmail()
+    {
+        return driver.findElement(blankErrorEmail);
+    }
+
 }
