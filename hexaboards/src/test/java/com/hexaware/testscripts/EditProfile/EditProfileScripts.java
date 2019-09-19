@@ -25,28 +25,21 @@ import java.util.concurrent.TimeUnit;
 
 public class EditProfileScripts {
     ExtentReports extent = new ExtentReports();
-    ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/EditProfileReportAUTC1.html");
+    ExtentHtmlReporter reporter;
     ExtentTest logger;
     WebDriver driver;
     InputStream input;
     Properties prop = new Properties();
     WebElement element;
-    String filepath;
-    String URI;
     //login
-    String[] dataArrayL;
     ArrayList<String> usernameL;
-    String usernameLo;
-    String passwordLo;
+    String usernameLo,passwordLo,filepath,URI,name,email,temp;
     //Edit profile
     ArrayList<String> nameEP;
     ArrayList<String> emailEP;
     ArrayList<String> passwordEP;
     String[] dataArray;
-    String name;
-    String email;
-    String password;
-    String temp;
+
     GuiFramework fr = new GuiFramework();
     JavascriptExecutor je = null;
 
@@ -56,6 +49,7 @@ public class EditProfileScripts {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
+        reporter = new ExtentHtmlReporter(prop.getProperty("EPreport"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         //Login
