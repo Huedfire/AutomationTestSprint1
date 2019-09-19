@@ -28,9 +28,9 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 
-public class ProfileInformationScript {
+public class ProfileInformationScripts {
     ExtentReports extent = new ExtentReports();
-    ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/PIReporterAUT.html");
+    ExtentHtmlReporter reporter;
     ExtentTest logger;
     WebDriver driver;
     WebElement element;
@@ -46,6 +46,7 @@ public class ProfileInformationScript {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
+        reporter = new ExtentHtmlReporter(prop.getProperty("PIreport"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 7);

@@ -82,7 +82,7 @@ public class GuiFramework {
     public WebDriver initDriver(Properties props) throws IOException {
         WebDriver drivers = null;
         props = new Properties();
-        InputStream inputs = new FileInputStream("C:\\Users\\Training\\Desktop\\confs.txt");
+        InputStream inputs = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\confs.txt");
         props.load(inputs);
         String browser = props.getProperty("browser");
         String driver = props.getProperty("driver");

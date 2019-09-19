@@ -92,10 +92,19 @@ public class UserRegistration {
         return driver.findElement(termsLocator);
     }
     //Create an account
-    By createButton = By.xpath("//span[contains(text(),\"Create an account\")]");
+    By createButton = By.xpath("//*[@class=\"mat-raised-button\"]");
     public WebElement getButtonCreate() {
         return driver.findElement(createButton);
     }
+    By createButtonCSS = By.cssSelector("#inner-div > button");
+    public WebElement getButtonCreateCSS() {
+        return driver.findElement(createButtonCSS);
+    }
+    By loginText = By.xpath("//*[@id=\"outer-div\"]/div[1]/h1");
+    public WebElement getLoginText() {
+        return driver.findElement(loginText);
+    }
+
     ////////////////////////////////////Error Messages/////////////////////////////////////////////
     By nameError = By.xpath("//*[contains(text(),\"You need to enter a name\")]");
     public WebElement getNameError() {
@@ -110,11 +119,12 @@ public class UserRegistration {
         return driver.findElement(usernameError);
     }
     By passwordError = By.xpath("//*[contains(text(),\"You need to enter a valid password. Lenght: 4-20 characters.\")]");
-    public String getPasswordError() {
-        return driver.findElement(passwordError).getText();
+    public WebElement getPasswordError() {
+        return driver.findElement(passwordError);
     }
     By confPassError = By.xpath("//*[contains(text(),\"Invalid password.\")]");
     public WebElement getConfPassError() {
         return driver.findElement(confPassError);
     }
+
 }

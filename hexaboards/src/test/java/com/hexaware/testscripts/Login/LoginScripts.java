@@ -26,9 +26,9 @@ import java.util.ArrayList;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
-public class LoginTestNG {
+public class LoginScripts {
     ExtentReports extent = new ExtentReports();
-    ExtentHtmlReporter reporter = new ExtentHtmlReporter("./Reports/LoginReportAUTC1 .html");
+    ExtentHtmlReporter reporter;
     ExtentTest logger;
     WebDriver driver;
     WebElement element;
@@ -51,6 +51,7 @@ public class LoginTestNG {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
+        reporter = new ExtentHtmlReporter(prop.getProperty("Logreport"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 0);
