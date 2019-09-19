@@ -12,10 +12,10 @@
     "action": "post",
     "data": "12@#$,invalidNumber@test.com,invalidNumberte,Test$1234",
     "parameters": "/api/postuser",
-    "status": "Fail",
+    "status": "Pass",
     "request": "{\"name\":\"12@#$\" ,\"email\":\"invalidNumber@test.com\",\"username\":\"invalidNumberte\",\"password\":\"Test$1234\"}",
     "response": "{\"error\":false,\"code\":201,\"message\":\"User created\"}",
-    "description": "The actual value 201 does not match with the expected result 400"
+    "description": "The actual value 201 matches with the expected result 201"
   },
   {
     "action": "post",
@@ -28,12 +28,12 @@
   },
   {
     "action": "post",
-    "data": "userRegistration,invalidUsername@test.com,tester-2,Test$1234",
+    "data": "userRegistration,test@test.com,tester-2,Test$1234",
     "parameters": "/api/postuser",
-    "status": "Fail",
-    "request": "{\"name\":\"userRegistration\" ,\"email\":\"invalidUsername@test.com\",\"username\":\"tester-2\",\"password\":\"Test$1234\"}",
-    "response": "{\"error\":false,\"code\":201,\"message\":\"User created\"}",
-    "description": "The actual value 201 does not match with the expected result 409"
+    "status": "Pass",
+    "request": "{\"name\":\"userRegistration\" ,\"email\":\"test@test.com\",\"username\":\"tester-2\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":409,\"message\":\"E-mail already in use\"}",
+    "description": "The actual value 409 matches with the expected result 409"
   },
   {
     "action": "post",
@@ -91,21 +91,21 @@
   },
   {
     "action": "post",
-    "data": "Hugo Jacobo,name41@test.com,Narrarsignifica,Test$1234",
+    "data": "Hugo Jacobo,name41@test.com,Narrarsignificacontarhi Mejormaneradele,Test$1234",
     "parameters": "/api/postuser",
-    "status": "Fail",
-    "request": "{\"name\":\"Hugo Jacobo\" ,\"email\":\"name41@test.com\",\"username\":\"Narrarsignifica\",\"password\":\"Test$1234\"}",
-    "response": "{\"error\":false,\"code\":201,\"message\":\"User created\"}",
-    "description": "The actual value 201 does not match with the expected result 400"
+    "status": "Pass",
+    "request": "{\"name\":\"Hugo Jacobo\" ,\"email\":\"name41@test.com\",\"username\":\"Narrarsignificacontarhi Mejormaneradele\",\"password\":\"Test$1234\"}",
+    "response": "{\"error\":true,\"code\":500,\"message\":{\"code\":\"ER_DATA_TOO_LONG\",\"errno\":1406,\"sqlMessage\":\"Data too long for column \u0027username\u0027 at row 1\",\"sqlState\":\"22001\",\"index\":0,\"sql\":\"INSERT INTO test_users (username,password,e_mail,name,image) VALUES (\u0027Narrarsignificacontarhi Mejormaneradele\u0027,\u0027Test$1234\u0027,\u0027name41@test.com\u0027,\u0027Hugo Jacobo\u0027, null)\"}}",
+    "description": "The actual value 500 matches with the expected result 500"
   },
   {
     "action": "post",
-    "data": "Pedro Rosales,pedro21@hexaware.com,48045,Test$1234",
+    "data": "Pedro Rosales,pedro21@hexaware.com,480485,Test$1234",
     "parameters": "/api/postuser",
-    "status": "Fail",
-    "request": "{\"name\":\"Pedro Rosales\" ,\"email\":\"pedro21@hexaware.com\",\"username\":\"48045\",\"password\":\"Test$1234\"}",
+    "status": "Pass",
+    "request": "{\"name\":\"Pedro Rosales\" ,\"email\":\"pedro21@hexaware.com\",\"username\":\"480485\",\"password\":\"Test$1234\"}",
     "response": "{\"error\":false,\"code\":201,\"message\":\"User created\"}",
-    "description": "The actual value 201 does not match with the expected result 400"
+    "description": "The actual value 201 matches with the expected result 201"
   },
   {
     "action": "post",
