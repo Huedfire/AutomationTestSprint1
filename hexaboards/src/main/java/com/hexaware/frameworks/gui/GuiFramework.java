@@ -105,7 +105,7 @@ public class GuiFramework {
 
 
     //method to make and get screenshots
-    public static String getScreenshot(WebDriver driver) {
+    public  String getScreenshot(WebDriver driver) {
         TakesScreenshot ts = (TakesScreenshot) driver;
 
         File src = ts.getScreenshotAs(OutputType.FILE);

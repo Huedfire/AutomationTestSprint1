@@ -37,13 +37,10 @@ public class UserRegistratio {
     InputStream input;
     Properties prop = new Properties();
     WebElement element;
-    String filepath;
-    String URI;
+    String filepath,URI,name,email,username,password,confpass,temp;
     ArrayList<String> user;
     String[] dataArray;
-    String name,email,username,password,confpass,temp;
     GuiFramework fr = new GuiFramework();
-    JavascriptExecutor je = null;
 
     // This code will run before executing any testcase
     @BeforeMethod(groups = {"functest"})

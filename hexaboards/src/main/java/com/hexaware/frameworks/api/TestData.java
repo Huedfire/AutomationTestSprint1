@@ -1,13 +1,7 @@
 package com.hexaware.frameworks.api;
 
 public class TestData {
-    String action;
-    String data;
-    String parameters;
-    String status;
-    String request;
-    String response;
-    String description;
+    String action,data,parameters,status,request,response,description;
 
     public TestData() {
     }

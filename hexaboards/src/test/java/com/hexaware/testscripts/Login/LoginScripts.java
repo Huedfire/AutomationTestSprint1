@@ -35,15 +35,9 @@ public class LoginScripts {
     InputStream input;
     Properties prop = new Properties();
 
-    String filepath;
-    String URI;
-    String browser;
-
+    String filepath,URI,browser,username,password,temp;
     ArrayList<String> user;
     String[] dataArray;
-    String username;
-    String password;
-    String temp;
     GuiFramework fr = new GuiFramework();
 
     // This code will run before executing any testcase

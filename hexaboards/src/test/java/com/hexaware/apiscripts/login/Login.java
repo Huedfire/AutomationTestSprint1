@@ -4,9 +4,7 @@ import com.hexaware.frameworks.api.ApiFramework;
 import io.restassured.RestAssured;
 import io.restassured.http.ContentType;
 import io.restassured.response.Response;
-import org.testng.annotations.AfterMethod;
-import org.testng.annotations.BeforeMethod;
-import org.testng.annotations.Test;
+import org.testng.annotations.*;
 
 import java.io.FileInputStream;
 import java.io.IOException;
@@ -16,24 +14,16 @@ import java.util.Properties;
 
 
 public class Login {
-    String filepath ;
-    String jsonpath ;
+    String filepath,jsonpath,uri,Username,Password,Action,ExpectedCode,request,parameter ;
     Properties prop=new Properties();
     InputStream input ;
-    String uri;
     ApiFramework r = new ApiFramework();
-    String Username;
-    String Password;
-    String Action;
-    String ExpectedCode;
-    String request;
-    String parameter;
     Response response = null;
     ArrayList<String> dataList;
     ArrayList<Object> list = new ArrayList<Object>();
     String[] parts;
 
-    @BeforeMethod(groups = {"logintest"})
+    @BeforeTest(groups = {"functest","positive","negative"})
     public void getDataListName() throws IOException {
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
@@ -45,7 +35,7 @@ public class Login {
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","positive"},priority = 1)
     public void scenario1(){
         parts = r.turnArray(dataList,1);
         Username = parts[0];
@@ -66,7 +56,7 @@ public class Login {
     }
 
     //scenario2 description: The request is sent with a correct username and wrong password
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 2)
     public void scenario2(){
         parts = r.turnArray(dataList,2);
         Username = parts[0];
@@ -86,7 +76,7 @@ public class Login {
     }
 
     //scenario3 description: The request is sent with a wrong username and correct password
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 3)
     public void scenario3(){
         parts = r.turnArray(dataList,3);
         Username = parts[0];
@@ -106,7 +96,7 @@ public class Login {
     }
 
     //scenario4 description: The request is sent with a wrong username and wrong password
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 4)
     public void scenario4(){
         parts = r.turnArray(dataList,4);
         Username = parts[0];
@@ -126,7 +116,7 @@ public class Login {
     }
 
     //scenario5 description: The request is sent with a empty username and empty password
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 5)
     public void scenario5(){
         parts = r.turnArray(dataList,5);
         Username = parts[0];
@@ -146,7 +136,7 @@ public class Login {
     }
 
     //scenario6 description: The request is sent only with a username
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 6)
     public void scenario6(){
         parts = r.turnArray(dataList,6);
         Username = parts[0];
@@ -166,7 +156,7 @@ public class Login {
     }
 
     //scenario7 description: The request is sent with only with a password
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 7)
     public void scenario7(){
         parts = r.turnArray(dataList,7);
         Username = parts[0];
@@ -186,7 +176,7 @@ public class Login {
     }
 
     //scenario8 description: The request is sent with a wrong username and correct password
-    @Test(groups = {"logintest"})
+    @Test(groups = {"functest","negative"},priority = 8)
     public void scenario8(){
         parts = r.turnArray(dataList,8);
         Username = parts[0];
@@ -205,7 +195,7 @@ public class Login {
         }
     }
 
-    @AfterMethod(groups = {"logintest"})
+    @AfterTest(groups = {"functest","positive","negative"})
     public void finish(){
         r.convertToJSON(list,jsonpath);
     }

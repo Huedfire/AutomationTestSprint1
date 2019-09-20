@@ -15,24 +15,17 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 public class ProfileInformation {
-
-    String filepath ;
-    String jsonpath ;
     Properties prop=new Properties();
     InputStream input ;
-    String uri;
     ApiFramework r = new ApiFramework();
-    String Username;
-    String Action;
-    String ExpectedCode;
-    String request;
+    String Username,Action,ExpectedCode,request,uri,filepath,jsonpath;
     String  parameter = "/api/user";
     Response response = null;
     ArrayList<String> dataList;
     ArrayList<Object> list = new ArrayList<Object>();
     String[] parts;
 
-    @BeforeTest(groups = {"functest"})
+    @BeforeTest(groups = {"functest","positive","negative"})
     public void getDataListName() throws IOException {
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
@@ -44,7 +37,7 @@ public class ProfileInformation {
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","positive"},priority = 1)
     public void scenario1(){
         parts = r.turnArray(dataList,1);
         Username = parts[0];
@@ -64,7 +57,7 @@ public class ProfileInformation {
     }
 
     //scenario2 description: The request is sent without information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 2)
     public void scenario2(){
         parts = r.turnArray(dataList,2);
         Username = parts[0];
@@ -84,7 +77,7 @@ public class ProfileInformation {
     }
 
     //scenario3 description: The request is sent with an incorrect user name
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 3)
     public void scenario3(){
         parts = r.turnArray(dataList,3);
         Username = parts[0];
@@ -104,7 +97,7 @@ public class ProfileInformation {
     }
 
     //scenario4 description: The request is sent request with valid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","positive"},priority = 4)
     public void scenario4(){
         parts = r.turnArray(dataList,4);
         Username = parts[0];
@@ -124,7 +117,7 @@ public class ProfileInformation {
     }
 
     //scenario5 description: The request is sent with valid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","positive"},priority = 5)
     public void scenario5(){
         parts = r.turnArray(dataList,5);
         Username = parts[0];
@@ -144,7 +137,7 @@ public class ProfileInformation {
     }
 
     //scenario6 description: The request is sent with invalid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 6)
     public void scenario6(){
         parts = r.turnArray(dataList,6);
         Username = parts[0];
@@ -164,7 +157,7 @@ public class ProfileInformation {
     }
 
     //scenario7 description: The request is sent with invalid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 7)
     public void scenario7(){
         parts = r.turnArray(dataList,7);
         Username = parts[0];
@@ -183,7 +176,7 @@ public class ProfileInformation {
         }
     }
     //scenario8 description: The request is sent with invalid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 8)
     public void scenario8(){
         parts = r.turnArray(dataList,8);
         Username = parts[0];
@@ -202,7 +195,7 @@ public class ProfileInformation {
         }
     }
     //scenario9 description: The request is sent with invalid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 9)
     public void scenario9(){
         parts = r.turnArray(dataList,9);
         Username = parts[0];
@@ -221,9 +214,10 @@ public class ProfileInformation {
         }
     }
     //scenario10 description: The request is sent with invalid character to view user information
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest","negative"},priority = 10)
     public void scenario10(){
-        parts = r.turnArray(dataList,10);
+        parts = r.turnArray
+                (dataList,10);
         Username = parts[0];
         Action = parts[1];
 
@@ -240,7 +234,7 @@ public class ProfileInformation {
         }
     }
 
-    @AfterTest(groups = {"functest"})
+    @AfterTest(groups = {"functest","positive","negative"})
     public void finish(){
         r.convertToJSON(list,jsonpath);
     }

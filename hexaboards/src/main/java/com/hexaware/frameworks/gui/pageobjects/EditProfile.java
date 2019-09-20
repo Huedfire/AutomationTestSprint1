@@ -64,6 +64,16 @@ public class EditProfile {
         return driver.findElement(buttonSave);
     }
 
+    public String getNameVerified2() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inName\"]")).getAttribute("placeholder");
+        return str;
+    }
+
+    public String getEmailVerified2() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inMail\"]")).getAttribute("placeholder");
+        return str;
+    }
+
     //Button change photo into my profile
     By photo = By.id("changephoto");
     public WebElement getChangePhoto() {

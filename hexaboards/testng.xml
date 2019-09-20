@@ -4,11 +4,11 @@
     <test name="Test">
         <groups>
             <run>
-                <include name="editall" />
+                <include name="functest"/>
             </run>
         </groups>
         <classes>
-            <class name="com.hexaware.apiscripts.editProfile.EditAll"></class>
+            <class name="com.hexaware.apiscripts.login.Login"></class>
         </classes>
     </test>
 </suite>

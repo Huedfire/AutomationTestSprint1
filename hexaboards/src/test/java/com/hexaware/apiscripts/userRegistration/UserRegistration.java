@@ -13,7 +13,7 @@ import java.util.ArrayList;
 import java.util.Properties;
 
 public class UserRegistration {
-    String filepath,jsonpath,Name,Username,Email,Password,Action,ExpectedCode,request,parameter, uri ;
+    String filepath,jsonpath, name, username, email, password, action, expectedCode,request,parameter, uri ;
     Properties prop=new Properties();
     InputStream input ;
     ApiFramework r = new ApiFramework();
@@ -22,7 +22,7 @@ public class UserRegistration {
     ArrayList<Object> list = new ArrayList<Object>();
     String[] parts;
 
-    @BeforeMethod(groups = {"functest"})
+    @BeforeTest(groups = {"functest","positive","negative"})
     public void getDataListName() throws IOException {
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
@@ -34,18 +34,18 @@ public class UserRegistration {
     }
 
     //scenario1 description: The request is sent with the correct user data
-    @Test(groups = {"functest"},priority = 1)
+    @Test(groups = {"functest","positive"},priority = 1)
     public void scenario1(){
         parts = r.turnArray(dataList,1);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
         //Name E-mail Username   Password   Action Parameters Expected Code
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -56,18 +56,18 @@ public class UserRegistration {
     }
 
     //scenario2 description: The request is sent with the name wrong
-    @Test(groups = {"functest"},priority = 2)
+    @Test(groups = {"functest","negative"},priority = 2)
     public void scenario2(){
         parts = r.turnArray(dataList,2);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -79,18 +79,18 @@ public class UserRegistration {
 
     //scenario3 description: the request is sent with an existing username
 
-    @Test(groups = {"functest"},priority = 3)
+    @Test(groups = {"functest","negative"},priority = 3)
     public void scenario3(){
         parts = r.turnArray(dataList,3);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
 
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -102,18 +102,18 @@ public class UserRegistration {
 
     //scenario4 description: the request is sent with an existing e-mail
 
-    @Test(groups = {"functest"},priority = 4)
+    @Test(groups = {"functest","negative"},priority = 4)
     public void scenario4(){
         parts = r.turnArray(dataList,4);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -125,18 +125,18 @@ public class UserRegistration {
 
     //scenario5 description: the request was sent without a body
 
-    @Test(groups = {"functest"},priority = 5)
+    @Test(groups = {"functest","negative"},priority = 5)
     public void scenario5(){
         parts = r.turnArray(dataList,5);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -147,18 +147,18 @@ public class UserRegistration {
     }
 
     //scenario 6 description : the request is sent with a wrong format email
-    @Test(groups = {"functest"},priority = 6)
+    @Test(groups = {"functest","negative"},priority = 6)
     public void scenario6(){
         parts = r.turnArray(dataList,6);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
             list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),parts,parameter));
@@ -168,18 +168,18 @@ public class UserRegistration {
     }
 
     //scenario 7 description : the request is sent with a wrong password
-    @Test(groups = {"functest"},priority = 7)
+    @Test(groups = {"functest","negative"},priority = 7)
     public void scenario7(){
         parts = r.turnArray(dataList,7);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -190,18 +190,18 @@ public class UserRegistration {
     }
 
     //scenario 8 description: the request is sent with a name that has 256 characters
-    @Test(groups = {"functest"},priority = 8)
+    @Test(groups = {"functest","positive"},priority = 8)
     public void scenario8(){
         parts = r.turnArray(dataList,8);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
 
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -212,18 +212,18 @@ public class UserRegistration {
     }
 
     //scenario 9 description :
-    @Test(groups = {"functest"},priority = 9)
+    @Test(groups = {"functest","negative"},priority = 9)
     public void scenario9(){
         parts = r.turnArray(dataList,9);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
             list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),parts,parameter));
@@ -233,18 +233,18 @@ public class UserRegistration {
     }
 
     //scenario 10 description :
-    @Test(groups = {"functest"},priority = 10)
+    @Test(groups = {"functest","negative"},priority = 10)
     public void scenario10(){
         parts = r.turnArray(dataList,10);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
             list.add(r.getDataReport(request,response.getBody().asString(),response.getStatusCode(),parts,parameter));
@@ -254,18 +254,18 @@ public class UserRegistration {
     }
 
     //scenario 11 description :
-    @Test(groups = {"functest"},priority = 11)
+    @Test(groups = {"functest","negative"},priority = 11)
     public void scenario11(){
         parts = r.turnArray(dataList,11);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -276,18 +276,18 @@ public class UserRegistration {
     }
 
     //scenario 12 description :
-    @Test(groups = {"functest"},priority = 12)
+    @Test(groups = {"functest","positive"},priority = 12)
     public void scenario12(){
         parts = r.turnArray(dataList,12);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -298,18 +298,18 @@ public class UserRegistration {
     }
 
     //scenario 13 description :
-    @Test(groups = {"functest"},priority =13)
+    @Test(groups = {"functest","negative"},priority =13)
     public void scenario13(){
         parts = r.turnArray(dataList,13);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -320,18 +320,18 @@ public class UserRegistration {
     }
 
     //scenario 14 description :
-    @Test(groups = {"functest"},priority = 14)
+    @Test(groups = {"functest","negative"},priority = 14)
     public void scenario14(){
         parts = r.turnArray(dataList,14);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -342,18 +342,18 @@ public class UserRegistration {
     }
 
     //scenario 15 description :
-    @Test(groups = {"functest"},priority = 15)
+    @Test(groups = {"functest","negative"},priority = 15)
     public void scenario15(){
         parts = r.turnArray(dataList,15);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -364,18 +364,18 @@ public class UserRegistration {
     }
 
     //scenario 16 description :
-    @Test(groups = {"functest"},priority = 16)
+    @Test(groups = {"functest","negative"},priority = 16)
     public void scenario16(){
         parts = r.turnArray(dataList,16);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -386,18 +386,18 @@ public class UserRegistration {
     }
 
     //scenario 17 description :
-    @Test(groups = {"functest"},priority = 17)
+    @Test(groups = {"functest","negative"},priority = 17)
     public void scenario17(){
         parts = r.turnArray(dataList,17);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -408,18 +408,18 @@ public class UserRegistration {
     }
 
     //scenario 18 description :
-    @Test(groups = {"functest"},priority = 18)
+    @Test(groups = {"functest","negative"},priority = 18)
     public void scenario18(){
         parts = r.turnArray(dataList,18);
-        Name = parts[0];
-        Email = parts[1];
-        Username = parts[2];
-        Password = parts[3];
-        Action = parts[4];
+        name = parts[0];
+        email = parts[1];
+        username = parts[2];
+        password = parts[3];
+        action = parts[4];
         parameter = parts[parts.length-2];
-        ExpectedCode = parts[parts.length - 1];
+        expectedCode = parts[parts.length - 1];
 
-        request = "{\"name\":\""+Name+"\" ,\"email\":\""+Email+"\",\"username\":\"" + Username + "\",\"password\":\""+Password+"\"}";
+        request = "{\"name\":\""+ name +"\" ,\"email\":\""+ email +"\",\"username\":\"" + username + "\",\"password\":\""+ password +"\"}";
         //Name E-mail Username   Password   Action Parameters Expected Code
         try {
             response = RestAssured.given().contentType(ContentType.JSON).body(request).post(parameter);
@@ -429,7 +429,7 @@ public class UserRegistration {
         }
     }
 
-    @AfterMethod(groups = {"functest"})
+    @AfterTest(groups = {"functest","negative","positive"})
     public void finish(){
         r.convertToJSON(list,jsonpath);
     }

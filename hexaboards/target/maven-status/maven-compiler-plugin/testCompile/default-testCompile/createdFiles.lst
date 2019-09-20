@@ -1,9 +1,10 @@
 com\hexaware\testscripts\UserRegistration\UserRegistratio.class
-com\hexaware\testscripts\ProfileInformation\ProfileInformationScript.class
+com\hexaware\testscripts\ProfileInformation\ProfileInformationScripts.class
 com\hexaware\apiscripts\editProfile\EditAll.class
 com\hexaware\apiscripts\editProfile\EditName.class
 com\hexaware\apiscripts\profileInformation\ProfileInformation.class
-com\hexaware\testscripts\EditProfile\TC_EP_011.class
+com\hexaware\testscripts\Login\LoginScripts.class
 com\hexaware\apiscripts\editProfile\EditEmail.class
 com\hexaware\apiscripts\userRegistration\UserRegistration.class
-com\hexaware\testscripts\Login\LoginTestNG.class
+com\hexaware\testscripts\EditProfile\EditProfileScript.class
+com\hexaware\apiscripts\login\Login.class

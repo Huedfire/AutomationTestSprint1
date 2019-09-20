@@ -36,8 +36,9 @@ public class EditAll {
         dataList = r.readExcel(filepath, 7);
     }
 
+
     @Test(groups = {"editall"}, priority = 1)
-    public void scenario17() {
+    public void scenario10() {
         profile = r.turnArray(dataList, 1);
         name = profile[0];
         email = profile[1];
@@ -57,7 +58,7 @@ public class EditAll {
     }
 
     @Test(groups = {"editall"}, priority = 2)
-    public void scenario18() {
+    public void scenario11() {
         profile = r.turnArray(dataList, 2);
         name = profile[0];
         email = profile[1];
@@ -77,7 +78,7 @@ public class EditAll {
     }
 
     @Test(groups = {"editall"}, priority = 3)
-    public void scenario19() {
+    public void scenario12() {
         profile = r.turnArray(dataList, 3);
         name = profile[0];
         email = profile[1];
@@ -98,7 +99,7 @@ public class EditAll {
 
 
     @Test(groups = {"editall"}, priority = 4)
-    public void scenario20() {
+    public void scenario13() {
         profile = r.turnArray(dataList, 4);
         name = profile[0];
         email = profile[1];
@@ -119,7 +120,7 @@ public class EditAll {
 
 
     @Test(groups = {"editall"}, priority = 5)
-    public void scenario21() {
+    public void scenario14() {
         profile = r.turnArray(dataList, 5);
         name = profile[0];
         email = profile[1];
@@ -140,7 +141,7 @@ public class EditAll {
 
 
     @Test(groups = {"editall"}, priority = 6)
-    public void scenario22() {
+    public void scenario15() {
         profile = r.turnArray(dataList, 6);
         name = profile[0];
         email = profile[1];
@@ -162,7 +163,7 @@ public class EditAll {
 
 
     @Test(groups = {"editall"}, priority = 7)
-    public void scenario23() {
+    public void scenario16() {
         profile = r.turnArray(dataList, 7 );
         name = profile[0];
         email = profile[1];
