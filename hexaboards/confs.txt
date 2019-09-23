@@ -6,5 +6,5 @@ path = c://selenium//geckodriver.exe
 implicitWaitTime = 10
 URreport = ./Reports/UserRegistrationAUT.html
 PIreport = ./Reports/PIReporterAUT.html
-Logreport = ./Reports/LoginReportAUTC1.html
-EPreport = ./Reports/EditProfileReportAUTC1.html
+Logreport = ./Reports/LoginReportAUT.html
+EPreport = ./Reports/EditProfileReportAUT.html

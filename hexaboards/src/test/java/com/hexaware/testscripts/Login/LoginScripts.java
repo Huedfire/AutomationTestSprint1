@@ -41,7 +41,7 @@ public class LoginScripts {
     GuiFramework fr = new GuiFramework();
 
     // This code will run before executing any testcase
-    @BeforeMethod(groups = {"functest"})
+    @BeforeMethod(groups = {"functest", "positive", "negative"})
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
@@ -55,7 +55,7 @@ public class LoginScripts {
         driver.navigate().to(URI);
     }
 
-    @Test(groups = {"functest"}, priority = 1)
+    @Test(groups ={"functest", "positive"}, priority = 1)
     public void login1() throws IOException {
         logger = extent.createTest("Scenario 1", "Login happy path");
 
@@ -103,7 +103,7 @@ public class LoginScripts {
     }
 
 
-    @Test(groups = {"functest"}, priority = 2)
+    @Test(groups = {"functest", "negative"}, priority = 2)
     public void login2() throws IOException {
         logger = extent.createTest("Scenario 2", "Login Fails");
         dataArray = fr.turnArray(user, 2);
@@ -150,7 +150,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"}, priority = 3)
+    @Test(groups =  {"functest", "negative"}, priority = 3)
     public void login3() throws IOException {
         logger = extent.createTest("Scenario 3", "Login Fails");
         dataArray = fr.turnArray(user, 3);
@@ -197,7 +197,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"}, priority = 4)
+    @Test(groups = {"functest" , "negative"}, priority = 4)
     public void login4() throws IOException {
         logger = extent.createTest("Scenario 4", "Login Fails");
         dataArray = fr.turnArray(user, 4);
@@ -244,7 +244,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"}, priority = 5)
+    @Test(groups =  {"functest", "negative"}, priority = 5)
     public void login5() throws IOException {
         logger = extent.createTest("Scenario 5", "Login Fails");
         dataArray = fr.turnArray(user, 5);
@@ -291,7 +291,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"}, priority = 6)
+    @Test(groups =  {"functest", "negative"}, priority = 6)
     public void login6() throws IOException {
         logger = extent.createTest("Scenario 6", "Login Fails");
         dataArray = fr.turnArray(user, 6);
@@ -339,7 +339,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"}, priority = 7)
+    @Test(groups = {"functest", "negative"}, priority = 7)
     public void login7() throws IOException {
         logger = extent.createTest("Scenario 7", "Login Fails");
         dataArray = fr.turnArray(user, 7);
@@ -386,7 +386,7 @@ public class LoginScripts {
         Assert.assertTrue(driver.getPageSource().contains("Wrong username / invalid username"),"Does not display a mesaage//");
     }
 
-    @Test(groups = {"functest"}, priority = 8)
+    @Test(groups = {"functest", "positive"}, priority = 8)
     public void login8() throws IOException {
         logger = extent.createTest("Scenario 8", "Login Happy Path 2");
         dataArray = fr.turnArray(user, 1);
@@ -435,7 +435,7 @@ public class LoginScripts {
         Assert.assertTrue(driver.getCurrentUrl().contains("/app/project"),"Does not log in the application //");
     }
 
-    @Test(groups = {"functest"}, priority = 9)
+    @Test(groups = {"functest", "positive"}, priority = 9)
     public void login9() throws IOException {
         logger = extent.createTest("Scenario 9", "Login Happy Path 3");
         dataArray = fr.turnArray(user, 1);
@@ -503,7 +503,7 @@ public class LoginScripts {
         Assert.assertTrue(driver.getCurrentUrl().contains("/app/project"),"Does not log in the application //");
     }
 
-    @Test(groups = {"functest"}, priority = 10)
+    @Test(groups = {"functest", "positive"}, priority = 10)
     public void login10() throws IOException {
         logger = extent.createTest("Scenario 10", "Forgot Your Username Link");
         HomePage hp = new HomePage(driver);
@@ -536,7 +536,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"}, priority = 11)
+    @Test(groups = {"functest", "positive"}, priority = 11)
     public void login11() throws IOException {
         logger = extent.createTest("Scenario 11", "Forgot Your Password Link");
         HomePage hp = new HomePage(driver);
@@ -569,7 +569,7 @@ public class LoginScripts {
 
     }
 
-    @Test(groups = {"functest"},priority = 12)
+    @Test(groups = {"functest", "positive"},priority = 12)
     public void login12() throws IOException {
         logger = extent.createTest("Scenario 12", "Login With A Google Account");
         dataArray = fr.turnArray(user, 1);
@@ -604,7 +604,7 @@ public class LoginScripts {
         Assert.assertTrue(!driver.getCurrentUrl().contains("/start/404")&&!driver.getCurrentUrl().contains("/start/login"),"Does not redirect to another page to log in with google //");
     }
 
-    @Test(groups = {"functest"},priority = 13)
+    @Test(groups = {"functest", "negative"},priority = 13)
     public void login13() throws IOException {
         logger = extent.createTest("Scenario 13", "Login Fails");
         dataArray = fr.turnArray(user, 8);
@@ -654,7 +654,7 @@ public class LoginScripts {
     }
 
 
-    @AfterMethod(groups = {"functest"})
+    @AfterMethod(groups = {"functest","positive", "negative"})
     public void tearDown(ITestResult result) throws IOException {
         temp = fr.getScreenshot(driver);
         if (result.getStatus() == 1) {

@@ -43,7 +43,7 @@ public class UserRegistratio {
     GuiFramework fr = new GuiFramework();
 
     // This code will run before executing any testcase
-    @BeforeMethod(groups = {"functest"})
+    @BeforeMethod(groups = {"functest","positive","negative"})
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
@@ -63,7 +63,7 @@ public class UserRegistratio {
 
     //////////////////////////////////////////FIRST WAY//////////////////////////////////////////////////////////////////////////
     ///////////////////////////////Scenario 1////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 1)
+    @Test(groups = {"functest", "positive"}, priority = 1)
     public void scenario1() throws IOException, InterruptedException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         logger = extent.createTest("User registration scenario 1", "User Registration happy path 1");
@@ -149,7 +149,7 @@ public class UserRegistratio {
     }
 
     ///////////////////////////////Scenario 2////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 2)
+    @Test(groups = {"functest", "positive"}, priority = 2)
     public void scenario2() throws IOException {
         logger = extent.createTest("User registration scenario 2", "User Registration happy path 2");
 
@@ -239,7 +239,7 @@ public class UserRegistratio {
     }
 
     ///////////////////////////////Scenario 3////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 3)
+    @Test(groups = {"functest", "positive"}, priority = 3)
     public void scenario3() throws IOException {
         logger = extent.createTest("User registration scenario 3", "User Registration happy path 3");
 
@@ -411,7 +411,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 5////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 5)
+    @Test(groups = {"functest", "negative"}, priority = 5)
     public void scenario5() throws IOException {
         logger = extent.createTest("User registration scenario 5", "The user doesn't fill the name");
 
@@ -488,7 +488,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 6////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 6)
+    @Test(groups = {"functest", "negative"}, priority = 6)
     public void scenario6() throws IOException {
         logger = extent.createTest("User registration scenario 6", "The user types a wrong format email");
 
@@ -563,7 +563,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getemailError().isDisplayed(),"Does not display an error message.  //");
     }
     ///////////////////////////////Scenario 7////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 7)
+    @Test(groups = {"functest", "negative"}, priority = 7)
     public void scenario7() throws IOException {
         logger = extent.createTest("User registration scenario 7", "The user types a wrong format email");
 
@@ -638,7 +638,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getemailError().isDisplayed(),"Does not display an error message.  //");
     }
     ///////////////////////////////Scenario 8/////////////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 8)
+    @Test(groups = {"functest", "negative"}, priority = 8)
     public void scenario8() throws IOException {
         logger = extent.createTest("User registration scenario 8", "The user types a wrong format email");
 
@@ -714,7 +714,7 @@ public class UserRegistratio {
     }
 
     ///////////////////////////////Scenario 9////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 9)
+    @Test(groups = {"functest", "negative"}, priority = 9)
     public void scenario9() throws IOException {
         logger = extent.createTest("User registration scenario 9", "The user types a wrong format email");
 
@@ -791,7 +791,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 10////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 10)
+    @Test(groups = {"functest", "negative"}, priority = 10)
     public void scenario10() throws IOException {
         logger = extent.createTest("User registration scenario 10", "The user doesn't type the email");
 
@@ -866,7 +866,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getemailError().isDisplayed(),"Does not display an error message.  //");
     }
     ///////////////////////////////Scenario 11////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 11)
+    @Test(groups = {"functest", "negative"}, priority = 11)
     public void scenario11() throws IOException {
         logger = extent.createTest("User registration scenario 11", "The user types its username with blank space");
 
@@ -945,7 +945,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 12////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 12)
+    @Test(groups = {"functest", "negative"}, priority = 12)
     public void scenario12() throws IOException {
         logger = extent.createTest("User registration scenario 12", "The username doesn't have the minimum of characters");
 
@@ -1024,7 +1024,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 13////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 13)
+    @Test(groups = {"functest", "negative"}, priority = 13)
     public void scenario13() throws IOException {
         logger = extent.createTest("User registration scenario 13", "Username contains more than 40 characters.");
 
@@ -1099,7 +1099,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getusernameError().isDisplayed(),"Does not display an error message.  //");
     }
     ///////////////////////////////Scenario 14////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 14)
+    @Test(groups = {"functest", "negative"}, priority = 14)
     public void scenario14() throws IOException {
         logger = extent.createTest("User registration scenario 14", "The field username is in blank");
 
@@ -1174,7 +1174,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getusernameError().isDisplayed(), "Does not display an error message.  //");
     }
     ///////////////////////////////Scenario 15////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 15)
+    @Test(groups = {"functest", "negative"}, priority = 15)
     public void scenario15() throws IOException {
         logger = extent.createTest("User registration scenario 15", "Username contains special characters not allowed");
 
@@ -1253,7 +1253,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 16////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 16)
+    @Test(groups = {"functest", "negative"}, priority = 16)
     public void scenario16() throws IOException {
         logger = extent.createTest("User registration scenario 16", "Username contains special characters not allowed");
 
@@ -1333,7 +1333,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 17////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 17)
+    @Test(groups = {"functest", "negative"}, priority = 17)
     public void scenario17() throws IOException {
         logger = extent.createTest("User registration scenario 17", "Username contains special characters not allowed");
 
@@ -1413,7 +1413,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 18////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 18)
+    @Test(groups = {"functest", "negative"}, priority = 18)
     public void scenario18() throws IOException {
         logger = extent.createTest("User registration scenario 18", "Username contains special characters not allowed");
 
@@ -1493,7 +1493,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 19////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 19)
+    @Test(groups = {"functest", "negative"}, priority = 19)
     public void scenario19() throws IOException {
         logger = extent.createTest("User registration scenario 19", "The password does not comply with the specified characteristics");
 
@@ -1573,7 +1573,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 20////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 20)
+    @Test(groups = {"functest", "negative"}, priority = 20)
     public void scenario20() throws IOException {
         logger = extent.createTest("User registration scenario 20", "The password contains more characters than allowed");
 
@@ -1653,7 +1653,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 21////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 21)
+    @Test(groups = {"functest", "negative"}, priority = 21)
     public void scenario21() throws IOException {
         logger = extent.createTest("User registration scenario 21", "The password does not comply with the specified characteristics");
 
@@ -1733,7 +1733,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 22////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 22)
+    @Test(groups = {"functest", "negative"}, priority = 22)
     public void scenario22() throws IOException {
         logger = extent.createTest("User registration scenario 22", "The field password is in blank");
 
@@ -1809,7 +1809,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getPasswordError().isDisplayed(), "Does not display an error message.  //");
     }
     ///////////////////////////////Scenario 23////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 23)
+    @Test(groups = {"functest", "negative"}, priority = 23)
     public void scenario23() throws IOException {
         logger = extent.createTest("User registration scenario 23", "The passwords do not match");
 
@@ -1885,7 +1885,7 @@ public class UserRegistratio {
         Assert.assertTrue(driver.switchTo().alert().getText().contains("Passwords don't match"),"Does not display a message.  // ");
     }
     ///////////////////////////////Scenario 24////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 24)
+    @Test(groups = {"functest", "negative"}, priority = 24)
     public void scenario24() throws IOException {
         logger = extent.createTest("User registration scenario 24", "The confirm password field is in blank");
 
@@ -1961,7 +1961,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getConfPassError().isDisplayed(), "Does not display a message. // ");
     }
     ///////////////////////////////Scenario 25////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 25)
+    @Test(groups = {"functest", "negative"}, priority = 25)
     public void scenario25() throws IOException {
         logger = extent.createTest("User registration scenario 25", "Checkbox terms and conditions were not accepted");
 
@@ -2032,7 +2032,7 @@ public class UserRegistratio {
         Assert.assertTrue(!ur.getButtonCreate().isEnabled(),"The  button 'Create user' is enabled. // ");
     }
     ///////////////////////////////Scenario 26////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 26)
+    @Test(groups = {"functest", "negative"}, priority = 26)
     public void scenario26() throws IOException {
         logger = extent.createTest("User registration scenario 26", "The username already in use");
 
@@ -2113,7 +2113,7 @@ public class UserRegistratio {
 
     }
     ///////////////////////////////Scenario 27////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 27)
+    @Test(groups = {"functest", "positive"}, priority = 27)
     public void scenario27() throws IOException {
         logger = extent.createTest("User registration scenario 27", "The user name contains only numbers");
 
@@ -2195,7 +2195,7 @@ public class UserRegistratio {
         Assert.assertTrue(driver.getCurrentUrl().contains("start/login"),"Does not redirect to login page. //");
     }
     ///////////////////////////////Scenario 28////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 28)
+    @Test(groups = {"functest", "negative"}, priority = 28)
     public void scenario28() throws IOException {
         logger = extent.createTest("User registration scenario 28", "The  user is registered with Google account");
 
@@ -2227,7 +2227,7 @@ public class UserRegistratio {
         Assert.assertTrue(driver.getCurrentUrl().contains("google.com"),"Does not redirect to google page. // ");
     }
     ///////////////////////////////Scenario 29////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 29)
+    @Test(groups = {"functest", "positive"}, priority = 29)
     public void scenario29() throws IOException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         logger = extent.createTest("User registration scenario 29", "User Registration happy path 4");
@@ -2302,7 +2302,7 @@ public class UserRegistratio {
         Assert.assertTrue(driver.getCurrentUrl().contains("start/login"),"Does not redirect to login.  //");
     }
     //////////////////////////////////////////SECOND WAY (Scenario 30)//////////////////////////////////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 30)
+    @Test(groups = {"functest", "positive"}, priority = 30)
     public void scenario30() throws IOException, InterruptedException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         logger = extent.createTest("User registration scenario 30", "User Registration happy path 5");
@@ -2388,7 +2388,7 @@ public class UserRegistratio {
         Assert.assertTrue(ur.getLoginText().isDisplayed());
     }
     /////////////////////////////THIRD WAY (Scenario 31)/////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 31)
+    @Test(groups = {"functest", "positive"}, priority = 31)
     public void scenario31() throws IOException, InterruptedException {
         logger = extent.createTest("User registration scenario 31", "All fields are filled with 6 spaces.");
 
@@ -2469,7 +2469,7 @@ public class UserRegistratio {
     }
 
     ///////////////////////////////Scenario 32////////////////////////////////////////////
-    @Test(groups = {"functest"}, priority = 32)
+    @Test(groups = {"functest", "positive"}, priority = 32)
     public void scenario32() throws IOException {
         logger = extent.createTest("User registration scenario 32", "All fields are filled with 6 spaces and @ in email field.");
 
@@ -2549,7 +2549,7 @@ public class UserRegistratio {
 
     }
 
-    @AfterMethod(groups = {"functest"})
+    @AfterMethod(groups = {"functest","positive","negative"})
     public void tearDown(ITestResult result) throws IOException {
 
         temp = fr.getScreenshot(driver);

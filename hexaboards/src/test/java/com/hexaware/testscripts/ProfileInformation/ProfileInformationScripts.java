@@ -42,7 +42,7 @@ public class ProfileInformationScripts {
     GuiFramework fr = new GuiFramework ();
 
 
-    @BeforeMethod(groups = {"functest"})
+    @BeforeMethod(groups = {"functest", "positive", "negative"})
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
@@ -55,7 +55,7 @@ public class ProfileInformationScripts {
         driver.navigate().to(URI);
     }
 
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest", "positive"}, priority = 1)
     public void scenario1() throws IOException, InterruptedException {
         logger = extent.createTest("Scenario 1", "View the profile information");
         dataArray = fr.turnArray(user, 1);
@@ -117,7 +117,7 @@ public class ProfileInformationScripts {
 
     ////////////////////////////////////////////////SCENARIO 2/////////////////////////////////////////////////////////////////////
 
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest", "positive"}, priority = 2)
     public void scenario2() throws IOException {
         logger = extent.createTest("Profile Information 2", "See the user profile information and close ‘My Profile’ window");
         dataArray = fr.turnArray(user, 1);
@@ -188,7 +188,7 @@ public class ProfileInformationScripts {
 
     ///////////////////////////////////////////////////////////SCENARIO 3////////////////////////////////////////////////////////////
 
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest" , "positive"}, priority = 3)
     public void scenario3() throws IOException {
         logger = extent.createTest("Profile Information 3", "See the user profile information");
         dataArray = fr.turnArray(user, 1);
@@ -249,7 +249,7 @@ public class ProfileInformationScripts {
 
     /////////////////////////////////////////////////////////SCENARIO 4//////////////////////////////////////////////////////////////////
 
-    @Test(groups = {"functest"})
+    @Test(groups = {"functest" , "positive"}, priority = 4)
     public void scenario4() throws IOException {
         logger = extent.createTest("Profile Information 4", "See the user profile information and close ‘My Profile’ window");
         dataArray = fr.turnArray(user, 1);
@@ -316,8 +316,8 @@ public class ProfileInformationScripts {
 
 
 
-    @AfterMethod(groups = {"functest"})
-    public void tearDown(ITestResult result) throws IOException {
+    @AfterMethod(groups = {"functest","positive","negative"})
+    public void after(ITestResult result) throws IOException {
         temp = fr.getScreenshot(driver);
         if (result.getStatus() == 1) {
             logger.pass("Success test", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
