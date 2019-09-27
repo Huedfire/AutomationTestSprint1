@@ -26,11 +26,10 @@ public class EditAll {
 
     @BeforeTest(groups = {"editall"})
     public void getSetupEmail() throws IOException {
-        parameter = "/api/allupd";
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonEP");
+        jsonpath = prop.getProperty("JsonEPAll");
         uri = prop.getProperty("URI");
         RestAssured.baseURI = uri;
         dataList = r.readExcel(filepath, 7);
@@ -42,7 +41,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
+        parameter = profile[profile.length-2];
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";
@@ -62,7 +61,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
+        parameter = profile[profile.length-2];
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";
@@ -82,7 +81,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
+        parameter = profile[profile.length-2];
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";
@@ -103,8 +102,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
-        ExpectedCode = profile[profile.length - 1];
+        parameter = profile[profile.length-2];ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
@@ -124,7 +122,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
+        parameter = profile[profile.length-2];
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";
@@ -145,8 +143,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
-        ExpectedCode = profile[profile.length - 1];
+        parameter = profile[profile.length-2];ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";
         //Name Username    Action Parameters Expected Code
@@ -167,7 +164,7 @@ public class EditAll {
         name = profile[0];
         email = profile[1];
         username = profile[2];
-
+        parameter = profile[profile.length-2];
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
         request = "{\"name\":\"" + name + "\" ,\"email\":\"" + email + "\" ,\"username\":\"" + username + "\"}";

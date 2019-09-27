@@ -29,10 +29,10 @@ public class EditPassword {
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonEP");
+        jsonpath = prop.getProperty("JsonEPPassword");
         uri = prop.getProperty("URI");
         RestAssured.baseURI = uri;
-        dataList = r.readExcel(filepath, 7);
+        dataList = r.readExcel(filepath, 6);
     }
 
     @Test(groups = {"newpass"}, priority = 1)

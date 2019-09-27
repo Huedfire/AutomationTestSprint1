@@ -26,11 +26,10 @@ public class EditEmail {
 
     @BeforeTest(groups = {"editmail"})
     public void getSetupEmail() throws IOException {
-        parameter = "/api/mailupd";
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonEP");
+        jsonpath = prop.getProperty("JsonEPEmail");
         uri = prop.getProperty("URI");
         RestAssured.baseURI = uri;
         dataList = r.readExcel(filepath, 5);
@@ -41,6 +40,7 @@ public class EditEmail {
         profile = r.turnArray(dataList, 1);
         email = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -60,6 +60,7 @@ public class EditEmail {
         profile = r.turnArray(dataList, 2);
         email = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -79,6 +80,7 @@ public class EditEmail {
         profile = r.turnArray(dataList, 3);
         email = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code

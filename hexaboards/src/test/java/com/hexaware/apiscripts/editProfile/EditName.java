@@ -26,11 +26,10 @@ public class EditName {
 
     @BeforeTest(groups = {"editname"})
     public void getSetupName() throws IOException {
-        parameter = "/api/nameupd";
         input = new FileInputStream("C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\conf.txt");
         prop.load(input);
         filepath = prop.getProperty("DataFile");
-        jsonpath = prop.getProperty("JsonEP");
+        jsonpath = prop.getProperty("JsonEPName");
         uri = prop.getProperty("URI");
         RestAssured.baseURI = uri;
         dataList = r.readExcel(filepath, 4);
@@ -42,6 +41,7 @@ public class EditName {
         profile = r.turnArray(dataList, 1);
         name = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -62,6 +62,7 @@ public class EditName {
         profile = r.turnArray(dataList, 2);
         name = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -82,6 +83,7 @@ public class EditName {
         profile = r.turnArray(dataList, 3);
         name = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -102,6 +104,7 @@ public class EditName {
         profile = r.turnArray(dataList, 4);
         name = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -121,6 +124,7 @@ public class EditName {
         profile = r.turnArray(dataList, 5);
         name = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
@@ -140,6 +144,7 @@ public class EditName {
         profile = r.turnArray(dataList, 6);
         name = profile[0];
         username = profile[1];
+        parameter = profile[profile.length-2];
 
         ExpectedCode = profile[profile.length - 1];
         //Name Username    Action Parameters Expected Code
