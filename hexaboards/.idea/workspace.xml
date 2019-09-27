@@ -2,27 +2,89 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFile.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192353.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192747.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192950.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193329.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194052.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204882.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205977.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="DefaultGradleProjectSettings">
+    <option name="isMigrated" value="true" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="17">
+              <caret line="593" column="38" selection-start-line="591" selection-end-line="592" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/ajax2.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="187">
+              <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/api/ApiFramework.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="204">
+              <caret line="83" column="37" lean-forward="true" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditAll.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="357">
+              <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditName.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="476">
+              <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="33" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditPassword.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="2720">
+              <caret line="172" column="41" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/EditProfile-Report.html">
+          <provider selected="true" editor-type-id="text-editor" />
+        </entry>
+      </file>
+    </leaf>
   </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
@@ -31,11 +93,162 @@
       </list>
     </option>
   </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>getname</find>
+      <find>//select[@class</find>
+      <find>@Test(groups = {&quot;functest&quot;}</find>
+      <find>getN</find>
+      <find>usernameRole</find>
+      <find>role</find>
+      <find>{&quot;editall&quot;})</find>
+      <find>{&quot;editall&quot;},</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>@Test(groups = {&quot;functest&quot;} , priority =</replace>
+      <replace>{&quot;newpass&quot;})</replace>
+      <replace>{&quot;newpass&quot;},</replace>
+    </replaceStrings>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
   </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$USER_HOME$/Downloads/ProjectCreation2.java" />
+        <option value="$PROJECT_DIR$/confs.txt" />
+        <option value="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditAll.java" />
+        <option value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditPassword.java" />
+      </list>
+    </option>
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="10" />
+    <option name="y" value="20" />
+    <option name="width" value="1346" />
+    <option name="height" value="688" />
+  </component>
   <component name="ProjectId" id="1QT6s95U4Bz5adTklhcusdoJhzK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="Reports" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
+              <item name="api" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
+              <item name="gui" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
+              <item name="apiscripts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
+              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="test" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
+              <item name="apiscripts" type="462c0819:PsiDirectoryNode" />
+              <item name="editProfile" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport" />
@@ -71,17 +284,17 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EditName">
-    <configuration name="EditAll" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.ProjectCreationScript.scenario9">
+    <configuration name="ProjectCreationScript (2)" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.ProjectCreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditAll" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.ProjectCreation" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.ProjectCreation.ProjectCreationScript" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -89,17 +302,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditEmail.scenario10" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectCreationScript.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.ProjectCreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario10" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.ProjectCreation" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.ProjectCreation.ProjectCreationScript" />
+      <option name="METHOD_NAME" value="scenario1" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -107,17 +320,17 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditEmail.scenario8" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectCreationScript.scenario4" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.ProjectCreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario8" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.ProjectCreation" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.ProjectCreation.ProjectCreationScript" />
+      <option name="METHOD_NAME" value="scenario4" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
@@ -125,16 +338,16 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditEmail.scenario9" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="ProjectCreationScript.scenario9" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.ProjectCreation.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.ProjectCreation" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.ProjectCreation.ProjectCreationScript" />
       <option name="METHOD_NAME" value="scenario9" />
       <option name="TEST_OBJECT" value="METHOD" />
       <properties />
@@ -143,17 +356,18 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditName" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="UserRegistratio.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
+          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditName" />
-      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
+      <option name="METHOD_NAME" value="scenario1" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
@@ -162,11 +376,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.EditName" />
-        <item itemvalue="TestNG.EditAll" />
-        <item itemvalue="TestNG.EditEmail.scenario10" />
-        <item itemvalue="TestNG.EditEmail.scenario9" />
-        <item itemvalue="TestNG.EditEmail.scenario8" />
+        <item itemvalue="TestNG.ProjectCreationScript.scenario9" />
+        <item itemvalue="TestNG.ProjectCreationScript (2)" />
+        <item itemvalue="TestNG.ProjectCreationScript.scenario4" />
+        <item itemvalue="TestNG.ProjectCreationScript.scenario1" />
+        <item itemvalue="TestNG.UserRegistratio.scenario1" />
       </list>
     </recent_temporary>
   </component>
@@ -226,14 +440,97 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
+  <component name="TestHistory">
+    <history-entry file="ProjectCreationScript_scenario12 - 2019.09.20 at 17h 51m 50s.xml">
+      <configuration name="ProjectCreationScript.scenario12" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_scenario12 - 2019.09.20 at 17h 53m 50s.xml">
+      <configuration name="ProjectCreationScript.scenario12" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_(2) - 2019.09.20 at 18h 05m 29s.xml">
+      <configuration name="ProjectCreationScript (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserRegistratio_scenario1 - 2019.09.20 at 18h 09m 38s.xml">
+      <configuration name="UserRegistratio.scenario1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="UserRegistratio_scenario1 - 2019.09.20 at 18h 11m 21s.xml">
+      <configuration name="UserRegistratio.scenario1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_scenario9 - 2019.09.20 at 18h 24m 07s.xml">
+      <configuration name="ProjectCreationScript.scenario9" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_scenario1 - 2019.09.26 at 11h 30m 33s.xml">
+      <configuration name="ProjectCreationScript.scenario1" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_scenario4 - 2019.09.26 at 16h 57m 57s.xml">
+      <configuration name="ProjectCreationScript.scenario4" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_(2) - 2019.09.26 at 17h 03m 41s.xml">
+      <configuration name="ProjectCreationScript (2)" configurationId="TestNG" />
+    </history-entry>
+    <history-entry file="ProjectCreationScript_scenario9 - 2019.09.27 at 12h 30m 38s.xml">
+      <configuration name="ProjectCreationScript.scenario9" configurationId="TestNG" />
+    </history-entry>
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27760968" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info id="Image Layers" order="2" />
+      <window_info id="Designer" order="3" />
+      <window_info id="UI Designer" order="4" />
+      <window_info id="Capture Tool" order="5" />
+      <window_info id="Favorites" order="6" side_tool="true" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.43535188" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Terminal" order="7" />
+      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
+      <window_info anchor="bottom" id="Version Control" order="9" />
+      <window_info anchor="bottom" id="Messages" order="10" weight="0.3289689" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="right" id="Palette" order="3" />
+      <window_info anchor="right" id="Maven" order="4" />
+      <window_info anchor="right" id="Theme Preview" order="5" />
+      <window_info anchor="right" id="Capture Analysis" order="6" />
+      <window_info anchor="right" id="Palette&#9;" order="7" />
+    </layout>
+  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
+              <option name="RECENTLY_FILTERED_USER_GROUPS">
+                <collection />
+              </option>
+              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+                <collection />
+              </option>
               <option name="COLUMN_ORDER" />
             </State>
+          </value>
+        </entry>
+      </map>
+    </option>
+    <option name="RECENT_FILTERS">
+      <map>
+        <entry key="Branch">
+          <value>
+            <list />
+          </value>
+        </entry>
+        <entry key="User">
+          <value>
+            <list />
           </value>
         </entry>
       </map>
@@ -242,5 +539,142 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new updates" />
     <option name="LAST_COMMIT_MESSAGE" value="new updates" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$USER_HOME$/Downloads/ProjectCreation2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="6" column="28" selection-end-line="257" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/IdeaProjects/HexaBoard/src/test/java/HomePage.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="238">
+          <caret line="18" selection-start-line="18" selection-end-line="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1593" />
+      </provider>
+    </entry>
+    <entry file="file://$USER_HOME$/Desktop/Login/LoginTestNG.java">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testng.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-867">
+          <caret line="16" column="37" selection-start-line="16" selection-start-column="37" selection-end-line="16" selection-end-column="37" />
+          <folding>
+            <element signature="e#494#495#0" expanded="true" />
+            <element signature="e#549#550#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/TC_EP_011.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="85">
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Reports/PIReporterAUT.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/confs.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="51">
+          <caret line="3" column="9" selection-start-line="3" selection-start-column="9" selection-end-line="3" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="175">
+          <caret line="96" column="22" selection-start-line="96" selection-start-column="22" selection-end-line="96" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="477" column="51" selection-start-line="477" selection-start-column="51" selection-end-line="477" selection-end-column="51" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/file.json">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="17">
+          <caret line="593" column="38" selection-start-line="591" selection-end-line="592" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditEmail.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="68">
+          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/conf.txt">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret lean-forward="true" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/ajax2.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="187">
+          <caret line="11" column="28" lean-forward="true" selection-start-line="11" selection-start-column="28" selection-end-line="11" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditAll.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="357">
+          <caret line="33" column="38" lean-forward="true" selection-start-line="33" selection-start-column="38" selection-end-line="33" selection-end-column="38" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/api/ApiFramework.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="204">
+          <caret line="83" column="37" lean-forward="true" selection-start-line="83" selection-start-column="37" selection-end-line="83" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditName.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="476">
+          <caret line="28" column="33" lean-forward="true" selection-start-line="28" selection-start-column="21" selection-end-line="28" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditPassword.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2720">
+          <caret line="172" column="41" selection-start-line="172" selection-start-column="41" selection-end-line="172" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/EditProfile-Report.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
   </component>
 </project>

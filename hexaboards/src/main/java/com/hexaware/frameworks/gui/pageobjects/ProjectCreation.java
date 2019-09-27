@@ -90,6 +90,31 @@ public class ProjectCreation {
         return driver.findElement(name);
     }
 
+    // Name field length
+    public String getMaxLengthName() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inName\"]")).getAttribute("maxlength");
+        return  str;
+    }
+    public String getMinLengthName() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inName\"]")).getAttribute("minlength");
+        return  str;
+    }
+
+    // Desc field length
+    public String getMaxLengthDesc() {
+        String str = driver.findElement(description).getAttribute("maxlength");
+        return  str;
+    }
+    public String getMinLengthDesc() {
+        String str = driver.findElement(description).getAttribute("minlength");
+        return  str;
+    }
+    // Name field
+    public String getPlaceholderName() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inName\"]")).getAttribute("placeholder");
+        return  str;
+    }
+
     //description label
     By descriptionLabel = By.xpath("//h3[contains(text(),\"Description\")]");
     public WebElement getDescriptionLabel() {
@@ -97,7 +122,7 @@ public class ProjectCreation {
     }
 
     //Description field
-    By description = By.id("//textarea[@name=\"inDesc\"]");
+    By description = By.xpath("//div[@class=\"mat-form-field-infix\"]/textarea");
     public WebElement getDescription() {
         return driver.findElement(description);
     }
@@ -109,7 +134,7 @@ public class ProjectCreation {
     }
 
     //Object role of the member
-    By role = By.xpath("//select[@class=\"mat-input-element mat-form-field-autofill-control cdk-text-field-autofill-monitored ng-pristine ng-valid ng-touched\"]");
+    By role = By.xpath("//select[@ng-reflect-form=\"[object Object]\"]");
     public WebElement getRole() {
         return driver.findElement(role);
     }
@@ -127,17 +152,20 @@ public class ProjectCreation {
     }
 
     //Member List
-    By memberList = By.xpath("//div[@role=\"listbox\"]");
+    By memberList = By.xpath("//mat-accordion[@multi=\"true\"]");
     public WebElement getMemberList(){
         return driver.findElement(memberList);
     }
-
     //Member add message ("No members added yet.")
     By memberMessage = By.xpath("//*[@id=\"fulldialog\"]/form/div[1]/div/div[2]/p");
     public WebElement getMemberMessage(){
         return driver.findElement(memberMessage);
     }
-
+    //button delete into list of members
+    By deleteMember = By.xpath("//button[@id=\"deletebutton\"]");
+    public WebElement getDeleteMember(){
+        return driver.findElement(deleteMember);
+    }
     ///////////////Date objects///////////////////////////////////////////////////////////////////
 
     //Label Start date
@@ -212,34 +240,46 @@ public class ProjectCreation {
         return driver.findElement(closeButton);
     }
 
+    //select date
+    By selectDate = By.xpath("//*[@id=\"mat-datepicker-4\"]/div/mat-month-view/table/tbody/tr[5]/td[6]/div");
+    public WebElement getSelectDate(){ return driver.findElement(selectDate); }
+
+    //Change month
+    By changeMonth = By.xpath("//*[@id=\"mat-datepicker-4\"]/mat-calendar-header/div/div/button[3]");
+    public WebElement getChangeMonth(){ return driver.findElement(changeMonth); }
+
+    //select date
+    By selectActiveDate = By.xpath("//*[@class=\"mat-calendar-body-cell mat-calendar-body-active ng-star-inserted\"]");
+    public WebElement getSelectActiveDate(){ return driver.findElement(selectActiveDate); }
+
+    By changeDayStart = By.xpath("//td[@class=\"mat-calendar-body-cell mat-calendar-body-active ng-star-inserted\"]");
+    public WebElement getChangeDay(){ return driver.findElement(changeDayStart); }
+
+    By changeDayEnd = By.xpath("//td[@class=\"mat-calendar-body-cell mat-calendar-body-active ng-star-inserted\"]");
+    public WebElement getChangeDayE(){ return driver.findElement(changeDayEnd); }
+
+
     /////////////////////////////////////////////////////Error Messages////////////////////////////////////////////////////////////////
 
     By nameError = By.xpath("//mat-error[contains(text(),\"You need to enter a name.\")]");
-
     public WebElement getnameError() {
-
         return driver.findElement(nameError);
-
     }
 
     By descError = By.xpath("//mat-error[contains(text(),\"You need to enter a description.\")]");
-
     public WebElement getdescError() {
-
         return driver.findElement(descError);
-
     }
 
     By dateError = By.xpath("//mat-error[contains(text(),\"You need to enter an initial date.\")]");
-
     public WebElement getdateError() {
-
         return driver.findElement(dateError);
-
     }
 
     By createProj = By.xpath("//h1/a[contains(text(),\"new project\")]");
     public WebElement getInitialCreateProject() {
         return driver.findElement(createProj);
     }
+
 }
+
