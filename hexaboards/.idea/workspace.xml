@@ -2,21 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
+      <change afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDeletion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192353.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192747.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051192950.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193329.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051193645.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194002.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051194052.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204319.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204700.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051204882.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205031.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205116.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205640.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1568051205977.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PIReporterAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PIReporterAUT.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -38,7 +27,7 @@
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
@@ -71,7 +60,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.EditName">
+  <component name="RunManager" selected="TestNG.UserDeletion.scenario1 (1)">
     <configuration name="EditAll" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
@@ -107,42 +96,6 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EditEmail.scenario8" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario8" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="EditEmail.scenario9" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.apiscripts.editProfile.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.apiscripts.editProfile" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.apiscripts.editProfile.EditEmail" />
-      <option name="METHOD_NAME" value="scenario9" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="EditName" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
@@ -160,13 +113,49 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="UserDeletion.scenario1 (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserDeletion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserDeletion" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserDeletion.UserDeletion" />
+      <option name="METHOD_NAME" value="scenario1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDeletion.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserDeletion.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserDeletion" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserDeletion.UserDeletion" />
+      <option name="METHOD_NAME" value="scenario1" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.UserDeletion.scenario1 (1)" />
+        <item itemvalue="TestNG.UserDeletion.scenario1" />
         <item itemvalue="TestNG.EditName" />
         <item itemvalue="TestNG.EditAll" />
         <item itemvalue="TestNG.EditEmail.scenario10" />
-        <item itemvalue="TestNG.EditEmail.scenario9" />
-        <item itemvalue="TestNG.EditEmail.scenario8" />
       </list>
     </recent_temporary>
   </component>
