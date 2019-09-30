@@ -4,3 +4,4 @@ JsonEP = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\ja
 JsonPI = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\profileInformation\\htmlReport\\file.json
 JsonUR = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\userRegistration\\htmlReport\\file.json
 JsonLog = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\login\\htmlReport\\file.json
+JsonDel = C:\\Users\\Training\\HexaboardAutomationTest\\hexaboards\\src\\test\\java\\com\\hexaware\\apiscripts\\userDeletion\\htmlReport\\file.json
