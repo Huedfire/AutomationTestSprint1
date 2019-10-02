@@ -10,6 +10,24 @@ public class EditProfile {
     public EditProfile(WebDriver driver) {
         this.driver = driver;
     }
+
+    By profileButton = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]");
+    public WebElement getProfileButton() {
+        return driver.findElement(profileButton);
+    }
+
+    By menuButton = By.xpath("//button[@mattooltip=\"Open the menu.\"]");
+
+    public WebElement getMenuButton() {
+        return driver.findElement(menuButton);
+    }
+
+    By profilePicture = By.xpath("//h1[@mattooltip=\"That should be you. Right?\"]");
+
+    public WebElement getProfilePicture() {
+        return driver.findElement(profilePicture);
+    }
+
     //Unlock and lock name field into  my profile
     By unlockName = By.xpath("//span[contains(text(),\"Unlock/lock name\")]");
     public WebElement getUnlockName() {
@@ -46,6 +64,16 @@ public class EditProfile {
         return driver.findElement(buttonSave);
     }
 
+    public String getNameVerified2() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inName\"]")).getAttribute("ng-reflect-model");
+        return str;
+    }
+
+    public String getEmailVerified2() {
+        String str = driver.findElement(By.xpath("//input[@name=\"inMail\"]")).getAttribute("ng-reflect-model");
+        return str;
+    }
+
     //Button change photo into my profile
     By photo = By.id("changephoto");
     public WebElement getChangePhoto() {
@@ -59,17 +87,46 @@ public class EditProfile {
         return driver.findElement(close);
     }
 
-    //Unlock/lock e-mail into my profile
-    By password = By.xpath("//*[@id=\"fulldialog\"]/form/div[3]/div/div[2]/button[2]");
-    public WebElement getPassword()
+    //Change password link
+    By password = By.xpath("//a[h4]");
+    public WebElement getClickPassword()
     {
         return driver.findElement(password);
     }
 
-    //Error
-    By blankError = By.xpath("//div[@class=\"ng-tns-c14-39 ng-trigger ng-trigger-transitionMessages ng-star-inserted\"]/mat-error");
-    public WebElement getBlankError()
+    //Type new password field
+    By newPassword = By.xpath("//*[@name=\"inPass\"]");
+    public WebElement getNewPassword()
     {
-        return driver.findElement(blankError);
+        return driver.findElement(newPassword);
+    }
+
+    //Type new password field
+    By newBtnSave = By.id("savebtn");
+    public WebElement getNewBtnSave(){ return driver.findElement(newBtnSave); }
+
+    //Error
+    By blankErrorName = By.xpath("//div[@fxlayout=\"column\"]/mat-form-field[1]/div/div[3]/div/mat-error");
+    public WebElement getBlankErrorName() { return driver.findElement(blankErrorName);    }
+
+    By blankErrorEmail = By.xpath("//div[@fxlayout=\"column\"]/mat-form-field[2]/div/div[3]/div/mat-error");
+    public WebElement getBlankErrorEmail()
+    {
+        return driver.findElement(blankErrorEmail);
+    }
+
+    By logOut = By.xpath("//span[@mattooltip=\"Terminate your current session.\"]");
+    public WebElement getLogOut()    {        return driver.findElement(logOut);    }
+
+    //Burger button
+    By burgerOptions = By.xpath("//button[@ng-reflect-message=\"Open the menu.\"]");
+    public WebElement getBurgerIcon() {
+        return driver.findElement(burgerOptions);
+    }
+
+    //error message new password
+    By passError = By.xpath("//div[@class=\"alldiv\"]//mat-error");
+    public WebElement getPassError() {
+        return driver.findElement(passError);
     }
 }

@@ -8,3 +8,4 @@ URreport = ./Reports/UserRegistrationAUT.html
 PIreport = ./Reports/PIReporterAUT.html
 Logreport = ./Reports/LoginReportAUTC1.html
 PCreport = ./Reports/PCReportAUTC1.html
+EPreport = ./Reports/EPReportAUTC1.html
