@@ -129,4 +129,20 @@ public class EditProfile {
     public WebElement getPassError() {
         return driver.findElement(passError);
     }
+
+    //------------------------------------User Deletion -------------------------------------------------
+    ////////delete button///////
+    By deleteButton = By.id("deletebtn");
+    public WebElement getDeleteButton(){return driver.findElement(deleteButton);}
+
+    //////field the password//////
+    By fieldpwd = By.xpath("//div/input[@ng-reflect-type=\"password\"]");
+    public WebElement getFieldPwd(){return driver.findElement(fieldpwd);}
+
+    ////////delete after field the password/////
+    By deleteButton2 = By.xpath("//button[@id=\"savebtn\"]/span");
+    public WebElement getDeleteButton2(){return driver.findElement(deleteButton2);}
+
+
+
 }
