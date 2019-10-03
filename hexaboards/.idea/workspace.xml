@@ -5,13 +5,8 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/EditProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/META-INF/hexaboards.kotlin_module" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataFile.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFile.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/conf.txt" beforeDir="false" afterPath="$PROJECT_DIR$/conf.txt" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -26,10 +21,13 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/Login.java">
+        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
+            <state relative-caret-position="2618">
+              <caret line="210" column="19" selection-start-line="210" selection-start-column="19" selection-end-line="210" selection-end-column="19" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -131,16 +129,6 @@
               <item name="java" type="462c0819:PsiDirectoryNode" />
               <item name="frameworks" type="462c0819:PsiDirectoryNode" />
               <item name="gui" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="frameworks" type="462c0819:PsiDirectoryNode" />
-              <item name="gui" type="462c0819:PsiDirectoryNode" />
-              <item name="pageobjects" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
@@ -628,8 +616,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="53" column="34" selection-start-line="53" selection-start-column="34" selection-end-line="53" selection-end-column="34" />
+        <state relative-caret-position="2618">
+          <caret line="210" column="19" selection-start-line="210" selection-start-column="19" selection-end-line="210" selection-end-column="19" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
