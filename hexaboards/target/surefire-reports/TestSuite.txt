@@ -1,4 +1,8 @@
 -------------------------------------------------------------------------------
 Test set: TestSuite
 -------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 3.712 s - in TestSuite
+Tests run: 1, Failures: 1, Errors: 0, Skipped: 0, Time elapsed: 1.158 s <<< FAILURE! - in TestSuite
+scenario1(com.hexaware.testscripts.UserDeletion.UserDel)  Time elapsed: 0.025 s  <<< FAILURE!
+java.lang.IllegalStateException: No reporters were started. Atleast 1 reporter must be started to create tests.
+	at com.hexaware.testscripts.UserDeletion.UserDel.scenario1(UserDel.java:59)
+
