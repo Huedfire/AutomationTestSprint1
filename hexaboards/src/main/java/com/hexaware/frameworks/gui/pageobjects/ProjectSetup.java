@@ -8,15 +8,32 @@ public class ProjectSetup {
 
     WebDriver driver;
 
+    public ProjectSetup(){}
+
     public ProjectSetup(WebDriver driver) {
         this.driver = driver;
     }
 
+    //Burger button
+    By burgerOptions = By.xpath("//button[@ng-reflect-message=\"Open the menu.\"]");
+    public WebElement getOptionIcon() {
+        return driver.findElement(burgerOptions);
+    }
 
-    By expansionPanel = By.xpath("//mat-expansion-panel-header[@style=\"height: 64px;\"]");
+    //my profile option into the div of burger button
+    By Profiles = By.xpath("//mat-nav-list[@role=\"navigation\"]/a[1]");
+    public WebElement getMyProfiles() {
+        return driver.findElement(Profiles);
+    }
 
-    public WebElement getExpansionPanel() {
-        return driver.findElement(expansionPanel);
+
+    //Project xpath
+    By body = By.xpath("//body");
+    public WebElement getBody(){return driver.findElement(body);}
+
+    By project = By.xpath("//mat-expansion-panel-header[@id=\"mat-expansion-panel-header-0\"]");
+    public WebElement getProject() {
+        return driver.findElement(project);
     }
 
     By openButton = By.xpath("//button[@class=\"openbutton mat-raised-button mat-primary\"]/span[@class=\"mat-button-wrapper\"]");
@@ -76,7 +93,7 @@ public class ProjectSetup {
         return driver.findElement(goToBoardButton);
     }
 
-    By expansionPanelMembers = By.xpath("//div[@name=\"membersdiv\"]/div[@class=\"expan\"]");
+    By expansionPanelMembers = By.xpath("//mat-expansion-panel-header[@id=\"mat-expansion-panel-header-1\"]");
 
     public WebElement getExpansionPanelMembers() {
         return driver.findElement(expansionPanelMembers);
@@ -89,14 +106,22 @@ public class ProjectSetup {
     }
 
 
-    By editRoleButton = By.xpath("//span[contains (text(), \"Edit Role\")]");
+    By editRoleButton = By.xpath("//div[@id=\"cdk-accordion-child-1\"]/div/div/button//span[contains(text(),\"Edit Role\")]");
 
     public WebElement getEditRoleButton() {
         return driver.findElement(editRoleButton);
     }
 
-    By editRoleList = By.xpath("//select[@ng-reflect-form=\"[object Object]\"]");
+    By roleList = By.xpath("//select[@id=\"mat-input-1\"]");
+    public WebElement  getRoleList(){return driver.findElement(roleList);}
 
+    By findUser = By.xpath("//div/input[@placeholder=\"Search by username.\"]");
+    public WebElement getFindUser(){return driver.findElement(findUser);}
+
+    By addButton = By.xpath("//button[@class=\"addbutton mat-raised-button mat-primary\"]/span");
+    public WebElement getAddButton(){return  driver.findElement(addButton);}
+
+    By editRoleList = By.xpath("//select[@ng-reflect-form=\"[object Object]\"]");
     public WebElement getEditRoleList() {
         return driver.findElement(editRoleList);
     }
@@ -107,8 +132,7 @@ public class ProjectSetup {
         return driver.findElement(saveButtonEditRole);
     }
 
-    By deleteButtonMember = By.xpath("//span[contains (text(), \"Delete\")]");
-
+    By deleteButtonMember = By.xpath("//div[@id=\"cdk-accordion-child-1\"]/div/div/button[3]/span[contains(text(),\"Delete\")]");
     public WebElement getDeleteButtonMember() {
         return driver.findElement(deleteButtonMember);
     }
