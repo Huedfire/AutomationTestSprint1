@@ -453,7 +453,7 @@ public class EditProfileScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Click on Profile Picture Button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
-
+//div[@aria-labelledby="mat-expansion-panel-header-0"]//span[contains(text(),"Edit Role")]
         //Step 1
         element = ep.getUnlockEmail();
         varWat.until(ExpectedConditions.elementToBeClickable(element));
