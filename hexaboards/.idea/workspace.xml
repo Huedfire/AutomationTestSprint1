@@ -1,50 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
-  <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" line="146" />
-  </component>
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
       <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/conf3.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PIReporterAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PIReporterAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120632216.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120632644.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120632899.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633073.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633228.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633343.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633448.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633834.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120634295.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120634685.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120634930.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120635325.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120635644.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120635974.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120636422.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120636782.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120636937.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120637098.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120637186.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Screenshot/1570120639975.png" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/prueba.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/prueba.xlsx" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/MembersManagement/MembersManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/MembersManagement/MembersManagement.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/TestData.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/apiFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/apiFramework.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/GuiFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/GuiFramework.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/EditProfile.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/HomePage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/Login.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/createdFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" beforeDir="false" afterPath="$PROJECT_DIR$/target/maven-status/maven-compiler-plugin/testCompile/default-testCompile/inputFiles.lst" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TEST-TestSuite.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/TestSuite/Test.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.UserDeletion.UserDel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/junitreports/TEST-com.hexaware.testscripts.UserDeletion.UserDel.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/classes.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/groups.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods-alphabetical.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/methods.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/TestSuite/toc.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/surefire-reports/old/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/target/surefire-reports/old/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/editProfile/EditAll.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/editProfile/EditEmail.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/editProfile/EditName.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/editProfile/EditPassword.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/login/Login.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/profileInformation/ProfileInformation.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/userDeletion/UserDeletion.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/apiscripts/userRegistration/UserRegistration.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/EditProfile/EditProfileScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/Login/LoginScripts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/UserDeletion/UserDel.class" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/UserRegistration/UserRegistratio.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserRegistration.class" afterDir="false" />
     </list>
-    <ignored path="$PROJECT_DIR$/target/" />
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,61 +73,6 @@
   <component name="DefaultGradleProjectSettings">
     <option name="isMigrated" value="true" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state>
-              <caret line="58" selection-start-line="58" selection-end-line="58" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="663">
-              <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="255">
-              <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/pom.xml">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="153">
-              <caret line="9" selection-start-line="9" selection-end-line="9" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="308">
-              <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
@@ -116,31 +80,8 @@
       </list>
     </option>
   </component>
-  <component name="FindInProjectRecents">
-    <findStrings>
-      <find>get</find>
-      <find>//div[@fxlayout=&quot;column&quot;]/mat-form-field[1]/div/div[3]/div/mat-error</find>
-      <find>getL</find>
-      <find>getLogin</find>
-    </findStrings>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/.." />
-  </component>
-  <component name="IdeDocumentHistory">
-    <option name="CHANGED_PATHS">
-      <list>
-        <option value="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/EditProfile.java" />
-        <option value="$USER_HOME$/.m2/settings.xml" />
-        <option value="$PROJECT_DIR$/profiles.xml" />
-        <option value="$PROJECT_DIR$/pom.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" />
-        <option value="$PROJECT_DIR$/testng.xml" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" />
-        <option value="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" />
-        <option value="$PROJECT_DIR$/confs.txt" />
-      </list>
-    </option>
   </component>
   <component name="MavenImportPreferences">
     <option name="importingSettings">
@@ -149,190 +90,8 @@
       </MavenImportingSettings>
     </option>
   </component>
-  <component name="MavenProjectNavigator">
-    <treeState>
-      <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="hexaboards" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-      </expand>
-      <select />
-    </treeState>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="10" />
-    <option name="y" value="20" />
-    <option name="width" value="1346" />
-    <option name="height" value="688" />
-  </component>
   <component name="ProjectId" id="1QT6s95U4Bz5adTklhcusdoJhzK" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="ProjectPane">
-        <subPane>
-          <expand>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="BoardPageMov" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="EditProfile" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="Login" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="MembersManagement" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="ProfileInformation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjectCreation" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="ProjectSetup" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="SprintAdm" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="StoriesAdmin" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="UserDeletion" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="hexaboards" type="b2602c69:ProjectViewProjectNode" />
-              <item name="hexaboards" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="test" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="hexaware" type="462c0819:PsiDirectoryNode" />
-              <item name="testscripts" type="462c0819:PsiDirectoryNode" />
-              <item name="UserRegistration" type="462c0819:PsiDirectoryNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-      </pane>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
@@ -369,7 +128,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UserRegistratio.scenario1">
+  <component name="RunManager" selected="TestNG.UPMScript">
     <configuration name="BoardPagePet.TS_BPM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
@@ -388,17 +147,60 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="C:/Users/Training/HexaboardAutomationTest/hexaboards/testng.xml" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="SprintAdmon.TS_SprintAdmon" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
-      <option name="SUITE_NAME" value="$PROJECT_DIR$/testng.xml" />
-      <option name="TEST_OBJECT" value="SUITE" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.SprintAdm.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.SprintAdm" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.SprintAdm.SprintAdmon" />
+      <option name="METHOD_NAME" value="TS_SprintAdmon" />
+      <option name="TEST_OBJECT" value="METHOD" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserDel (1)" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StoriesAdm.TS_STA" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.StoriesAdmin.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.StoriesAdmin" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.StoriesAdmin.StoriesAdm" />
+      <option name="METHOD_NAME" value="TS_STA" />
+      <option name="TEST_OBJECT" value="METHOD" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UPMScript" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.UserProjectMapping.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserProjectMapping" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserProjectMapping.UPMScript" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="UserDel" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
@@ -415,48 +217,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="UserRegistratio" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UserRegistratio.scenario1" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.testscripts.UserRegistration.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserRegistration" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserRegistration.UserRegistratio" />
-      <option name="METHOD_NAME" value="scenario1" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UserRegistratio.scenario1" />
+        <item itemvalue="TestNG.UPMScript" />
+        <item itemvalue="TestNG.UserDel" />
         <item itemvalue="TestNG.BoardPagePet.TS_BPM" />
-        <item itemvalue="TestNG.UserRegistratio" />
-        <item itemvalue="TestNG.C:/Users/Training/HexaboardAutomationTest/hexaboards/testng.xml" />
-        <item itemvalue="TestNG.UserDel (1)" />
+        <item itemvalue="TestNG.StoriesAdm.TS_STA" />
+        <item itemvalue="TestNG.SprintAdmon.TS_SprintAdmon" />
       </list>
     </recent_temporary>
   </component>
@@ -516,82 +283,12 @@
     <option name="localTasksCounter" value="7" />
     <servers />
   </component>
-  <component name="TestHistory">
-    <history-entry file="UserDel_scenario2 - 2019.10.03 at 10h 27m 06s.xml">
-      <configuration name="UserDel.scenario2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2 - 2019.10.03 at 10h 27m 44s.xml">
-      <configuration name="UserDel.scenario2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2 - 2019.10.03 at 10h 28m 12s.xml">
-      <configuration name="UserDel.scenario2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2 - 2019.10.03 at 10h 32m 31s.xml">
-      <configuration name="UserDel.scenario2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2_(1) - 2019.10.03 at 10h 34m 18s.xml">
-      <configuration name="UserDel.scenario2 (1)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2 - 2019.10.03 at 10h 36m 28s.xml">
-      <configuration name="UserDel.scenario2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2_(2) - 2019.10.03 at 10h 36m 59s.xml">
-      <configuration name="UserDel.scenario2 (2)" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_scenario2 - 2019.10.03 at 10h 41m 17s.xml">
-      <configuration name="UserDel.scenario2" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel - 2019.10.03 at 10h 43m 03s.xml">
-      <configuration name="UserDel" configurationId="TestNG" />
-    </history-entry>
-    <history-entry file="UserDel_(1) - 2019.10.03 at 10h 44m 56s.xml">
-      <configuration name="UserDel (1)" configurationId="TestNG" />
-    </history-entry>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
-    <editor active="true" />
-    <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3184569" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Image Layers" order="2" />
-      <window_info id="Designer" order="3" />
-      <window_info id="UI Designer" order="4" />
-      <window_info id="Capture Tool" order="5" />
-      <window_info id="Favorites" order="6" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.43535188" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="Terminal" order="7" weight="0.3289689" />
-      <window_info anchor="bottom" id="Event Log" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="9" />
-      <window_info anchor="bottom" id="Messages" order="10" visible="true" weight="0.3289689" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Palette" order="3" />
-      <window_info anchor="right" id="Maven" order="4" weight="0.32980332" />
-      <window_info anchor="right" id="Theme Preview" order="5" />
-      <window_info anchor="right" id="Capture Analysis" order="6" />
-      <window_info anchor="right" id="Palette&#9;" order="7" />
-    </layout>
-  </component>
   <component name="Vcs.Log.Tabs.Properties">
     <option name="TAB_STATES">
       <map>
         <entry key="MAIN">
           <value>
             <State>
-              <option name="RECENTLY_FILTERED_USER_GROUPS">
-                <collection />
-              </option>
-              <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
-                <collection />
-              </option>
               <option name="COLUMN_ORDER" />
             </State>
           </value>
@@ -616,236 +313,6 @@
   <component name="VcsManagerConfiguration">
     <MESSAGE value="new updates" />
     <option name="LAST_COMMIT_MESSAGE" value="new updates" />
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/TC_EP_011.java" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="425">
-          <caret line="35" lean-forward="true" selection-start-line="30" selection-start-column="2" selection-end-line="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="30" column="13" selection-start-line="30" selection-start-column="13" selection-end-line="30" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/EditAll/ajax2.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/conf.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="136">
-          <caret line="8" column="140" lean-forward="true" selection-start-line="8" selection-start-column="140" selection-end-line="8" selection-end-column="140" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/api/TestData.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-961">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/api/ApiFramework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret lean-forward="true" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/htmlReport/EditAll/EditProfile-Report.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="56" column="21" selection-start-line="56" selection-start-column="21" selection-end-line="56" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/apiscripts/editProfile/EditAll.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="209">
-          <caret line="51" column="115" lean-forward="true" selection-start-line="51" selection-start-column="115" selection-end-line="51" selection-end-column="115" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/EditProfile.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="390">
-          <caret line="126" column="32" selection-start-line="126" selection-start-column="32" selection-end-line="126" selection-end-column="32" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/UserDeletion/UserDel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-2460">
-          <caret line="39" column="23" lean-forward="true" selection-start-line="39" selection-start-column="23" selection-end-line="39" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/.m2/settings.xml" />
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/GuiFramework.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="194">
-          <caret line="170" column="19" selection-start-line="170" selection-start-column="16" selection-end-line="170" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/profiles.xml" />
-    <entry file="file://$PROJECT_DIR$/hexaboards.iml">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/HomePage.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="257">
-          <caret line="74" selection-start-line="74" selection-end-line="74" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/Login.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="43" column="41" selection-start-line="43" selection-start-column="41" selection-end-line="43" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$USER_HOME$/Desktop/editProfile API AUT terminada/EditPassword.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-476" />
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/testng.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="15" column="8" selection-start-line="15" selection-start-column="8" selection-end-line="15" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="58" selection-start-line="58" selection-end-line="58" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="663">
-          <caret line="62" column="15" selection-start-line="62" selection-start-column="15" selection-end-line="62" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="153">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="128" column="25" selection-start-line="128" selection-start-column="25" selection-end-line="128" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/confs.txt">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="51">
-          <caret line="3" column="31" selection-start-line="3" selection-start-column="31" selection-end-line="3" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="308">
-          <caret line="83" lean-forward="true" selection-start-line="83" selection-end-line="83" />
-        </state>
-      </provider>
-    </entry>
-  </component>
-  <component name="masterDetails">
-    <states>
-      <state key="ArtifactsStructureConfigurable.UI">
-        <settings>
-          <artifact-editor />
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="FacetStructureConfigurable.UI">
-        <settings>
-          <last-edited>No facets are configured</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="GlobalLibrariesConfigurable.UI">
-        <settings>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="JdkListConfigurable.UI">
-        <settings>
-          <last-edited>1.8</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ModuleStructureConfigurable.UI">
-        <settings>
-          <last-edited>hexaboards</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-      <state key="ProjectLibrariesConfigurable.UI">
-        <settings>
-          <last-edited>Maven: com.aventstack:extentreports:3.1.5</last-edited>
-          <splitter-proportions>
-            <option name="proportions">
-              <list>
-                <option value="0.2" />
-              </list>
-            </option>
-          </splitter-proportions>
-        </settings>
-      </state>
-    </states>
   </component>
   <component name="mavenExecuteGoalHistory">
     <option value="" />

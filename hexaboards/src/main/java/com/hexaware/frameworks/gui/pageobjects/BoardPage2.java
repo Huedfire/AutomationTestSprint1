@@ -54,11 +54,11 @@ public class BoardPage2 {
     public WebElement getSprintLabel(){ return driver.findElement(sprintLabel);}
 
     //click on sprint
-    By sprint1 = By.xpath("//mat-expansion-panel-header[@id=\"mat-expansion-panel-header-12\"]");
+    By sprint1 = By.xpath("//mat-expansion-panel-header[@id=\"mat-expansion-panel-header-3\"]");
     public WebElement getSprint1(){ return driver.findElement(sprint1);  }
 
     //Go to board button
-    By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-12\"]/div/div/button/span");
+    By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-3\"]/div/div/button/span");
     public WebElement getGoToBtn(){ return driver.findElement(GoToBtn); }
 
     //Inprogress div

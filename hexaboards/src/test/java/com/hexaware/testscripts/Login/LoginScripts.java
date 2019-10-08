@@ -108,7 +108,7 @@ public class LoginScripts {
 
     }
 
-
+   /*
     @Test(groups = {"functest"}, priority = 2)
     public void login2() throws IOException {
         logger = extent.createTest("Scenario 2", "Login Fails");
@@ -658,6 +658,8 @@ public class LoginScripts {
 
 
     }
+
+    */
 
 
     @AfterMethod(groups = {"functest"})

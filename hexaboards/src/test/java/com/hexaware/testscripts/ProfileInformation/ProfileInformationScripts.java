@@ -114,7 +114,7 @@ public class ProfileInformationScripts {
         Assert.assertTrue(pi.getVerifiedName(name).isDisplayed() && pi.getVerifiedEmail(email).isDisplayed());
        //Assert.assertTrue(pi.getWindowsTitle().isDisplayed());
     }
-
+    /*
     ////////////////////////////////////////////////SCENARIO 2/////////////////////////////////////////////////////////////////////
 
     @Test(groups = {"functest"})
@@ -314,8 +314,7 @@ public class ProfileInformationScripts {
     }
 
 
-
-
+     */
     @AfterMethod(groups = {"functest"})
     public void tearDown(ITestResult result) throws IOException {
         temp = fr.getScreenshot(driver);

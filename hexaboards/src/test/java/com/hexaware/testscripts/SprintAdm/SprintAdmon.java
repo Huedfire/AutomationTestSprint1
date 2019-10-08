@@ -1,4 +1,4 @@
-package com.hexaware.testscripts.SprintAdministration;
+package com.hexaware.testscripts.SprintAdm;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -117,7 +117,22 @@ public class SprintAdmon {
         logger.pass("Drag & drop", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        //////////Second element///////
+        act.dragAndDrop(bp.getFirstBacklog(), bp.getInProgDiv()).build().perform();
+        temp = fr.getScreenshot(driver);
+        logger.pass("Drag & drop", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
+
+        ///////////End Sprint///////////////////
+        varWat.until(ExpectedConditions.elementToBeClickable(bp.getEndSprint())).click();
+        temp = fr.getScreenshot(driver);
+        logger.pass("Click on End Sprint", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        fr.checkAlert(driver);
+        Assert.assertTrue(bp.getDone().isDisplayed());
         ////////back to see the sprints///////////////////////////////
         driver.navigate().back();
         /////////Check the backlog of the next sprint
@@ -134,7 +149,7 @@ public class SprintAdmon {
         logger.pass("Click on 'Go to Board' button",MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-
+        Assert.assertTrue(bp.getBacklog().isDisplayed());
 
     }
     @AfterMethod

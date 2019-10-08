@@ -41,7 +41,7 @@ public class UserDel {
     String name, email,username,password,temp,filepath,URI;
     GuiFramework fr = new GuiFramework ();
 
-    @BeforeMethod(groups = {"functest", "positive", "negative"})
+    @BeforeMethod(groups = {"functest"})
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);

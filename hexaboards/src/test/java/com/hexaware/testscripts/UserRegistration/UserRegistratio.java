@@ -151,7 +151,7 @@ public class UserRegistratio {
         Assert.assertTrue(driver.getCurrentUrl().contains("start/login"),"Does not redirect to login.  //");
     }
 
-    ///////////////////////////////Scenario 2////////////////////////////////////////////
+   /* ///////////////////////////////Scenario 2////////////////////////////////////////////
     @Test(groups = {"functest"}, priority = 2)
     public void scenario2() throws IOException {
         logger = extent.createTest("User registration scenario 2", "User Registration happy path 2");
@@ -2551,6 +2551,8 @@ public class UserRegistratio {
             Assert.assertFalse(driver.switchTo().alert().getText().contains("User created"),"The application allows to create an existing user. // ");
 
     }
+
+    */
 
     @AfterMethod(groups = {"functest"})
     public void tearDown(ITestResult result) throws IOException {

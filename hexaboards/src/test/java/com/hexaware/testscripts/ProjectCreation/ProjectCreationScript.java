@@ -120,7 +120,7 @@ public class ProjectCreationScript {
                 .pollingEvery(5, SECONDS)
                 .ignoring(Exception.class);
 
-        Assert.assertTrue(driver.switchTo().alert().getText().contains("Project created succesfully"));
+        Assert.assertTrue(driver.switchTo().alert().getText().contains("Project created"));
         driver.switchTo().alert().accept();
 
     }
@@ -173,6 +173,11 @@ public class ProjectCreationScript {
         temp = fr.getScreenshot(driver);
         logger.pass("Select a member", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
+        ////////Click Add member///////////
+        varWat.until(ExpectedConditions.elementToBeClickable(pc.getAddButton())).click();
+        temp = fr.getScreenshot(driver);
+        logger.pass("Add member", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        driver.manage().timeouts().pageLoadTimeout(20,TimeUnit.SECONDS);
         //////////CLICK AL CALENDARIO///////////////////
         varWat.until(ExpectedConditions.visibilityOf(pc.getCalendarIcon())).click();
         temp = fr.getScreenshot(driver);
@@ -204,14 +209,14 @@ public class ProjectCreationScript {
                 .pollingEvery(2,TimeUnit.SECONDS)
                 .ignoring(Exception.class);
 
-        Assert.assertTrue(driver.switchTo().alert().getText().contains("Project created succesfully"));
+        Assert.assertTrue(driver.switchTo().alert().getText().contains("Project created"));
         driver.switchTo().alert().accept();
     }
 
 
 
-
-//////////////////////////////SCENARIO 3////////////////////////////////////////////////////////////////////////////////
+/*
+ //////////////////////////////SCENARIO 3////////////////////////////////////////////////////////////////////////////////
 
     @Test(groups = {"functest"} , priority =3)
     public void scenario3() throws IOException, InterruptedException {
@@ -1041,6 +1046,10 @@ public class ProjectCreationScript {
         Assert.assertFalse(false,"The project was created when a member was deleted //");
 
     }
+
+ */
+
+
 
 
     @AfterMethod(groups = {"functest"})

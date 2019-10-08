@@ -1,4 +1,4 @@
-package com.hexaware.testscripts.projectSetup;
+package com.hexaware.testscripts.ProjectSetup;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -31,31 +31,23 @@ public class ProjectSetupGUI {
 
     ExtentReports extent = new ExtentReports();
     ExtentTest logger;
+    ExtentHtmlReporter reporter ;
     WebDriver driver;
     InputStream input;
     Properties prop = new Properties();
     WebElement element;
-    String filepath;
-    String URI;
     //Login
     String[] dataArrayL;
     ArrayList<String> usernameL;
-    String usernameLo;
-    String passwordLo;
+    String usernameLo,passwordLo,filepath,URI,name,description,temp;
     //Project setup
     ArrayList<String> projsetup;
     String[] dataArray;
-    String description;
     //Sprint
     ArrayList<String> nameSprint;
     String[] dataArrayS;
-    String name;
-
-    String temp;
     GuiFramework fr = new GuiFramework();
     JavascriptExecutor je = null;
-
-
     // This code will run before executing any testcase
     @BeforeMethod(groups = {"functest"})
     public void setup() throws IOException {
@@ -133,7 +125,7 @@ public class ProjectSetupGUI {
 
     }
 
-
+     /*
     @Test(groups = {"functest"}, priority = 2)
     public void scenario2() throws IOException, InterruptedException {
         logger = extent.createTest("Project Setup Scenario 2", "A description with 1025 characters");
@@ -521,6 +513,8 @@ public class ProjectSetupGUI {
 
     }
 
+      */
+
 
     @Test(groups = {"functest"}, priority = 8)
     public void scenario8() throws IOException, InterruptedException {
@@ -584,6 +578,7 @@ public class ProjectSetupGUI {
         driver.navigate().refresh();
 
     }
+    /*
 
     @Test(groups = {"functest"}, priority = 9)
     public void scenario9() throws IOException, InterruptedException {
@@ -789,8 +784,7 @@ public class ProjectSetupGUI {
 
     }
 
-
-
+     */
     @AfterMethod(groups = {"functest"})
     public void tearDown(ITestResult result) throws IOException {
         temp = fr.getScreenshot(driver);

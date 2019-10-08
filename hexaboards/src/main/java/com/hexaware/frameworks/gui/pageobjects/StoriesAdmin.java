@@ -57,7 +57,7 @@ public class StoriesAdmin {
     public WebElement getSprint1(){ return driver.findElement(sprint1);  }
 
     //Go to board button
-    By GoToBtn = By.xpath("//*[@id=\"cdk-accordion-child-11\"]/div/div/button");
+    By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-3\"]/div/div/button/span");
     public WebElement getGoToBtn(){ return driver.findElement(GoToBtn); }
 
     //Inprogress div
@@ -129,7 +129,7 @@ public class StoriesAdmin {
     }
 
     //sprint 2
-    By Sprint2 = By.xpath("//*[contains(text(),\"Sprint 2\")]");
+    By Sprint2 = By.xpath("//mat-expansion-panel-header[@id=\"mat-expansion-panel-header-3\"]");
     public WebElement getSprint2() {
         return driver.findElement(Sprint2);
     }

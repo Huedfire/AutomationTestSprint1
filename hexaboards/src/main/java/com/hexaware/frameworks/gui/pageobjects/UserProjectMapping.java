@@ -34,5 +34,14 @@ public class UserProjectMapping {
         return driver.findElement(openButton);
     }
 
+    //panel1
+    public WebElement getPanel1(String panel) {
+        return driver.findElement(By.xpath("//div[@class=\"projpanel\"]//mat-panel-title[contains(text(),\"" + panel + "\")]"));
+    }
+    //panel2
+    public WebElement getPanel2(String panel) {
+        return driver.findElement(By.xpath("//div[@class=\"projpanel\"]//mat-panel-title[contains(text(),\"" + panel + "\")]"));
+    }
+
 
 }

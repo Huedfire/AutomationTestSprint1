@@ -70,11 +70,11 @@ public class ProfileInformation {
 
 
     public WebElement getVerifiedName(String nombre) {
-        return driver.findElement(By.xpath("//*[@ng-reflect-placeholder='"+ nombre +"']"));
+        return driver.findElement(By.xpath("//*[@ng-reflect-model='"+ nombre +"']"));
     }
 
     public WebElement getVerifiedEmail(String email) {
-        return driver.findElement(By.xpath("//*[@placeholder='"+ email +"']"));
+        return driver.findElement(By.xpath("//*[@ng-reflect-model='"+ email +"']"));
     }
 
 }

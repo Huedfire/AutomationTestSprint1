@@ -172,7 +172,7 @@ public class BoardPage {
     public WebElement getSprint1(){ return driver.findElement(sprint1);  }
 
     //Go to board button
-    By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-2\"]/div/div/button/span");
+    By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-1\"]/div/div/button/span");
     public WebElement getGoToBtn(){ return driver.findElement(GoToBtn); }
 
     //First task backlog
@@ -185,10 +185,22 @@ public class BoardPage {
 
     //objects to check sprint 2
     //click on sprint 2
-    By sprint2 = By.xpath("//mat-expansion-panel-header[@aria-controls=\"cdk-accordion-child-3\"]");
+    By sprint2 = By.xpath("//mat-expansion-panel-header[@aria-controls=\"cdk-accordion-child-2\"]");
     public WebElement getSprint2(){ return driver.findElement(sprint2);  }
     //Go to board button
-    By GoToBtn2 = By.xpath("//div[@id=\"cdk-accordion-child-3\"]/div/div/button/span");
+    By GoToBtn2 = By.xpath("//div[@id=\"cdk-accordion-child-2\"]/div/div/button/span");
     public WebElement getGoToBtn2(){ return driver.findElement(GoToBtn2); }
+
+    /////////Button end Sprint/////////////
+    By EndSprint = By.xpath("//button/span[contains(text(),\"End Sprint\")]");
+    public WebElement getEndSprint(){return driver.findElement(EndSprint);}
+
+    //////Label Done on End Sprint///////
+    By Done = By.xpath("//div/h2[contains(text(),\"Done\")]");
+    public WebElement getDone(){return driver.findElement(Done);}
+
+    //Inprogress div
+    By InProgDiv = By.xpath("//*[@id=\"cdk-drop-list-2\"]");
+    public WebElement getInProgDiv(){ return driver.findElement(InProgDiv); }
 
 }

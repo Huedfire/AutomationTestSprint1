@@ -1,4 +1,4 @@
-package com.hexaware.testscripts.StoriesAdmon;
+package com.hexaware.testscripts.StoriesAdmin;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -54,7 +54,7 @@ public class StoriesAdm {
     }
 
     @Test
-    public void TS_BPM() throws IOException, InterruptedException {
+    public void TS_STA() throws IOException, InterruptedException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         //login
         logger = extent.createTest("Scenario 1", "Loggin to the app");
@@ -76,7 +76,7 @@ public class StoriesAdm {
         logger.pass("Click on \"My projects\" button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
         //click on expansion panel
-        Thread.sleep(2000);
+        Thread.sleep(1000);
         varWat.until(ExpectedConditions.visibilityOf(sa.getExpansionPanel())).click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the project", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());

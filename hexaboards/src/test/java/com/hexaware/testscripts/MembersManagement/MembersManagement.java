@@ -1,4 +1,4 @@
-package com.hexaware.testscripts.membersManagement;
+package com.hexaware.testscripts.MembersManagement;
 
 import com.aventstack.extentreports.ExtentReports;
 import com.aventstack.extentreports.ExtentTest;
@@ -27,23 +27,18 @@ public class MembersManagement {
 
     ExtentReports extent = new ExtentReports();
     ExtentTest logger;
+    ExtentHtmlReporter reporter ;
     WebDriver driver;
     InputStream input;
     Properties prop = new Properties();
     WebElement element;
-    String filepath;
-    String URI;
     //Login
     String[] dataArrayL;
     ArrayList<String> usernameL;
-    String usernameLo;
-    String passwordLo;
+    String usernameLo,passwordLo,user,filepath,URI,temp;
     //Members management
     ArrayList<String> members;
     String [] dataArray;
-    String user;
-
-    String temp;
     GuiFramework fr = new GuiFramework();
     JavascriptExecutor je = null;
 
@@ -280,7 +275,7 @@ public class MembersManagement {
 
     @Test(groups = {"functest"}, priority = 4)
     public void scenario4() throws IOException, InterruptedException {
-        logger = extent.createTest("Members management Scenario 4", "Edit a member as “Product Owner”");
+        logger = extent.createTest("Members management Scenario 4", "Edit a member as “Team menber”");
 
         dataArray = fr.turnArray(members, 4);
         user = dataArray[0];

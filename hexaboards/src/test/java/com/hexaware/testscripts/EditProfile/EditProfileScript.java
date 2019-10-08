@@ -68,7 +68,7 @@ public class EditProfileScript {
 
     //////////////////////////////////////////FIRST WAY//////////////////////////////////////////////////////////////////////////
 
-    ////////////////////////////////////////Name's scenarios////////////////////////////////////////////////////////////////
+ /*   ////////////////////////////////////////Name's scenarios////////////////////////////////////////////////////////////////
     @Test(groups = {"negative"}, priority = 1)
     public void scenario1() throws IOException, InterruptedException {
 
@@ -112,8 +112,8 @@ public class EditProfileScript {
 
         Assert.assertTrue(ep.getBlankErrorName().isEnabled(), "An error message must be displayed. //");
     }
-
-    @Test(groups = {"negative"}, priority = 2)
+*/
+  /*  @Test(groups = {"negative"}, priority = 2)
     public void scenario2() throws IOException, InterruptedException {
 
         WebDriverWait varWat = new WebDriverWait(driver, 10);
@@ -168,7 +168,7 @@ public class EditProfileScript {
         Assert.assertTrue(!isAlert, "Does not display an error message. //");
 
     }
-
+*/
     @Test(groups = {"positive"}, priority = 3)
     public void scenario3() throws IOException, InterruptedException {
 
@@ -247,7 +247,7 @@ public class EditProfileScript {
         Assert.assertEquals(ep.getNameVerified2(),name,"Fail: Data doesn't match //");
     }
 
-
+/*
     @Test(groups = {"negative"}, priority = 4)
     public void scenario4() throws IOException, InterruptedException {
 
@@ -294,8 +294,8 @@ public class EditProfileScript {
         Assert.assertTrue(ep.getBlankErrorName().isDisplayed(),"An error message is not displayed. //");
 
     }
-
-    @Test(groups = {"negative"}, priority = 5)
+*/
+  /*  @Test(groups = {"negative"}, priority = 5)
     public void scenario5() throws IOException, InterruptedException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         logger = extent.createTest("Scenario 5", "The user types its name with numbers");
@@ -477,7 +477,7 @@ public class EditProfileScript {
 
         Assert.assertTrue(ep.getBlankErrorEmail().isDisplayed(), "Does not display a message. // ");
     }
-
+*/
     @Test(groups = {"positive"}, priority = 9)
     public void scenario9() throws IOException, InterruptedException {
 
@@ -560,7 +560,7 @@ public class EditProfileScript {
         Assert.assertEquals(ep.getEmailVerified2(),email,"Fail: Data does not match // ");
 
     }
-
+/*
     @Test(groups = {"negative"}, priority = 10)
     public void scenario10() throws IOException, InterruptedException {
 
@@ -608,7 +608,7 @@ public class EditProfileScript {
 
         Assert.assertTrue(ep.getBlankErrorEmail().isDisplayed(),"Does not display a message. // ");
     }
-
+*/
     //////////////////////////           password           ////////////////////////////////
     @Test(groups = {"positive"}, priority = 11)
     public void scenario11() throws IOException, InterruptedException {
@@ -696,7 +696,7 @@ public class EditProfileScript {
         Assert.assertTrue(driver.getCurrentUrl().contains("app/project"),"Password does not match //");
 
     }
-
+/*
     @Test(groups = {"negative"}, priority = 12)
     public void scenario12() throws IOException, InterruptedException {
 
@@ -1128,6 +1128,8 @@ public class EditProfileScript {
         Assert.assertTrue(ep.getBlankErrorEmail().isDisplayed(),"Does not display a message. // ");
 
     }
+
+ */
 
     @AfterMethod(groups = {"positive","negative"})
     public void tearDown(ITestResult result) throws IOException {
