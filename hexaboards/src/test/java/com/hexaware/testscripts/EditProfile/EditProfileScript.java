@@ -52,7 +52,7 @@ public class EditProfileScript {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
-        reporter = new ExtentHtmlReporter(prop.getProperty("EPreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("EPreport2"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         //Login

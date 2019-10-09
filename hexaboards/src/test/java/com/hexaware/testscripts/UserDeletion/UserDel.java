@@ -45,7 +45,7 @@ public class UserDel {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
-        reporter = new ExtentHtmlReporter(prop.getProperty("UDreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("UDreport2"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 8);

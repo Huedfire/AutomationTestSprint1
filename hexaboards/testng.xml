@@ -15,6 +15,7 @@
             <class name="com.hexaware.testscripts.execSuite.ProjectCreationScript"></class>
             <class name="com.hexaware.testscripts.execSuite.UPMScript"></class>
             <class name="com.hexaware.testscripts.execSuite.ProjectSetupGUI"></class>
+            <class name="com.hexaware.testscripts.execSuite.StoriesAdm"></class>
             <class name="com.hexaware.testscripts.execSuite.UserDel"></class>
         </classes>
     </test>

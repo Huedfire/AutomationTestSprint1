@@ -55,7 +55,7 @@ public class ProjectSetupGUI {
         prop.load(input);
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
-        reporter = new ExtentHtmlReporter(prop.getProperty("PSreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("PSreport2"));
         nameSprint = fr.readExcel(filepath, 12);
         projsetup = fr.readExcel(filepath, 11);
         driver = fr.initDriver(prop);

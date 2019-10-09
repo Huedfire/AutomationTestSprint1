@@ -38,7 +38,7 @@ public class BoardPagePet {
     WebElement element;
     InputStream input;
     Properties prop = new Properties();
-    String filepath, URI, username, password, temp,panels ="Sprint1";
+    String filepath, URI, username, password, temp,panels ="Sprint3";
     ArrayList<String> user;
     String[] dataArray;
     GuiFramework fr = new GuiFramework();

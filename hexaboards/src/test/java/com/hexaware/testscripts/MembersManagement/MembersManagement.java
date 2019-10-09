@@ -50,7 +50,7 @@ public class MembersManagement {
         prop.load(input);
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
-        reporter = new ExtentHtmlReporter(prop.getProperty("MMreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("MMreport2"));
         members = fr.readExcel(filepath, 13);
         driver = fr.initDriver(prop);
         extent.attachReporter(reporter);

@@ -47,7 +47,7 @@ public class UPMScript {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
-        reporter = new ExtentHtmlReporter(prop.getProperty("UPMreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("UPMreport2"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 14);

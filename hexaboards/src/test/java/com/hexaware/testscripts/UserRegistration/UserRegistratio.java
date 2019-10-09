@@ -50,7 +50,7 @@ public class UserRegistratio {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
-        reporter = new ExtentHtmlReporter(prop.getProperty("URreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("URreport2"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 1);

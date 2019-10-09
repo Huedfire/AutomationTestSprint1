@@ -49,7 +49,7 @@ public class BoardPagePet {
     public void setup() throws IOException {
         input = new FileInputStream("confs.txt");
         prop.load(input);
-        reporter = new ExtentHtmlReporter(prop.getProperty("BPMreport"));
+        reporter = new ExtentHtmlReporter(prop.getProperty("BPMreport2"));
         filepath = prop.getProperty("DataFile");
         URI = prop.getProperty("URI");
         user = fr.readExcel(filepath, 0);

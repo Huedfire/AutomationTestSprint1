@@ -29,7 +29,6 @@ public class StoriesAdm {
     ExtentHtmlReporter reporter;
     ExtentTest logger;
     WebDriver driver;
-    WebElement element;
     InputStream input;
     Properties prop = new Properties();
     String filepath, URI, username, password, temp, story, story2,sprint;
@@ -53,12 +52,12 @@ public class StoriesAdm {
         sa = new StoriesAdmin(driver);
     }
 
-    @Test
+    @Test(groups = {"functest"})
     public void TS_STA() throws IOException, InterruptedException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         //login
         logger = extent.createTest("Scenario 1", "Loggin to the app");
-        dataArray = fr.turnArray(user, 1);
+        dataArray = fr.turnArray(user, 2);
         username = dataArray[0];
         password = dataArray[1];
         fr.login(username, password, driver);
@@ -202,7 +201,7 @@ public class StoriesAdm {
 
 
 
-    @AfterMethod
+    @AfterMethod(groups = {"functest"})
     public void tearDown(ITestResult result) throws IOException {
         temp = fr.getScreenshot(driver);
         if (result.getStatus() == 1) {
