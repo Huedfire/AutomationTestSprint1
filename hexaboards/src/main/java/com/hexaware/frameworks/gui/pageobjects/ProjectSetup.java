@@ -142,4 +142,8 @@ public class ProjectSetup {
     public WebElement getAddMemberButton() {
         return driver.findElement(addMemberButton);
     }
+
+    public WebElement getPanel(String panel) {
+        return driver.findElement(By.xpath("//div[@class=\"expan\"]//*[contains(text(),\"" + panel + "\")]"));
+    }
 }

@@ -163,4 +163,15 @@ public class StoriesAdmin {
     public WebElement getEditTextDiv(){
         return driver.findElement(By.xpath("//*[@name=\"inStory\"]"));
     }
+
+    //click on specific sprint
+    public WebElement getPanel(String panel) {
+        return driver.findElement(By.xpath("//div[@class=\"expan\"]//*[contains(text(),\""+panel+"\")]"));
+    }
+
+    By GoToBtn3 = By.xpath(" //div[@class=\"expan\"]//div[@style=\"visibility: visible;\"]//button");
+    public WebElement getGoToBtn3(){ return driver.findElement(GoToBtn3); }
+
 }
+
+

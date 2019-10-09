@@ -38,7 +38,7 @@ public class BoardPagePet {
     WebElement element;
     InputStream input;
     Properties prop = new Properties();
-    String filepath, URI, username, password, temp;
+    String filepath, URI, username, password, temp,panels ="Sprint1";
     ArrayList<String> user;
     String[] dataArray;
     GuiFramework fr = new GuiFramework();
@@ -90,19 +90,21 @@ public class BoardPagePet {
 
         //click on "Open" button
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        varWat.until(ExpectedConditions.visibilityOf(bp.getOpenButton())).click();
+       varWat.until(ExpectedConditions.visibilityOf(bp.getOpenButton())).click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on 'Open' button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
         //click on sprint
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        varWat.until(ExpectedConditions.visibilityOf(bp.getSprint1())).click();
+      //  varWat.until(ExpectedConditions.visibilityOf(bp.getPanel(panels))).click();
+      bp.getPanel(panels).click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the first sprint", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
         //Click on "go to" button
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        varWat.until(ExpectedConditions.visibilityOf(bp.getGoToBtn())).click();
+      //  varWat.until(ExpectedConditions.visibilityOf(bp.getGoToBtn())).click();
+        bp.getGoToBtn3().click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on 'Go to Board' button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         /////////////////////////////////////drag and drop////////////////////////////////////////////////////////////////////

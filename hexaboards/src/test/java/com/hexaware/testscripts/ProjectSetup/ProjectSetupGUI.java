@@ -39,7 +39,7 @@ public class ProjectSetupGUI {
     //Login
     String[] dataArrayL;
     ArrayList<String> usernameL;
-    String usernameLo,passwordLo,filepath,URI,name,description,temp;
+    String usernameLo,passwordLo,filepath,URI,name,description,temp,script;
     //Project setup
     ArrayList<String> projsetup;
     String[] dataArray;

@@ -31,7 +31,7 @@ public class SprintAdmon {
     WebElement element;
     InputStream input;
     Properties prop = new Properties();
-    String filepath, URI, username, password, temp;
+    String filepath, URI, username, password, temp,sprint1,sprint2;
     ArrayList<String> user;
     String[] dataArray;
     GuiFramework fr = new GuiFramework();
@@ -57,6 +57,8 @@ public class SprintAdmon {
         dataArray = fr.turnArray(user, 1);
         username = dataArray[0];
         password = dataArray[1];
+        sprint1 = dataArray[2];
+        sprint2 = dataArray[3];
         fr.login(username, password, driver);
 
 
@@ -92,15 +94,16 @@ public class SprintAdmon {
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         //click on sprint
-        varWat.until(ExpectedConditions.visibilityOf(bp.getSprint1())).click();
+      //  varWat.until(ExpectedConditions.visibilityOf(bp.getSprint1())).click();
+        bp.getPanel(sprint1).click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the first sprint", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-        Assert.assertTrue(bp.getGoToBtn().isDisplayed());
 
         //Click on "go to board" button
-        varWat.until(ExpectedConditions.elementToBeClickable(bp.getGoToBtn())).click();
+       // varWat.until(ExpectedConditions.elementToBeClickable(bp.getGoToBtn())).click();
+        bp.getGoToBtn3().click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on 'Go to Board' button",MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
@@ -137,14 +140,16 @@ public class SprintAdmon {
         driver.navigate().back();
         /////////Check the backlog of the next sprint
         //click on sprint 2
-        varWat.until(ExpectedConditions.visibilityOf(bp.getSprint2())).click();
+       // varWat.until(ExpectedConditions.visibilityOf(bp.getSprint2())).click();
+        bp.getPanel(sprint2).click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on the second sprint", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
 
         //Click on "go to board" button sprint 2
-        varWat.until(ExpectedConditions.elementToBeClickable(bp.getGoToBtn2())).click();
+       // varWat.until(ExpectedConditions.elementToBeClickable(bp.getGoToBtn2())).click();
+        bp.getGoToBtn3().click();
         temp = fr.getScreenshot(driver);
         logger.pass("Click on 'Go to Board' button",MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);

@@ -32,7 +32,7 @@ public class StoriesAdm {
     WebElement element;
     InputStream input;
     Properties prop = new Properties();
-    String filepath, URI, username, password, temp, story, story2;
+    String filepath, URI, username, password, temp, story, story2,sprint;
     ArrayList<String> user, stories;
     String[] dataArray;
     GuiFramework fr = new GuiFramework();
@@ -87,15 +87,22 @@ public class StoriesAdm {
          temp = fr.getScreenshot(driver);
          logger.pass("Click on 'Open' button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
+        //Read data file
+        dataArray = fr.turnArray(stories, 1);
+        story = dataArray[0];
+        sprint = dataArray[1];
+        System.out.println(sprint);
          //click on sprint
-         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-         varWat.until(ExpectedConditions.visibilityOf(sa.getSprint2())).click();
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        // varWat.until(ExpectedConditions.visibilityOf(sa.getSprint2())).click();
+        sa.getPanel(sprint).click();
          temp = fr.getScreenshot(driver);
          logger.pass("Click on the sprint", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
          //Click on "go to" button
          driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
-         varWat.until(ExpectedConditions.visibilityOf(sa.getGoToBtn())).click();
+        // varWat.until(ExpectedConditions.visibilityOf(sa.getGoToBtn())).click();
+        sa.getGoToBtn3().click();
          temp = fr.getScreenshot(driver);
          logger.pass("Click on 'Go to Board' button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
 
@@ -107,8 +114,8 @@ public class StoriesAdm {
         Assert.assertTrue(sa.getCreateStoryBtn().isDisplayed());
 
         //Read data file
-        dataArray = fr.turnArray(stories, 1);
-        story = dataArray[0];
+        //dataArray = fr.turnArray(stories, 1);
+       // story = dataArray[0];
 
         //Enter a story
         driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
@@ -156,7 +163,44 @@ public class StoriesAdm {
         temp = fr.getScreenshot(driver);
         driver.switchTo().alert().accept();
         logger.pass("Alert 'Updated succesfully'" , MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+
+
+        //Click on Add story
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        varWat.until(ExpectedConditions.visibilityOf(sa.getAddStoryButton())).click();
+        temp = fr.getScreenshot(driver);
+        logger.pass("Click on \"Add Story\" button", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+        Assert.assertTrue(sa.getCreateStoryBtn().isDisplayed());
+
+        //Read data file
+        dataArray = fr.turnArray(stories, 3);
+        story = dataArray[0];
+        sprint = dataArray[1];
+
+        //Enter a story
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        varWat.until(ExpectedConditions.visibilityOf(sa.getEnterStory())).sendKeys(story);
+        temp = fr.getScreenshot(driver);
+        logger.pass("Enter a description of the story", MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+
+        //Click on "CreateStory" button
+        driver.manage().timeouts().implicitlyWait(20, TimeUnit.SECONDS);
+        varWat.until(ExpectedConditions.visibilityOf(sa.getCreateStoryBtn())).click();
+        temp = fr.getScreenshot(driver);
+        logger.pass("Click on 'Create story' button",MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+
+        Thread.sleep(2000);
+        Assert.assertTrue(driver.switchTo().alert().getText().contains("Story created"),"Does not display a message. //");
+        temp = fr.getScreenshot(driver);
+        //fr.checkAlert(driver);
+        driver.switchTo().alert().accept();
+        logger.pass("Alert 'Story created'" , MediaEntityBuilder.createScreenCaptureFromPath(temp).build());
+
+
+
     }
+
+
 
     @AfterMethod
     public void tearDown(ITestResult result) throws IOException {

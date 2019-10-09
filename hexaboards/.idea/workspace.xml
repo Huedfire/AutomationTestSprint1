@@ -3,11 +3,54 @@
   <component name="ChangeListManager">
     <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.~lock.prueba.xlsx#" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/BPMReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/BPMReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/LoginReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/LoginReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/MMReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/MMReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PIReporterAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PIReporterAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/PSReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PSReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/SpAdmReportAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/SpAdmReportAUT.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/StAdmReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/StAdmReportAUTC1.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UMPreportC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UMPreportC1.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prueba.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/prueba.xlsx" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$1.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$1.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$10.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$10.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$11.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$11.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$12.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$12.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$13.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$13.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$14.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$14.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$15.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$15.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$16.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$16.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$17.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$17.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$18.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$18.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$2.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$3.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$3.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$4.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$4.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$5.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$5.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$6.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$6.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$7.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$7.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$8.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$8.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$9.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet$9.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/SprintAdm/SprintAdmon.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/SprintAdm/SprintAdmon.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.class" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -73,8 +116,8 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UserDel">
-    <configuration name="BoardPagePet.TS_BPM" type="TestNG" temporary="true" nameIsGenerated="true">
+  <component name="RunManager" selected="TestNG.SprintAdmon">
+    <configuration name="BoardPagePet" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
@@ -84,15 +127,31 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hexaware.testscripts.BoardPageMov" />
       <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.BoardPageMov.BoardPagePet" />
-      <option name="METHOD_NAME" value="TS_BPM" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="SprintAdmon.TS_SprintAdmon" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="MembersManagement" type="TestNG" temporary="true" nameIsGenerated="true">
+      <module name="hexaboards" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="com.hexaware.testscripts.MembersManagement.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.MembersManagement" />
+      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.MembersManagement.MembersManagement" />
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="SprintAdmon" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
@@ -102,15 +161,14 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hexaware.testscripts.SprintAdm" />
       <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.SprintAdm.SprintAdmon" />
-      <option name="METHOD_NAME" value="TS_SprintAdmon" />
-      <option name="TEST_OBJECT" value="METHOD" />
+      <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StoriesAdm.TS_STA" type="TestNG" temporary="true" nameIsGenerated="true">
+    <configuration name="StoriesAdm" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
         <pattern>
@@ -120,24 +178,6 @@
       </extension>
       <option name="PACKAGE_NAME" value="com.hexaware.testscripts.StoriesAdmin" />
       <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.StoriesAdmin.StoriesAdm" />
-      <option name="METHOD_NAME" value="TS_STA" />
-      <option name="TEST_OBJECT" value="METHOD" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="UPMScript" type="TestNG" temporary="true" nameIsGenerated="true">
-      <module name="hexaboards" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="com.hexaware.testscripts.UserProjectMapping.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="com.hexaware.testscripts.UserProjectMapping" />
-      <option name="MAIN_CLASS_NAME" value="com.hexaware.testscripts.UserProjectMapping.UPMScript" />
       <option name="TEST_OBJECT" value="CLASS" />
       <properties />
       <listeners />
@@ -164,11 +204,11 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="TestNG.SprintAdmon" />
+        <item itemvalue="TestNG.BoardPagePet" />
         <item itemvalue="TestNG.UserDel" />
-        <item itemvalue="TestNG.UPMScript" />
-        <item itemvalue="TestNG.BoardPagePet.TS_BPM" />
-        <item itemvalue="TestNG.StoriesAdm.TS_STA" />
-        <item itemvalue="TestNG.SprintAdmon.TS_SprintAdmon" />
+        <item itemvalue="TestNG.StoriesAdm" />
+        <item itemvalue="TestNG.MembersManagement" />
       </list>
     </recent_temporary>
   </component>
@@ -239,7 +279,14 @@
       <option name="project" value="LOCAL" />
       <updated>1570575158642</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="new updates">
+      <created>1570580266567</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1570580266567</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">

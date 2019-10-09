@@ -57,8 +57,13 @@ public class BoardPage2 {
     By sprint1 = By.xpath("//mat-expansion-panel-header[@id=\"mat-expansion-panel-header-3\"]");
     public WebElement getSprint1(){ return driver.findElement(sprint1);  }
 
+    //click on specific sprint
+    public WebElement getPanel(String panel) {
+        return driver.findElement(By.xpath("//div[@class=\"expan\"]//*[contains(text(),\"" + panel + "\")]"));
+    }
+
     //Go to board button
-    By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-3\"]/div/div/button/span");
+    By GoToBtn = By.xpath("//div[@class=\"expan\"]//div[@style=\"visibility: visible;\"]//button");
     public WebElement getGoToBtn(){ return driver.findElement(GoToBtn); }
 
     //Inprogress div
@@ -224,5 +229,8 @@ public class BoardPage2 {
     public WebElement getDoneField() {
         return driver.findElement(doneField);
     }
+
+    By GoToBtn3 = By.xpath(" //div[@class=\"expan\"]//div[@style=\"visibility: visible;\"]//button");
+    public WebElement getGoToBtn3(){ return driver.findElement(GoToBtn3); }
 
 }

@@ -175,6 +175,11 @@ public class BoardPage {
     By GoToBtn = By.xpath("//div[@id=\"cdk-accordion-child-1\"]/div/div/button/span");
     public WebElement getGoToBtn(){ return driver.findElement(GoToBtn); }
 
+
+
+    By GoToBtn3 = By.xpath(" //div[@class=\"expan\"]//div[@style=\"visibility: visible;\"]//button");
+    public WebElement getGoToBtn3(){ return driver.findElement(GoToBtn3); }
+
     //First task backlog
     By firstBacklog = By.xpath("//*[@id=\"cdk-drop-list-0\"]/div[1]");
     public WebElement getFirstBacklog(){ return driver.findElement(firstBacklog); }
@@ -202,5 +207,10 @@ public class BoardPage {
     //Inprogress div
     By InProgDiv = By.xpath("//*[@id=\"cdk-drop-list-2\"]");
     public WebElement getInProgDiv(){ return driver.findElement(InProgDiv); }
+
+    //click on specific sprint
+    public WebElement getPanel(String panel) {
+        return driver.findElement(By.xpath("//div[@class=\"expan\"]//*[contains(text(),\"" + panel + "\")]"));
+    }
 
 }
