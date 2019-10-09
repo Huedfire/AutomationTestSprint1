@@ -1,7 +1,9 @@
 package com.hexaware.frameworks.gui;
 
+import com.aventstack.extentreports.MediaEntityBuilder;
 import com.hexaware.frameworks.gui.pageobjects.HomePage;
 import com.hexaware.frameworks.gui.pageobjects.Login;
+import com.hexaware.frameworks.gui.pageobjects.UserRegistration;
 import org.apache.commons.io.FileUtils;
 import org.apache.poi.ss.usermodel.*;
 import org.openqa.selenium.*;
@@ -10,6 +12,8 @@ import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.ie.InternetExplorerDriver;
 import org.openqa.selenium.io.FileHandler;
 import org.openqa.selenium.support.ui.ExpectedConditions;
+import org.openqa.selenium.support.ui.FluentWait;
+import org.openqa.selenium.support.ui.Wait;
 import org.openqa.selenium.support.ui.WebDriverWait;
 
 import java.io.File;
@@ -20,6 +24,8 @@ import java.util.ArrayList;
 import java.util.Iterator;
 import java.util.Properties;
 import java.util.concurrent.TimeUnit;
+
+import static java.util.concurrent.TimeUnit.SECONDS;
 
 public class GuiFramework {
 
@@ -180,6 +186,53 @@ public class GuiFramework {
         //click to login
         lg.getloginButton().click();;
         driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+    }
+
+    public void UserRegistration(String name, String email, String username, String password, String confpass, WebDriver driver)
+    {
+        WebDriverWait varWat = new WebDriverWait(driver, 10);
+
+        HomePage hp = new HomePage(driver);
+        UserRegistration ur = new UserRegistration(driver);
+
+        //Step 1
+        varWat.until(ExpectedConditions.elementToBeClickable(hp.getStartedValue())).click();
+        //Step 2
+        ur.getRegister().sendKeys(Keys.ARROW_DOWN);
+        ur.getRegister().sendKeys(Keys.ENTER);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //Step 3
+        ur.getName().sendKeys(name);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //Step 4
+        ur.getEmail().sendKeys(email);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //Step 5
+        ur.getUsername().sendKeys(username);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //Step 6
+        ur.getPassword().sendKeys(password);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //Step 7
+        ur.getConfirmPassword().sendKeys(confpass);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        ur.getConfirmPassword().sendKeys(Keys.TAB);
+        //step 8
+        //close the getting started and click on terms and conditions checkbox
+        ur.getRegister().sendKeys(Keys.ARROW_DOWN);
+        ur.getRegister().sendKeys(Keys.ENTER);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        ur.getConfirmPassword().sendKeys(Keys.TAB);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        ur.getTermsLocator().sendKeys(Keys.SPACE);
+        driver.manage().timeouts().pageLoadTimeout(20, TimeUnit.SECONDS);
+        //step 9
+        ur.getButtonCreate().click();
+
+        driver.switchTo().alert().accept();
+        driver.manage().timeouts().pageLoadTimeout(10, TimeUnit.SECONDS);
+
+
     }
 
 
