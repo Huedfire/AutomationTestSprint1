@@ -60,7 +60,7 @@ public class BoardPagePet {
         builder = new Actions(driver);
     }
 
-    @Test
+    @Test(groups = {"functest"})
     public void TS_BPM() throws IOException, InterruptedException {
         WebDriverWait varWat = new WebDriverWait(driver, 10);
         //login
@@ -541,8 +541,7 @@ public class BoardPagePet {
         Assert.assertTrue(bp.getFirstReview().isEnabled());
     }
 
-
-    @AfterMethod
+    @AfterMethod(groups = {"functest"})
     public void tearDown (ITestResult result) throws IOException {
         temp = fr.getScreenshot(driver);
         if (result.getStatus() == 1) {

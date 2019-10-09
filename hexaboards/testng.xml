@@ -5,12 +5,22 @@
         <groups>
             <run>
                 <include name="functest"/>
-                <exclude name="negative"/>
-                <exclude name="positive"/>
             </run>
         </groups>
         <classes>
+            <class name="com.hexaware.testscripts.UserRegistration.UserRegistratio"></class>
+            <class name="com.hexaware.testscripts.Login.LoginScripts"></class>
+            <class name="com.hexaware.testscripts.ProfileInformation.ProfileInformationScripts"></class>
+            <class name="com.hexaware.testscripts.EditProfile.EditProfileScript"></class>
+            <class name="com.hexaware.testscripts.ProjectCreation.ProjectCreationScript"></class>
+            <class name="com.hexaware.testscripts.UserProjectMapping.UPMScript"></class>
+            <class name="com.hexaware.testscripts.ProjectSetup.ProjectSetupGUI"></class>
+            <class name="com.hexaware.testscripts.MembersManagement.MembersManagement"></class>
+            <class name="com.hexaware.testscripts.SprintAdm.SprintAdmon"></class>
+            <class name="com.hexaware.testscripts.StoriesAdmin.StoriesAdm"></class>
+            <class name="com.hexaware.testscripts.BoardPageMov.BoardPagePet"></class>
             <class name="com.hexaware.testscripts.UserDeletion.UserDel"></class>
+
         </classes>
     </test>
 </suite>

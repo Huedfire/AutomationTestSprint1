@@ -1,68 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="new updates">
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+    <list default="true" id="890e18f4-a7b3-4d97-af74-fd89429e8059" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/DataFileScripts.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/DataFileScripts.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/EPReportAUTC1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PCReportAUTC1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/PIReporterAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/PIReporterAUT.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UDReportAUTC1.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" beforeDir="false" afterPath="$PROJECT_DIR$/Reports/UserRegistrationAUT.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120632216.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120632644.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120632899.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633073.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633228.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633343.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633448.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120633834.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120634295.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120634685.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120634930.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120635325.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120635644.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120635974.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120636422.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120636782.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120636937.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120637098.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120637186.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/Screenshot/1570120639975.png" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/confs.txt" beforeDir="false" afterPath="$PROJECT_DIR$/confs.txt" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/prueba.xlsx" beforeDir="false" afterPath="$PROJECT_DIR$/prueba.xlsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage2.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/BoardPage2.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/BoardPageMov/BoardPagePet.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/EditProfile/EditProfileScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/Login/LoginScripts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/MembersManagement/MembersManagement.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/MembersManagement/MembersManagement.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProfileInformation/ProfileInformationScripts.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectCreation/ProjectCreationScript.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/ProjectSetup/ProjectSetupGUI.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/SprintAdm/SprintAdmon.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/StoriesAdmin/StoriesAdm.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserDeletion/UserDel.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/com/hexaware/testscripts/UserRegistration/UserRegistratio.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/TestData.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/TestData.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/apiFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/api/apiFramework.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/GuiFramework.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/GuiFramework.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage2.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/BoardPage2.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/EditProfile.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/EditProfile.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/HomePage.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/HomePage.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/Login.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/Login.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProfileInformation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectCreation.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/ProjectSetup.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/StoriesAdmin.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserProjectMapping.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserRegistration.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/hexaware/frameworks/gui/pageobjects/UserRegistration.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/com/hexaware/testscripts/BoardPageMov/BoardPagePet.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/testng.xml" beforeDir="false" afterPath="$PROJECT_DIR$/testng.xml" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -128,7 +73,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="TestNG.UPMScript">
+  <component name="RunManager" selected="TestNG.UserDel">
     <configuration name="BoardPagePet.TS_BPM" type="TestNG" temporary="true" nameIsGenerated="true">
       <module name="hexaboards" />
       <extension name="coverage">
@@ -219,8 +164,8 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="TestNG.UPMScript" />
         <item itemvalue="TestNG.UserDel" />
+        <item itemvalue="TestNG.UPMScript" />
         <item itemvalue="TestNG.BoardPagePet.TS_BPM" />
         <item itemvalue="TestNG.StoriesAdm.TS_STA" />
         <item itemvalue="TestNG.SprintAdmon.TS_SprintAdmon" />
@@ -280,7 +225,21 @@
       <option name="project" value="LOCAL" />
       <updated>1568829419268</updated>
     </task>
-    <option name="localTasksCounter" value="7" />
+    <task id="LOCAL-00007" summary="new updates">
+      <created>1570575081550</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1570575081550</updated>
+    </task>
+    <task id="LOCAL-00008" summary="new updates">
+      <created>1570575158642</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1570575158642</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
